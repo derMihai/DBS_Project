@@ -50,14 +50,22 @@
 		\item \textit{time} wird uns helfen die Entwicklung der Hashtags-Nutzung über die ganze Zeit zu analysieren. 
 		\item \textit{retweet\_count} und \textit{favorite\_count} werden die Schlüsselargumente fur die Modellierung der Funktion der Wichtigkeit von Tweets sein.
 		\end{itemize}
+
+\section{ER-MOdellierung}
 	
 	Die folgende MinMax-Diagramm stellt das ER-Modell vor. Die Attributen \textit{Time Stamp} werden von dem Composite-Attribut \textit{Time Stamp} hergeleitet.
 	
 	\includegraphics[scale=0.8]{MinMax_Diagram.png}
+	
+Im Zuge unserer Überlegungen hat sich unser Schema an mehreren Stellen vereinfachen lassen: das ursprüngliche modulare Modell hat sich zu einem monolithisch gerichteten Modell verändert. Beispielsweise haben wir erst "Person" als Entität im ER-Diagramm dargestellt, haben aber im Nachhinein festgestellt, dass diese als Attribut der Entität "Tweet" denselben Zweck erfüllt, ohne einen Umweg gehen zu müssen über die Relation "Tweet" - "was tweeted by" - "Person".  
 
-\begin{center}
-\includegraphics[scale=0.25]{Screenshot_2017-05-08_21-17-03}
-\end{center}
+\section{Relationales Modell}
+
+Tweet(\underline{PName}, \underline{Date}, \underline{Time}, Retweets, Likes, Retweet)\\
+Contains(\underline{Pname}, \underline{Date}, \underline{Time}, \underline{HName})\\
+Hashtag(\underline{HName}, Occurences)\\
+Comes Along(\underline{HName1}, \underline{HName2}, Pair Occurence)   
+
 	
 
 \end{document}
