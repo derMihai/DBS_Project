@@ -88,7 +88,20 @@
 	Contains(\underline{Pname}, \underline{Date}, \underline{Time}, \underline{HName})\\
 	Hashtag(\underline{HName}, Occurences)\\
 	Comes Along(\underline{HName1}, \underline{HName2}, Pair Occurence)   
-
 	
+	\section{Datenbank erstellen}
+	
+	Die Datenbank zu erstellen ist relativ Einfach:
+	\begin{enumerate}
+	\item Shell-Login mit dem privilegierten Standard-PostgreSQL-Nutzer \texttt{postgres}, dann das \texttt{psql} Shell starten.
+	\item Neues Nutzer erstellen (soll einem UNIX-Nutzer übereinstimmen) mit dem Befehl: \\ 
+		\texttt{CREATE USER <UNIX-Nutzer> WITH PASSWORD '<password>';}
+	\item Die Datenbank \textit{election} erstellen mit dem Befehl: \\
+		\texttt{CREATE DATABASE election;}
+	\item Letztens die Datenbank dem Nutzer zuweisen: \\
+		\texttt{GRANT ALL PRIVILEGES ON DATABASE election to <UNIX-Nutzer>;}
+	\end{enumerate}
+	Der Nutzer hat jetzt Zugriff auf die Datenbank \textit{election} mit \texttt{psql} indem er in einem Terminal das Folgende aufruft: \\
+	\texttt{\$ psql -d election}
 
 \end{document}
