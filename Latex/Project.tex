@@ -7,19 +7,28 @@
 \usepackage{multirow}
 \usepackage{listings}
 \usepackage{graphicx}
+\usepackage[absolute]{textpos}
 
 \parindent 0pt
 \lstset{basicstyle={\ttfamily\scriptsize}, tabsize=4}
-
-\title{Datenbanksysteme SS17: Projekt}
-\author{Bernadeta Chisarau, Dor Cohen, Mihai Renea}
-
 \begin{document}
 
-	\maketitle
-	
-	\pagebreak
-	
+\begin{titlepage}
+	\title{Datenbanksysteme SS17: Projekt}	
+	\subtitle{Dozentin: Agnes Voisard}
+	\author{Bernadeta Chisarau, Dor Cohen, Mihai Renea}
+	\date{\normalsize \today}
+\end{titlepage}
+
+\maketitle								% Erstellt das Titelblatt
+\vspace*{-8cm}							% rückt Logo an den oberen Seitenrand
+\makebox[\dimexpr\textwidth+1cm][r]{	%rechtsbündig und geht rechts 1cm über Layout hinaus
+	\includegraphics[width=0.4\textwidth]{src/fu_logo} % fügt FU-Logo ein
+}
+
+\vspace{7cm}							% Abstand
+\rule{\linewidth}{0.8pt}				% horizontale Linie
+
 	\section{Datenalanlyse}
 		Der Datensatz erfasst mehr als 6000 Tweets von dem Wahlkampf zwischen den Kandidaten für US-Präsident Donald Trump und Hillary Clinton. Der Datensatz entsteht aus den folgenden Feldern:
 		\begin{enumerate}
@@ -51,7 +60,6 @@
 		\item \textit{retweet\_count} und \textit{favorite\_count} werden die Schlüsselargumente fur die Modellierung der Funktion der Wichtigkeit von Tweets sein.
 		\end{itemize}
 		
-		\pagebreak
 
 \section{ER-Modellierung und das relationale Modell}
 	
