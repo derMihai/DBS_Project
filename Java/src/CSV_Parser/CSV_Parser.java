@@ -1,3 +1,5 @@
+package CSV_Parser;
+
 import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVParser;
 import org.apache.commons.csv.CSVRecord;
@@ -11,23 +13,23 @@ import java.util.Arrays;
 
 public class CSV_Parser{
     public static final String[] METADATA_ORIGINAL = { "handle",
-                                                        "text",
-                                                        "is_retweet",
-                                                        "original_author",
-                                                        "time",
-                                                        "in_reply_to_screen_name",
-                                                        "is_quote_status",
-                                                        "retweet_count",
-                                                        "favorite_count",
-                                                        "source_url",
-                                                        "truncated" };
+            "text",
+            "is_retweet",
+            "original_author",
+            "time",
+            "in_reply_to_screen_name",
+            "is_quote_status",
+            "retweet_count",
+            "favorite_count",
+            "source_url",
+            "truncated" };
 
     public static final String[] METADATA_CLEANED  = { "handle",
-                                                        "text",
-                                                        "is_retweet",
-                                                        "time",
-                                                        "retweet_count",
-                                                        "favorite_count" };
+            "text",
+            "is_retweet",
+            "time",
+            "retweet_count",
+            "favorite_count" };
 
     public static ArrayList parse_original(FileReader reader){
         return parse(reader, METADATA_ORIGINAL);

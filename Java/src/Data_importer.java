@@ -1,8 +1,13 @@
 import java.util.regex.Pattern;
 import java.util.regex.Matcher;
 import java.io.FileReader;
-import java.io.IOException;
 import java.util.ArrayList;
+import CSV_Parser.CSV_Parser;
+import CSV_Parser.Tweet;
+import java.sql.Statement;
+import java.sql.Connection;
+import java.sql.DriverManager;
+
 
 public class Data_importer{
     public static void main(String[] args) {
@@ -20,16 +25,12 @@ public class Data_importer{
         ArrayList<Tweet> tweets = null;
 
         tweets = create_tweets(records);
-        for (Tweet t : tweets){
-            System.out.print(t.text + " | ");
-            for (String s : t.hashtags){
-                System.out.print(s + ' ');
-            }
-            System.out.println("");
-        }
+        send_to_db(tweets);
+        return;
     }
 
-    public static ArrayList<Tweet> create_tweets(ArrayList<String[]> records){
+
+    private static ArrayList create_tweets(ArrayList<String[]> records){
         ArrayList<Tweet> tweets = new ArrayList<Tweet>();
 
         for(int i = 1; i < records.size(); i++){
@@ -68,8 +69,8 @@ public class Data_importer{
 
         try{
             Class.forName("org.postgresql.Driver");
-            db_conn = DriverManager.getConnection("jdbc:postgresql://localhost:5432/dbs",
-                "testuser","testpass");
+            db_conn = DriverManager.getConnection("jdbc:postgresql://localhost:5432/dbs/election",
+                    "greuceanu","greuceanu123");
         } catch(Exception e) {
             e.printStackTrace();
             System.out.println("Error accessing DB!");
@@ -80,36 +81,58 @@ public class Data_importer{
 
         try {
             statement = db_conn.createStatement();
-//            ResultSet result = statement.executeQuery(query);
-
-            // while (result.next()) {
-            //     vorname = result.getString("vorname");
-            //     nachname = result.getString("nachname");
-            //     System.out.println("Student with Matrikelnummer " + matrikelnummer +
-            //                             ": " + vorname + " " + nachname);
-            //                         }
             for(Tweet tweet : tweets){
 
 
                 String date = tweet.time.substring(0,9);
                 String time = tweet.time.substring(10,17);
+                String timestamp = date + " " + time;
 
-                String tweets_insQuery = "INSERT INTO tweet ()";
+                String tweet_insQuery =    "INSERT INTO tweet (pname,zeit,retweets,likes,retweet,content,importance) "+
+                        "VALUES ("  + tweet.handle      + ','
+                        + timestamp         + ','
+                        + tweet.retweet_count    + ','
+                        + tweet.favorite_count       + ','
+                        + tweet.is_retweet    + ','
+                        + tweet.text        + ','
+                        + 1                 + ");";
+
+                statement.executeUpdate(tweet_insQuery);
+
+                for(String hashtag : tweet.hashtags){
+                    String contains_insQuery = "INSERT INTO contains(pname, hname, datum) ("
+                            + tweet.handle  + ','
+                            + hashtag       + ','
+                            + timestamp     + ");";
+                    statement.executeUpdate(contains_insQuery);
+                }
+
+                ArrayList<String[]> hashtag_combis = combine_hashtags(tweet);
+                for(String[] comb : hashtag_combis){
+                    String comesAlong_upQuery =     "UPDATE comesAlong SET pairOccurences = pairOccurences + 1 "
+                            + "WHERE (hname1= '" + comb[0] + "' AND hname2= '" + comb[1] + "') "
+                            + "OR (hname1= '" + comb[1] + "' AND hname2= '" + comb[0] + "');";
+
+                    String comesAlong_insQuery =    "INSERT INTO comesAlong (hname1, hname2, pairOccurences) "
+                            + "SELECT '" + comb[0] + "', '" + comb[1] + "', 1 "
+                            + "WHERE NOT EXISTS (SELECT 1 FROM comesAlong "
+                            + "WHERE (hname1= '" + comb[0] + "' AND hname2= '" + comb[1] + "') "
+                            + "OR (hname1= '" + comb[1] + "' AND hname2= '" + comb[0] + "'));";
+                    statement.executeUpdate(comesAlong_upQuery + " " + comesAlong_insQuery);
+                }
             }
         } catch (Exception e ) {
             e.printStackTrace();
             System.out.println("Error query!");
             return;
-        } finally {
-            if (statement != null) statement.close();
         }
     }
 
     private static ArrayList<String[]> combine_hashtags(Tweet tweet){
-        ArrayList<String[]> combis = new ArrayList<String[]>;
+        ArrayList<String[]> combis = new ArrayList<String[]>();
 
         for(int i = 0; i < tweet.hashtags.size()-1; i++){
-            for(j = i+1; j < tweet.hashtags.size(); j++){
+            for(int j = i+1; j < tweet.hashtags.size(); j++){
                 String[] comb = {tweet.hashtags.get(i), tweet.hashtags.get(j)};
                 combis.add(comb);
             }

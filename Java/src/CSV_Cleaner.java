@@ -1,7 +1,7 @@
 import java.io.FileReader;
 import java.io.FileWriter;
-import java.io.IOException;
 import java.util.ArrayList;
+import CSV_Parser.CSV_Parser;
 
 public class CSV_Cleaner{
     public static void main(String[] args) {
@@ -17,9 +17,7 @@ public class CSV_Cleaner{
             return;
         }
 
-        ArrayList<String[]> tweets = null;
-
-        tweets = CSV_Parser.parse_original(reader);
+        ArrayList<String[]> tweets = CSV_Parser.parse_original(reader);
 
         if(tweets == null) return;
 
