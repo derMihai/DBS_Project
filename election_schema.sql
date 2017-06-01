@@ -28,50 +28,37 @@
 --				PairOccurence int,
 --				CONSTRAINT fk_ComesAlong PRIMARY KEY (HName1,HName2)
 --
-				) 
-CREATE TABLE dbs_schema1."ComesAlong"
+--				) 
+CREATE TABLE dbs_schema1."comesAlong"
 (
-  "Hname1" "char"[],
-  "Hname2" "char"[],
-  "PairOccurences" integer
+  "hname1" "char"[],
+  "hname2" "char"[],
+  "pairOccurences" integer
 )
 WITH (
   OIDS=FALSE
 );
-ALTER TABLE dbs_schema1."ComesAlong"
+ALTER TABLE dbs_schema1."comesAlong"
   OWNER TO testuser;
   
   
-CREATE TABLE dbs_schema1."Contains"
+CREATE TABLE dbs_schema1."contains"
 (
-  "Pname" "char"[],
-  "Hname" "char"[],
-  "Datum" timestamp without time zone
+  "pname" "char"[],
+  "hname" "char"[],
+  "datum" timestamp without time zone
 )
 WITH (
   OIDS=FALSE
 );
-ALTER TABLE dbs_schema1."Contains"
-  OWNER TO testuser;
-
-
-CREATE TABLE dbs_schema1."Hashtag"
-(
-  "Hname" "char"[],
-  "Occurences" integer
-)
-WITH (
-  OIDS=FALSE
-);
-ALTER TABLE dbs_schema1."Hashtag"
+ALTER TABLE dbs_schema1."contains"
   OWNER TO testuser;
   
   
 CREATE TABLE dbs_schema1.tweet
 (
   pname character varying(25) NOT NULL,
-  datum integer NOT NULL,
-  zeit timestamp without time zone,
+  datum timestamp without time zone,
   retweets integer,
   likes integer,
   retweet integer,

@@ -59,7 +59,7 @@ public class Data_importer{
         Matcher matcher = pattern.matcher(tweet.text);
         while(matcher.find()){
             String hashtag = tweet.text.substring(matcher.start()+1, matcher.end());
-            System.out.println(hashtag);
+            //System.out.println(hashtag);
             tweet.hashtags.add(hashtag);
         }
     }
@@ -69,8 +69,8 @@ public class Data_importer{
 
         try{
             Class.forName("org.postgresql.Driver");
-            db_conn = DriverManager.getConnection("jdbc:postgresql://localhost:5432/dbs/election",
-                    "greuceanu","greuceanu123");
+            db_conn = DriverManager.getConnection("jdbc:postgresql://localhost:5432/election?currentSchema=dbs_schema1",
+                    "testuser","testpass123");
         } catch(Exception e) {
             e.printStackTrace();
             System.out.println("Error accessing DB!");
@@ -84,26 +84,27 @@ public class Data_importer{
             for(Tweet tweet : tweets){
 
 
-                String date = tweet.time.substring(0,9);
-                String time = tweet.time.substring(10,17);
+                String date = tweet.time.substring(0,10);
+                String time = tweet.time.substring(11,19);
                 String timestamp = date + " " + time;
+                System.out.println(timestamp);
 
-                String tweet_insQuery =    "INSERT INTO tweet (pname,zeit,retweets,likes,retweet,content,importance) "+
-                        "VALUES ("  + tweet.handle      + ','
-                        + timestamp         + ','
+                String tweet_insQuery =    "INSERT INTO tweet (pname,datum,retweets,likes,retweet,content,importance) "+
+                        "VALUES ('"  + tweet.handle      + "',"
+                        + "TIMESTAMP '"+ timestamp         + "',"
                         + tweet.retweet_count    + ','
                         + tweet.favorite_count       + ','
-                        + tweet.is_retweet    + ','
-                        + tweet.text        + ','
+                        + " '" +tweet.is_retweet    + "' "
+                        + " '" +tweet.text        + "',"
                         + 1                 + ");";
 
                 statement.executeUpdate(tweet_insQuery);
 
                 for(String hashtag : tweet.hashtags){
                     String contains_insQuery = "INSERT INTO contains(pname, hname, datum) ("
-                            + tweet.handle  + ','
-                            + hashtag       + ','
-                            + timestamp     + ");";
+                            + "'" + tweet.handle  + "',"
+                            + "'" + hashtag       + "',"
+                            + "TIMESTAMP '"+timestamp         + "');";
                     statement.executeUpdate(contains_insQuery);
                 }
 
