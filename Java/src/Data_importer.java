@@ -94,14 +94,15 @@ public class Data_importer{
                         + "TIMESTAMP '"+ timestamp         + "',"
                         + tweet.retweet_count    + ','
                         + tweet.favorite_count       + ','
-                        + " '" +tweet.is_retweet    + "' "
-                        + " '" +tweet.text        + "',"
-                        + 1                 + ");";
+                        + " '" +tweet.is_retweet    + "', "
+                       // + " '" +tweet.text        + "',"
+                        + "'text',"
+                        + "12"                 + ");";
 
                 statement.executeUpdate(tweet_insQuery);
 
                 for(String hashtag : tweet.hashtags){
-                    String contains_insQuery = "INSERT INTO contains(pname, hname, datum) ("
+                    String contains_insQuery = "INSERT INTO contains(pname, hname, datum) VALUES ("
                             + "'" + tweet.handle  + "',"
                             + "'" + hashtag       + "',"
                             + "TIMESTAMP '"+timestamp         + "');";
@@ -110,13 +111,13 @@ public class Data_importer{
 
                 ArrayList<String[]> hashtag_combis = combine_hashtags(tweet);
                 for(String[] comb : hashtag_combis){
-                    String comesAlong_upQuery =     "UPDATE comesAlong SET pairOccurences = pairOccurences + 1 "
+                    String comesAlong_upQuery =     "UPDATE 'comesAlong' SET pairOccurences = pairOccurences + 1 "
                             + "WHERE (hname1= '" + comb[0] + "' AND hname2= '" + comb[1] + "') "
                             + "OR (hname1= '" + comb[1] + "' AND hname2= '" + comb[0] + "');";
 
-                    String comesAlong_insQuery =    "INSERT INTO comesAlong (hname1, hname2, pairOccurences) "
+                    String comesAlong_insQuery =    "INSERT INTO 'comesAlong' (hname1, hname2, pairOccurences) "
                             + "SELECT '" + comb[0] + "', '" + comb[1] + "', 1 "
-                            + "WHERE NOT EXISTS (SELECT 1 FROM comesAlong "
+                            + "WHERE NOT EXISTS (SELECT 1 FROM 'comesAlong' "
                             + "WHERE (hname1= '" + comb[0] + "' AND hname2= '" + comb[1] + "') "
                             + "OR (hname1= '" + comb[1] + "' AND hname2= '" + comb[0] + "'));";
                     statement.executeUpdate(comesAlong_upQuery + " " + comesAlong_insQuery);
