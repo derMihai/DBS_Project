@@ -20,6 +20,13 @@ public class Data_importer{
         ArrayList<Tweet> tweets = null;
 
         tweets = create_tweets(records);
+        for (Tweet t : tweets){
+            System.out.print(t.text + " | ");
+            for (String s : t.hashtags){
+                System.out.print(s + ' ');
+            }
+            System.out.println("");
+        }
     }
 
     public static ArrayList<Tweet> create_tweets(ArrayList<String[]> records){
@@ -39,8 +46,8 @@ public class Data_importer{
             tweet.retweet_count = Integer.parseInt(record[4]);
             tweet.favorite_count = Integer.parseInt(record[5]);
 
-            tweets.add(tweet);
             parse_hashtags(tweet);
+            tweets.add(tweet);
         }
         return tweets;
     }
@@ -54,5 +61,59 @@ public class Data_importer{
             System.out.println(hashtag);
             tweet.hashtags.add(hashtag);
         }
+    }
+
+    private static void send_to_db(ArrayList<Tweet> tweets){
+        Connection db_conn;
+
+        try{
+            Class.forName("org.postgresql.Driver");
+            db_conn = DriverManager.getConnection("jdbc:postgresql://localhost:5432/dbs",
+                "testuser","testpass");
+        } catch(Exception e) {
+            e.printStackTrace();
+            System.out.println("Error accessing DB!");
+            return;
+        }
+
+        Statement statement = null;
+
+        try {
+            statement = db_conn.createStatement();
+//            ResultSet result = statement.executeQuery(query);
+
+            // while (result.next()) {
+            //     vorname = result.getString("vorname");
+            //     nachname = result.getString("nachname");
+            //     System.out.println("Student with Matrikelnummer " + matrikelnummer +
+            //                             ": " + vorname + " " + nachname);
+            //                         }
+            for(Tweet tweet : tweets){
+
+
+                String date = tweet.time.substring(0,9);
+                String time = tweet.time.substring(10,17);
+
+                String tweets_insQuery = "INSERT INTO tweet ()";
+            }
+        } catch (Exception e ) {
+            e.printStackTrace();
+            System.out.println("Error query!");
+            return;
+        } finally {
+            if (statement != null) statement.close();
+        }
+    }
+
+    private static ArrayList<String[]> combine_hashtags(Tweet tweet){
+        ArrayList<String[]> combis = new ArrayList<String[]>;
+
+        for(int i = 0; i < tweet.hashtags.size()-1; i++){
+            for(j = i+1; j < tweet.hashtags.size(); j++){
+                String[] comb = {tweet.hashtags.get(i), tweet.hashtags.get(j)};
+                combis.add(comb);
+            }
+        }
+        return combis;
     }
 }
