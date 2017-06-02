@@ -11,6 +11,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Arrays;
 
+/*wir erstellen die Klasse*/
+
 public class CSV_Parser{
     public static final String[] METADATA_ORIGINAL = { "handle",
             "text",
@@ -30,6 +32,7 @@ public class CSV_Parser{
             "time",
             "retweet_count",
             "favorite_count" };
+
 
     public static ArrayList parse_original(FileReader reader){
         return parse(reader, METADATA_ORIGINAL);

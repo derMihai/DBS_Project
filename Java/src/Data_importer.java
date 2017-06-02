@@ -53,6 +53,8 @@ public class Data_importer{
         return tweets;
     }
 
+/*wir schauen mit Hilfe eines regulären Ausdrucks nach hashtags im text und extrahieren*/
+
     public static void parse_hashtags(Tweet tweet){
         String regex = "#(\\w)+(\\b|\\z)";
         Pattern pattern = Pattern.compile(regex);
@@ -63,6 +65,8 @@ public class Data_importer{
             tweet.hashtags.add(hashtag);
         }
     }
+
+/*mit der Datenbank verbinden*/
 
     private static void send_to_db(ArrayList<Tweet> tweets){
         Connection db_conn;
@@ -89,6 +93,8 @@ public class Data_importer{
                 String timestamp = date + " " + time;
                 System.out.println(timestamp);
 
+/*wir fuegen die Werte in die Relation ein*/
+      
                 String tweet_insQuery =    "INSERT INTO tweet (pname,datum,retweets,likes,retweet,content,importance) "+
                         "VALUES ('"  + tweet.handle      + "',"
                         + "TIMESTAMP '"+ timestamp         + "',"
@@ -100,6 +106,7 @@ public class Data_importer{
                         + "12"                 + ");";
 
                 statement.executeUpdate(tweet_insQuery);
+
 
                 for(String hashtag : tweet.hashtags){
                     String contains_insQuery = "INSERT INTO contains(pname, hname, datum) VALUES ("
@@ -130,8 +137,12 @@ public class Data_importer{
         }
     }
 
+/*wir kombinieren je zwei Hashtags miteinander*/
+
     private static ArrayList<String[]> combine_hashtags(Tweet tweet){
         ArrayList<String[]> combis = new ArrayList<String[]>();
+
+/*j geht nur bis zum vorletzten Elem, weil das letzte Element bereits mit allen anderen kombiniert ist */
 
         for(int i = 0; i < tweet.hashtags.size()-1; i++){
             for(int j = i+1; j < tweet.hashtags.size(); j++){
