@@ -1,3 +1,4 @@
+import java.sql.PreparedStatement;
 import java.util.regex.Pattern;
 import java.util.regex.Matcher;
 import java.io.FileReader;
@@ -7,6 +8,7 @@ import CSV_Parser.Tweet;
 import java.sql.Statement;
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.sql.Timestamp;
 
 
 public class Data_importer{
@@ -61,7 +63,13 @@ public class Data_importer{
         Matcher matcher = pattern.matcher(tweet.text);
         while(matcher.find()){
             String hashtag = tweet.text.substring(matcher.start()+1, matcher.end());
-            //System.out.println(hashtag);
+            //Avoid duplicates
+            for(String h : tweet.hashtags){
+                if(h.equals(hashtag)){
+                    tweet.hashtags.remove(h);
+                    break;
+                }
+            }
             tweet.hashtags.add(hashtag);
         }
     }
@@ -85,6 +93,11 @@ public class Data_importer{
 
         try {
             statement = db_conn.createStatement();
+
+            PreparedStatement prepStat_tweet;
+            PreparedStatement prepStat_contains;
+            PreparedStatement prepStat_comesalong;
+
             for(Tweet tweet : tweets){
 
 
@@ -92,42 +105,71 @@ public class Data_importer{
                 String time = tweet.time.substring(11,19);
                 String timestamp = date + " " + time;
                 System.out.println(timestamp);
+                
 
-/*wir fuegen die Werte in die Relation ein*/
-      
-                String tweet_insQuery =    "INSERT INTO tweet (pname,datum,retweets,likes,retweet,content,importance) "+
-                        "VALUES ('"  + tweet.handle      + "',"
-                        + "TIMESTAMP '"+ timestamp         + "',"
-                        + tweet.retweet_count    + ','
-                        + tweet.favorite_count       + ','
-                        + " '" +tweet.is_retweet    + "', "
-                       // + " '" +tweet.text        + "',"
-                        + "'text',"
-                        + "12"                 + ");";
+                String tweet_ins = "INSERT INTO tweet" +
+                                    "(pname,datum,retweets,likes,retweet,content,importance)" +
+                                    "VALUES (?,?,?,?,?,?,?)";
 
-                statement.executeUpdate(tweet_insQuery);
+                Timestamp ts = Timestamp.valueOf(timestamp);
+
+                prepStat_tweet = db_conn.prepareStatement(tweet_ins);
+
+                prepStat_tweet.setString(1, tweet.handle);
+                prepStat_tweet.setTimestamp(2, ts);
+                prepStat_tweet.setInt(3, tweet.retweet_count);
+                prepStat_tweet.setInt(4, tweet.favorite_count);
+                prepStat_tweet.setBoolean(5, tweet.is_retweet);
+                prepStat_tweet.setString(6, tweet.text);
+                prepStat_tweet.setInt(7, 1);
+
+                prepStat_tweet.executeUpdate();
 
 
                 for(String hashtag : tweet.hashtags){
-                    String contains_insQuery = "INSERT INTO contains(pname, hname, datum) VALUES ("
-                            + "'" + tweet.handle  + "',"
-                            + "'" + hashtag       + "',"
-                            + "TIMESTAMP '"+timestamp         + "');";
-                    statement.executeUpdate(contains_insQuery);
+                    String contains_ins =   "INSERT INTO contains(pname, hname, datum)" + 
+                                            "VALUES(?,?,?)";
+                    
+                    prepStat_contains = db_conn.prepareStatement(contains_ins);
+
+                    prepStat_contains.setString(1, tweet.handle);
+                    prepStat_contains.setString(2, hashtag);
+                    prepStat_contains.setTimestamp(3, ts);
+
+                    prepStat_contains.executeUpdate();
                 }
 
                 ArrayList<String[]> hashtag_combis = combine_hashtags(tweet);
                 for(String[] comb : hashtag_combis){
-                    String comesAlong_upQuery =     "UPDATE 'comesAlong' SET pairOccurences = pairOccurences + 1 "
-                            + "WHERE (hname1= '" + comb[0] + "' AND hname2= '" + comb[1] + "') "
-                            + "OR (hname1= '" + comb[1] + "' AND hname2= '" + comb[0] + "');";
 
-                    String comesAlong_insQuery =    "INSERT INTO 'comesAlong' (hname1, hname2, pairOccurences) "
-                            + "SELECT '" + comb[0] + "', '" + comb[1] + "', 1 "
-                            + "WHERE NOT EXISTS (SELECT 1 FROM 'comesAlong' "
-                            + "WHERE (hname1= '" + comb[0] + "' AND hname2= '" + comb[1] + "') "
-                            + "OR (hname1= '" + comb[1] + "' AND hname2= '" + comb[0] + "'));";
-                    statement.executeUpdate(comesAlong_upQuery + " " + comesAlong_insQuery);
+                    String comesalong_up =  "UPDATE comesalong SET pairOccurences = pairOccurences + 1 " +
+                                            "WHERE (hname1 =? AND hname2 =?) " +
+                                            "OR (hname1 =? AND hname2 =?)";
+
+                    prepStat_comesalong = db_conn.prepareStatement(comesalong_up);
+
+                    prepStat_comesalong.setString(1, comb[0]);
+                    prepStat_comesalong.setString(2, comb[1]);
+                    prepStat_comesalong.setString(3, comb[1]);
+                    prepStat_comesalong.setString(4, comb[0]);
+
+                    prepStat_comesalong.executeUpdate();
+
+                    String comesalong_ins = "INSERT INTO comesalong (hname1, hname2, pairoccurences) " +
+                                            "SELECT ?,?,? "+
+                                            "WHERE NOT EXISTS (SELECT 1 FROM comesalong WHERE (hname1=? AND hname2=?) OR (hname1=? AND hname2=?))";
+
+                    prepStat_comesalong = db_conn.prepareStatement(comesalong_ins);
+
+                    prepStat_comesalong.setString(1, comb[0]);
+                    prepStat_comesalong.setString(2, comb[1]);
+                    prepStat_comesalong.setInt(3, 1);
+                    prepStat_comesalong.setString(4, comb[0]);
+                    prepStat_comesalong.setString(5, comb[1]);
+                    prepStat_comesalong.setString(6, comb[1]);
+                    prepStat_comesalong.setString(7, comb[1]);
+
+                    prepStat_comesalong.executeUpdate();
                 }
             }
         } catch (Exception e ) {
