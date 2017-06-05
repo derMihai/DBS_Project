@@ -1,6 +1,4 @@
 package CSV_Parser;
-
-
 import java.util.ArrayList;
 
 public class Tweet{

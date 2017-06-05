@@ -27,11 +27,12 @@ public class Data_importer{
         ArrayList<Tweet> tweets = null;
 
         tweets = create_tweets(records);
+        records = null;
         send_to_db(tweets);
         return;
     }
 
-
+    //aus 2 Dimensionale Array mit Strings, array mit Tweet-Objekte erzeugen
     private static ArrayList create_tweets(ArrayList<String[]> records){
         ArrayList<Tweet> tweets = new ArrayList<Tweet>();
 
@@ -74,11 +75,9 @@ public class Data_importer{
         }
     }
 
-/*mit der Datenbank verbinden*/
-
     private static void send_to_db(ArrayList<Tweet> tweets){
         Connection db_conn;
-
+        /*mit der Datenbank verbinden*/
         try{
             Class.forName("org.postgresql.Driver");
             db_conn = DriverManager.getConnection("jdbc:postgresql://localhost:5432/election?currentSchema=dbs_schema1",
@@ -97,19 +96,19 @@ public class Data_importer{
             PreparedStatement prepStat_tweet;
             PreparedStatement prepStat_contains;
             PreparedStatement prepStat_comesalong;
-
+            //Für jedes Tweet...
             for(Tweet tweet : tweets){
 
-
+                //in tweet Tabelle einfügen
                 String date = tweet.time.substring(0,10);
                 String time = tweet.time.substring(11,19);
                 String timestamp = date + " " + time;
                 System.out.println(timestamp);
-                
+
 
                 String tweet_ins = "INSERT INTO tweet" +
-                                    "(pname,datum,retweets,likes,retweet,content,importance)" +
-                                    "VALUES (?,?,?,?,?,?,?)";
+                        "(pname,datum,retweets,likes,retweet,content,importance)" +
+                        "VALUES (?,?,?,?,?,?,?)";
 
                 Timestamp ts = Timestamp.valueOf(timestamp);
 
@@ -125,11 +124,11 @@ public class Data_importer{
 
                 prepStat_tweet.executeUpdate();
 
-
+                //jeden Hashtag in einem Tweet in contains Tabelle einfügen
                 for(String hashtag : tweet.hashtags){
-                    String contains_ins =   "INSERT INTO contains(pname, hname, datum)" + 
-                                            "VALUES(?,?,?)";
-                    
+                    String contains_ins =   "INSERT INTO contains(pname, hname, datum)" +
+                            "VALUES(?,?,?)";
+
                     prepStat_contains = db_conn.prepareStatement(contains_ins);
 
                     prepStat_contains.setString(1, tweet.handle);
@@ -139,12 +138,13 @@ public class Data_importer{
                     prepStat_contains.executeUpdate();
                 }
 
+                //jede Hashtag-Kombi in comesalong einfügen
                 ArrayList<String[]> hashtag_combis = combine_hashtags(tweet);
                 for(String[] comb : hashtag_combis){
 
                     String comesalong_up =  "UPDATE comesalong SET pairOccurences = pairOccurences + 1 " +
-                                            "WHERE (hname1 =? AND hname2 =?) " +
-                                            "OR (hname1 =? AND hname2 =?)";
+                            "WHERE (hname1 =? AND hname2 =?) " +
+                            "OR (hname1 =? AND hname2 =?)";
 
                     prepStat_comesalong = db_conn.prepareStatement(comesalong_up);
 
@@ -156,8 +156,8 @@ public class Data_importer{
                     prepStat_comesalong.executeUpdate();
 
                     String comesalong_ins = "INSERT INTO comesalong (hname1, hname2, pairoccurences) " +
-                                            "SELECT ?,?,? "+
-                                            "WHERE NOT EXISTS (SELECT 1 FROM comesalong WHERE (hname1=? AND hname2=?) OR (hname1=? AND hname2=?))";
+                            "SELECT ?,?,? "+
+                            "WHERE NOT EXISTS (SELECT 1 FROM comesalong WHERE (hname1=? AND hname2=?) OR (hname1=? AND hname2=?))";
 
                     prepStat_comesalong = db_conn.prepareStatement(comesalong_ins);
 
@@ -184,7 +184,7 @@ public class Data_importer{
     private static ArrayList<String[]> combine_hashtags(Tweet tweet){
         ArrayList<String[]> combis = new ArrayList<String[]>();
 
-/*j geht nur bis zum vorletzten Elem, weil das letzte Element bereits mit allen anderen kombiniert ist */
+/*Alle Hashtag-2.er-Kombis in einem Tweet erzeugen */
 
         for(int i = 0; i < tweet.hashtags.size()-1; i++){
             for(int j = i+1; j < tweet.hashtags.size(); j++){
