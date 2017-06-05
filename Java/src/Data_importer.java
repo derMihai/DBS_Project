@@ -1,3 +1,4 @@
+import java.sql.PreparedStatement;
 import java.util.regex.Pattern;
 import java.util.regex.Matcher;
 import java.io.FileReader;
@@ -7,6 +8,7 @@ import CSV_Parser.Tweet;
 import java.sql.Statement;
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.sql.Timestamp;
 
 
 public class Data_importer{
@@ -25,11 +27,12 @@ public class Data_importer{
         ArrayList<Tweet> tweets = null;
 
         tweets = create_tweets(records);
+        records = null;
         send_to_db(tweets);
         return;
     }
 
-
+    //aus 2 Dimensionale Array mit Strings, array mit Tweet-Objekte erzeugen
     private static ArrayList create_tweets(ArrayList<String[]> records){
         ArrayList<Tweet> tweets = new ArrayList<Tweet>();
 
@@ -61,16 +64,20 @@ public class Data_importer{
         Matcher matcher = pattern.matcher(tweet.text);
         while(matcher.find()){
             String hashtag = tweet.text.substring(matcher.start()+1, matcher.end());
-            //System.out.println(hashtag);
+            //Avoid duplicates
+            for(String h : tweet.hashtags){
+                if(h.equals(hashtag)){
+                    tweet.hashtags.remove(h);
+                    break;
+                }
+            }
             tweet.hashtags.add(hashtag);
         }
     }
 
-/*mit der Datenbank verbinden*/
-
     private static void send_to_db(ArrayList<Tweet> tweets){
         Connection db_conn;
-
+        /*mit der Datenbank verbinden*/
         try{
             Class.forName("org.postgresql.Driver");
             db_conn = DriverManager.getConnection("jdbc:postgresql://localhost:5432/election?currentSchema=dbs_schema1",
@@ -85,49 +92,84 @@ public class Data_importer{
 
         try {
             statement = db_conn.createStatement();
+
+            PreparedStatement prepStat_tweet;
+            PreparedStatement prepStat_contains;
+            PreparedStatement prepStat_comesalong;
+            //Für jedes Tweet...
             for(Tweet tweet : tweets){
 
-
+                //in tweet Tabelle einfügen
                 String date = tweet.time.substring(0,10);
                 String time = tweet.time.substring(11,19);
                 String timestamp = date + " " + time;
                 System.out.println(timestamp);
 
-/*wir fuegen die Werte in die Relation ein*/
-      
-                String tweet_insQuery =    "INSERT INTO tweet (pname,datum,retweets,likes,retweet,content,importance) "+
-                        "VALUES ('"  + tweet.handle      + "',"
-                        + "TIMESTAMP '"+ timestamp         + "',"
-                        + tweet.retweet_count    + ','
-                        + tweet.favorite_count       + ','
-                        + " '" +tweet.is_retweet    + "', "
-                       // + " '" +tweet.text        + "',"
-                        + "'text',"
-                        + "12"                 + ");";
 
-                statement.executeUpdate(tweet_insQuery);
+                String tweet_ins = "INSERT INTO tweet" +
+                        "(pname,datum,retweets,likes,retweet,content,importance)" +
+                        "VALUES (?,?,?,?,?,?,?)";
 
+                Timestamp ts = Timestamp.valueOf(timestamp);
 
+                prepStat_tweet = db_conn.prepareStatement(tweet_ins);
+
+                prepStat_tweet.setString(1, tweet.handle);
+                prepStat_tweet.setTimestamp(2, ts);
+                prepStat_tweet.setInt(3, tweet.retweet_count);
+                prepStat_tweet.setInt(4, tweet.favorite_count);
+                prepStat_tweet.setBoolean(5, tweet.is_retweet);
+                prepStat_tweet.setString(6, tweet.text);
+                prepStat_tweet.setInt(7, 1);
+
+                prepStat_tweet.executeUpdate();
+
+                //jeden Hashtag in einem Tweet in contains Tabelle einfügen
                 for(String hashtag : tweet.hashtags){
-                    String contains_insQuery = "INSERT INTO contains(pname, hname, datum) VALUES ("
-                            + "'" + tweet.handle  + "',"
-                            + "'" + hashtag       + "',"
-                            + "TIMESTAMP '"+timestamp         + "');";
-                    statement.executeUpdate(contains_insQuery);
+                    String contains_ins =   "INSERT INTO contains(pname, hname, datum)" +
+                            "VALUES(?,?,?)";
+
+                    prepStat_contains = db_conn.prepareStatement(contains_ins);
+
+                    prepStat_contains.setString(1, tweet.handle);
+                    prepStat_contains.setString(2, hashtag);
+                    prepStat_contains.setTimestamp(3, ts);
+
+                    prepStat_contains.executeUpdate();
                 }
 
+                //jede Hashtag-Kombi in comesalong einfügen
                 ArrayList<String[]> hashtag_combis = combine_hashtags(tweet);
                 for(String[] comb : hashtag_combis){
-                    String comesAlong_upQuery =     "UPDATE 'comesAlong' SET pairOccurences = pairOccurences + 1 "
-                            + "WHERE (hname1= '" + comb[0] + "' AND hname2= '" + comb[1] + "') "
-                            + "OR (hname1= '" + comb[1] + "' AND hname2= '" + comb[0] + "');";
 
-                    String comesAlong_insQuery =    "INSERT INTO 'comesAlong' (hname1, hname2, pairOccurences) "
-                            + "SELECT '" + comb[0] + "', '" + comb[1] + "', 1 "
-                            + "WHERE NOT EXISTS (SELECT 1 FROM 'comesAlong' "
-                            + "WHERE (hname1= '" + comb[0] + "' AND hname2= '" + comb[1] + "') "
-                            + "OR (hname1= '" + comb[1] + "' AND hname2= '" + comb[0] + "'));";
-                    statement.executeUpdate(comesAlong_upQuery + " " + comesAlong_insQuery);
+                    String comesalong_up =  "UPDATE comesalong SET pairOccurences = pairOccurences + 1 " +
+                            "WHERE (hname1 =? AND hname2 =?) " +
+                            "OR (hname1 =? AND hname2 =?)";
+
+                    prepStat_comesalong = db_conn.prepareStatement(comesalong_up);
+
+                    prepStat_comesalong.setString(1, comb[0]);
+                    prepStat_comesalong.setString(2, comb[1]);
+                    prepStat_comesalong.setString(3, comb[1]);
+                    prepStat_comesalong.setString(4, comb[0]);
+
+                    prepStat_comesalong.executeUpdate();
+
+                    String comesalong_ins = "INSERT INTO comesalong (hname1, hname2, pairoccurences) " +
+                            "SELECT ?,?,? "+
+                            "WHERE NOT EXISTS (SELECT 1 FROM comesalong WHERE (hname1=? AND hname2=?) OR (hname1=? AND hname2=?))";
+
+                    prepStat_comesalong = db_conn.prepareStatement(comesalong_ins);
+
+                    prepStat_comesalong.setString(1, comb[0]);
+                    prepStat_comesalong.setString(2, comb[1]);
+                    prepStat_comesalong.setInt(3, 1);
+                    prepStat_comesalong.setString(4, comb[0]);
+                    prepStat_comesalong.setString(5, comb[1]);
+                    prepStat_comesalong.setString(6, comb[1]);
+                    prepStat_comesalong.setString(7, comb[1]);
+
+                    prepStat_comesalong.executeUpdate();
                 }
             }
         } catch (Exception e ) {
@@ -142,7 +184,7 @@ public class Data_importer{
     private static ArrayList<String[]> combine_hashtags(Tweet tweet){
         ArrayList<String[]> combis = new ArrayList<String[]>();
 
-/*j geht nur bis zum vorletzten Elem, weil das letzte Element bereits mit allen anderen kombiniert ist */
+/*Alle Hashtag-2.er-Kombis in einem Tweet erzeugen */
 
         for(int i = 0; i < tweet.hashtags.size()-1; i++){
             for(int j = i+1; j < tweet.hashtags.size(); j++){

@@ -14,6 +14,7 @@ import java.util.Arrays;
 /*wir erstellen die Klasse*/
 
 public class CSV_Parser{
+    //originelles Header
     public static final String[] METADATA_ORIGINAL = { "handle",
             "text",
             "is_retweet",
@@ -26,6 +27,7 @@ public class CSV_Parser{
             "source_url",
             "truncated" };
 
+    //header für die bereinigte Datei
     public static final String[] METADATA_CLEANED  = { "handle",
             "text",
             "is_retweet",
@@ -42,14 +44,13 @@ public class CSV_Parser{
         return parse(reader, METADATA_CLEANED);
     }
 
+    //Aus CSV-Datei 2-Dimensionales String-Array erzeugen
     private static ArrayList parse(FileReader reader, String[] header){
         ArrayList tweets = new ArrayList<String[]>();
         CSVParser parser = null;
         List<CSVRecord> record_list = null;
 
         CSVFormat format = CSVFormat.DEFAULT.withHeader(header).withDelimiter(';').withQuote('"').withRecordSeparator('\n');
-        //CSVFormat format = CSVFormat.DEFAULT.withHeader().withSkipHeaderRecord(false).withDelimiter(';').withQuote('"').withRecordSeparator('\n');
-        //header = format.getHeader();
 
         try{
             parser = new CSVParser(reader, format);
@@ -72,6 +73,7 @@ public class CSV_Parser{
         }
         return tweets;
     }
+    //neu-generierte, bereinigte Array in eine neue Datei
 
     public static void write_csv(FileWriter writer, ArrayList<String[]> records){
         CSVFormat format = CSVFormat.DEFAULT.withHeader(METADATA_CLEANED).withDelimiter(';').withQuote('"').withRecordSeparator('\n');
@@ -85,6 +87,7 @@ public class CSV_Parser{
                 List<String> l_record = Arrays.asList(record);
                 printer.printRecord(l_record);
             }
+            printer.flush();
         } catch (Exception e){
             System.err.println("Error while writing destination CSV File!");
             e.printStackTrace();

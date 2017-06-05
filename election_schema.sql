@@ -7,7 +7,6 @@ CREATE DATABASE election
        CONNECTION LIMIT = -1;
 GRANT CONNECT, TEMPORARY ON DATABASE election TO public;
 GRANT ALL ON DATABASE election TO postgres;
-GRANT ALL ON DATABASE election TO greuceanu;
 GRANT ALL ON DATABASE election TO testuser;
 
 CREATE SCHEMA public
@@ -18,23 +17,25 @@ GRANT ALL ON SCHEMA public TO public;
 COMMENT ON SCHEMA public
   IS 'standard public schema';
   
-CREATE TABLE public."comesAlong"
+CREATE TABLE public.comesalong
 (
-  hname1 "char"[],
-  hname2 "char"[],
-  "pairOccurences" integer
+  hname1 character varying(140) NOT NULL,
+  hname2 character varying(140) NOT NULL,
+  pairoccurences integer,
+  CONSTRAINT "primKey" PRIMARY KEY (hname1, hname2)
 )
 WITH (
   OIDS=FALSE
 );
-ALTER TABLE public."comesAlong"
+ALTER TABLE public.comesalong
   OWNER TO testuser;
   
 CREATE TABLE public.contains
 (
-  datum timestamp without time zone,
-  pname character varying(25),
-  hname character varying(140)
+  datum timestamp without time zone NOT NULL,
+  pname character varying(25) NOT NULL,
+  hname character varying(140) NOT NULL,
+  CONSTRAINT "primKey2" PRIMARY KEY (datum, pname, hname)
 )
 WITH (
   OIDS=FALSE
