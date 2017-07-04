@@ -120,7 +120,7 @@ public class Data_importer{
                 prepStat_tweet.setInt(4, tweet.favorite_count);
                 prepStat_tweet.setBoolean(5, tweet.is_retweet);
                 prepStat_tweet.setString(6, tweet.text);
-                prepStat_tweet.setInt(7, (int) Math.sqrt(Math.sqrt((tweet.favorite_count + tweet.retweet_count)/2)));
+                prepStat_tweet.setDouble(7, Math.sqrt(Math.sqrt((tweet.favorite_count + tweet.retweet_count)/2)));
 
                 prepStat_tweet.executeUpdate();
 

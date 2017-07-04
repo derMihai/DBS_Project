@@ -55,12 +55,13 @@ public class Clusterer {
             ResultSet hashtags = get_hashtags.executeQuery(get_hashtags_query);
 
             String hname;
-            int importance, appearences;
+            double importance;
+            int appearences;
 
             while (hashtags.next()){
                 hname = hashtags.getString(1);
                 appearences = hashtags.getInt(2);
-                importance = hashtags.getInt(3);
+                importance = hashtags.getDouble(3);
                 //jeden Hashtag in Dataset hinzufügen
                 hashtags_dataset.add(new Hashtag(hname, importance, appearences));
             }
@@ -89,8 +90,8 @@ public class Clusterer {
 
                     insert_hashtag_stmt = db_conn.prepareStatement(insert_hashtag);
                     insert_hashtag_stmt.setString(1, hh.getHname());
-                    insert_hashtag_stmt.setInt(2, hh.getScalar_1());
-                    insert_hashtag_stmt.setInt(3, hh.getScalar_2());
+                    insert_hashtag_stmt.setDouble(2, hh.getScalar_1());
+                    insert_hashtag_stmt.setInt(3,(int) hh.getScalar_2());
                     insert_hashtag_stmt.setInt(4, i);
 
                    // System.out.println(hh.getHname()+ " " + hh.getImportance()+ " " + hh.getAppearences() + " "+ i);
