@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta>
+    <description>An example graph.</description>
+    <creator>csv2gexf by Wouter Van den Broeck</creator>
+  </meta>
+  <graph defaultedgetype="directed">
+    <attributes class="node">
+      <attribute id="attrib_1" title="attrib_1" type="float"/>
+      <attribute id="beta" title="beta" type="string"/>
+    </attributes>
+    <attributes class="edge">
+      <attribute id="alpha" title="alpha" type="string"/>
+      <attribute id="thickness" type="string"/>
+    </attributes>
+    <nodes>
+      <node id="k1" label="Knoop_1">
+        <attvalues>
+          <attvalue for="attrib_1" value="201"/>
+          <attvalue for="beta" value="T1"/>
+        </attvalues>
+      </node>
+      <node id="k2" label="Knoop_2">
+        <attvalues>
+          <attvalue for="attrib_1" value="202"/>
+          <attvalue for="beta" value="T2"/>
+        </attvalues>
+      </node>
+      <node id="k3" label="Knoop_3">
+        <attvalues>
+          <attvalue for="attrib_1" value="203"/>
+          <attvalue for="beta" value="T3"/>
+        </attvalues>
+      </node>
+      <node id="k4" label="Knoop_4">
+        <attvalues>
+          <attvalue for="attrib_1" value="204"/>
+          <attvalue for="beta" value="T4"/>
+        </attvalues>
+      </node>
+      <node id="k5" label="Knoop_5">
+        <attvalues>
+          <attvalue for="attrib_1" value="205"/>
+          <attvalue for="beta" value="T5"/>
+        </attvalues>
+      </node>
+      <node id="k6" label="Knoop_6">
+        <attvalues>
+          <attvalue for="attrib_1" value="206"/>
+          <attvalue for="beta" value="T6"/>
+        </attvalues>
+      </node>
+      <node id="k7" label="Knoop_7">
+        <attvalues>
+          <attvalue for="attrib_1" value="207"/>
+          <attvalue for="beta" value="T7"/>
+        </attvalues>
+      </node>
+      <node id="k8" label="Knoop_8">
+        <attvalues>
+          <attvalue for="attrib_1" value="208"/>
+          <attvalue for="beta" value="T8"/>
+        </attvalues>
+      </node>
+      <node id="k9" label="Knoop_9">
+        <attvalues>
+          <attvalue for="attrib_1" value="209"/>
+          <attvalue for="beta" value="T9"/>
+        </attvalues>
+      </node>
+      <node id="k10" label="Knoop_10">
+        <attvalues>
+          <attvalue for="attrib_1" value="210"/>
+          <attvalue for="beta" value="T10"/>
+        </attvalues>
+      </node>
+      <node id="k11" label="Knoop_11">
+        <attvalues>
+          <attvalue for="attrib_1" value="211"/>
+          <attvalue for="beta" value="T11"/>
+        </attvalues>
+      </node>
+      <node id="k12" label="Knoop_12">
+        <attvalues>
+          <attvalue for="attrib_1" value="212"/>
+          <attvalue for="beta" value="T12"/>
+        </attvalues>
+      </node>
+      <node id="k13" label="Knoop_13">
+        <attvalues>
+          <attvalue for="attrib_1" value="213"/>
+          <attvalue for="beta" value="T13"/>
+        </attvalues>
+      </node>
+      <node id="k14" label="Knoop_14">
+        <attvalues>
+          <attvalue for="attrib_1" value="214"/>
+          <attvalue for="beta" value="T14"/>
+        </attvalues>
+      </node>
+      <node id="k15" label="Knoop_15">
+        <attvalues>
+          <attvalue for="attrib_1" value="215"/>
+          <attvalue for="beta" value="T15"/>
+        </attvalues>
+      </node>
+      <node id="k16" label="Knoop_16">
+        <attvalues>
+          <attvalue for="attrib_1" value="216"/>
+          <attvalue for="beta" value="T16"/>
+        </attvalues>
+      </node>
+      <node id="k17" label="Knoop_17">
+        <attvalues>
+          <attvalue for="attrib_1" value="217"/>
+          <attvalue for="beta" value="T17"/>
+        </attvalues>
+      </node>
+      <node id="k18" label="Knoop_18">
+        <attvalues>
+          <attvalue for="attrib_1" value="218"/>
+          <attvalue for="beta" value="T18"/>
+        </attvalues>
+      </node>
+      <node id="k19" label="Knoop_19">
+        <attvalues>
+          <attvalue for="attrib_1" value="219"/>
+          <attvalue for="beta" value="T19"/>
+        </attvalues>
+      </node>
+      <node id="k20" label="Knoop_20">
+        <attvalues>
+          <attvalue for="attrib_1" value="220"/>
+          <attvalue for="beta" value="T20"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="e1" label="e1" source="k1" target="k2">
+        <attvalues>
+          <attvalue for="alpha" value="a1"/>
+          <attvalue for="thickness" value="101"/>
+        </attvalues>
+      </edge>
+      <edge id="e2" label="e2" source="k4" target="k5">
+        <attvalues>
+          <attvalue for="alpha" value="a2"/>
+          <attvalue for="thickness" value="102"/>
+        </attvalues>
+      </edge>
+      <edge id="e3" label="e3" source="k1" target="k5">
+        <attvalues>
+          <attvalue for="alpha" value="a3"/>
+          <attvalue for="thickness" value="103"/>
+        </attvalues>
+      </edge>
+      <edge id="e4" label="e4" source="k2" target="k4">
+        <attvalues>
+          <attvalue for="alpha" value="a4"/>
+          <attvalue for="thickness" value="104"/>
+        </attvalues>
+      </edge>
+      <edge id="e5" label="e5" source="k2" target="k5">
+        <attvalues>
+          <attvalue for="alpha" value="a5"/>
+          <attvalue for="thickness" value="105"/>
+        </attvalues>
+      </edge>
+      <edge id="e6" label="e6" source="k5" target="k9">
+        <attvalues>
+          <attvalue for="alpha" value="a6"/>
+          <attvalue for="thickness" value="106"/>
+        </attvalues>
+      </edge>
+      <edge id="e7" label="e7" source="k9" target="k3">
+        <attvalues>
+          <attvalue for="alpha" value="a7"/>
+          <attvalue for="thickness" value="107"/>
+        </attvalues>
+      </edge>
+      <edge id="e8" label="e8" source="k3" target="k8">
+        <attvalues>
+          <attvalue for="alpha" value="a8"/>
+          <attvalue for="thickness" value="108"/>
+        </attvalues>
+      </edge>
+      <edge id="e9" label="e9" source="k20" target="k3">
+        <attvalues>
+          <attvalue for="alpha" value="a9"/>
+          <attvalue for="thickness" value="109"/>
+        </attvalues>
+      </edge>
+      <edge id="e10" label="e10" source="k3" target="k18">
+        <attvalues>
+          <attvalue for="alpha" value="a10"/>
+          <attvalue for="thickness" value="110"/>
+        </attvalues>
+      </edge>
+      <edge id="e11" label="e11" source="k18" target="k5">
+        <attvalues>
+          <attvalue for="alpha" value="a11"/>
+          <attvalue for="thickness" value="111"/>
+        </attvalues>
+      </edge>
+      <edge id="e12" label="e12" source="k8" target="k10">
+        <attvalues>
+          <attvalue for="alpha" value="a12"/>
+          <attvalue for="thickness" value="112"/>
+        </attvalues>
+      </edge>
+      <edge id="e13" label="e13" source="k10" target="k2">
+        <attvalues>
+          <attvalue for="alpha" value="a13"/>
+          <attvalue for="thickness" value="113"/>
+        </attvalues>
+      </edge>
+      <edge id="e14" label="e14" source="k10" target="k11">
+        <attvalues>
+          <attvalue for="alpha" value="a14"/>
+          <attvalue for="thickness" value="114"/>
+        </attvalues>
+      </edge>
+      <edge id="e15" label="e15" source="k11" target="k16">
+        <attvalues>
+          <attvalue for="alpha" value="a15"/>
+          <attvalue for="thickness" value="115"/>
+        </attvalues>
+      </edge>
+      <edge id="e16" label="e16" source="k11" target="k12">
+        <attvalues>
+          <attvalue for="alpha" value="a16"/>
+          <attvalue for="thickness" value="116"/>
+        </attvalues>
+      </edge>
+      <edge id="e17" label="e17" source="k19" target="k18">
+        <attvalues>
+          <attvalue for="alpha" value="a17"/>
+          <attvalue for="thickness" value="117"/>
+        </attvalues>
+      </edge>
+      <edge id="e18" label="e18" source="k18" target="k8">
+        <attvalues>
+          <attvalue for="alpha" value="a18"/>
+          <attvalue for="thickness" value="118"/>
+        </attvalues>
+      </edge>
+      <edge id="e19" label="e19" source="k7" target="k12">
+        <attvalues>
+          <attvalue for="alpha" value="a19"/>
+          <attvalue for="thickness" value="119"/>
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

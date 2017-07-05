@@ -1,0 +1,35 @@
+<script src="lib/sigma.min.js"></script>
+<script src="lib/sigma.parsers.gexf.min.js"></script>
+
+<style>
+  #network-graph {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+  }
+</style>
+
+<div id="network-graph"></div>
+
+<!-- the library sigma.parsers.gefx takes 2 arguments: the gexf file and the container where to place the graph -->
+
+<script>
+var test;
+
+test = sigma.parsers.gexf( "result.gexf",
+
+  {container: 'network-graph'},
+
+  function(s) {
+
+    s.graph.nodes().forEach(function(node, i, a) {
+      node.x = Math.cos(Math.PI * 2 * i / a.length);
+      node.y = Math.sin(Math.PI * 2 * i / a.length);
+    });
+
+    s.refresh();
+  });
+  
+</script>
