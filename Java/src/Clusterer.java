@@ -80,8 +80,8 @@ public class Clusterer {
     private static boolean store_data(Dataset hashtag_clusters[]){
         try{
             PreparedStatement insert_hashtag_stmt;
-            String insert_hashtag =     "INSERT INTO hashtag (hname, importance, appeareances, cluster) "+
-                                        "VALUES (?,?,?,?)";
+            String insert_hashtag =     "INSERT INTO hashtag (hname, importance, cluster) "+
+                                        "VALUES (?,?,?)";
             for(int i = 0; i < hashtag_clusters.length; i++){
                 Dataset d = hashtag_clusters[i];
 
@@ -91,10 +91,7 @@ public class Clusterer {
                     insert_hashtag_stmt = db_conn.prepareStatement(insert_hashtag);
                     insert_hashtag_stmt.setString(1, hh.getHname());
                     insert_hashtag_stmt.setDouble(2, hh.getScalar_1());
-                    insert_hashtag_stmt.setInt(3,(int) hh.getScalar_2());
-                    insert_hashtag_stmt.setInt(4, i);
-
-                   // System.out.println(hh.getHname()+ " " + hh.getImportance()+ " " + hh.getAppearences() + " "+ i);
+                    insert_hashtag_stmt.setInt(3, i);
 
                     insert_hashtag_stmt.executeUpdate();
                 }
