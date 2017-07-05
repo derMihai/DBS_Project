@@ -18,6 +18,9 @@ public class Node_data_creator {
     private static String[] colors = {"rgb(255,51,51)","rgb(255,153,51)","rgb(255,255,51)","rgb(153,255,51)","rgb(51,255,153)","rgb(51,153,255)",
             "rgb(153,51,255)","rgb(255,51,255)","rgb(255,51,153)","rgb(160,160,160)"};
 
+    private static final String[] METADATA_NODES = { "hname", "importance", "appeareances", "cluster"};
+    private static final String[] METADATA_EDGES = { "hname1", "hname2"};
+
     public static void main(String[] args){
         FileWriter hashtag_writer;
         FileWriter calong_writer;
@@ -105,7 +108,7 @@ public class Node_data_creator {
         }
 
         CSVPrinter printer;
-        CSVFormat format = CSVFormat.DEFAULT.withDelimiter(';').withQuote('"').withRecordSeparator('\n');
+        CSVFormat format = CSVFormat.DEFAULT.withHeader(METADATA_NODES).withDelimiter(';').withQuote('"').withRecordSeparator('\n');
 
         try{
             printer = new CSVPrinter(hashtags_writer, format);
@@ -116,6 +119,7 @@ public class Node_data_creator {
             }
             printer.flush();
 
+            format = CSVFormat.DEFAULT.withHeader(METADATA_EDGES).withDelimiter(';').withQuote('"').withRecordSeparator('\n');
             printer = new CSVPrinter(calong_writer, format);
 
             for(String[] record : ca_records){

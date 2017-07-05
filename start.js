@@ -13,7 +13,7 @@ var config = {
         }
     },
     nodes: {
-        file: 'csv/nodes.csv',
+        file: '../nodes.csv',
         schema: [
             'id',
             'label',
@@ -34,7 +34,7 @@ var config = {
         }
     },
     edges: {
-        file: 'csv/edges.csv',
+        file: '../edges.csv',
         schema: [
             'source',
             'target',
