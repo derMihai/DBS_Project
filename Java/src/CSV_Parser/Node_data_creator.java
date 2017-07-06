@@ -113,6 +113,8 @@ public class Node_data_creator {
                 obj.put("x", record[1]);
                 obj.put("y", record[2]);
                 obj.put("color", record[3]);
+                obj.put("type", "tweetegy");
+                obj.put("size", 100);
 
                 NodeJsonArray.put(obj);
             }

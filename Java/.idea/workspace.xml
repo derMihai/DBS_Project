@@ -36,13 +36,13 @@
       <file leaf-file-name="Node_data_creator.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/CSV_Parser/Node_data_creator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-65">
-              <caret line="103" column="0" lean-forward="true" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
+            <state relative-caret-position="435">
+              <caret line="116" column="35" lean-forward="false" selection-start-line="116" selection-start-column="35" selection-end-line="116" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1499335324532" expanded="true" signature="1435:1524" ph="SELECT hname... hashtag" />
-                <marker date="1499335324532" expanded="true" signature="1562:1726" ph="SELECT COUNT... contains" />
-                <marker date="1499335324532" expanded="true" signature="1767:1843" ph="SELECT hname... comesalong" />
+                <marker date="1499355659964" expanded="true" signature="1435:1524" ph="SELECT hname... hashtag" />
+                <marker date="1499355659964" expanded="true" signature="1562:1726" ph="SELECT COUNT... contains" />
+                <marker date="1499355659964" expanded="true" signature="1767:1843" ph="SELECT hname... comesalong" />
               </folding>
             </state>
           </provider>
@@ -155,6 +155,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -212,7 +213,6 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -429,11 +429,12 @@
       <workItem from="1499291143787" duration="880000" />
       <workItem from="1499296070559" duration="28000" />
       <workItem from="1499334765724" duration="986000" />
+      <workItem from="1499355280044" duration="423000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65954000" />
+    <option name="totallyTimeSpent" value="66377000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1875" height="1083" extended-state="6" />
@@ -975,13 +976,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CSV_Parser/Node_data_creator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-65">
-          <caret line="103" column="0" lean-forward="true" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
+        <state relative-caret-position="435">
+          <caret line="116" column="35" lean-forward="false" selection-start-line="116" selection-start-column="35" selection-end-line="116" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1499335324532" expanded="true" signature="1435:1524" ph="SELECT hname... hashtag" />
-            <marker date="1499335324532" expanded="true" signature="1562:1726" ph="SELECT COUNT... contains" />
-            <marker date="1499335324532" expanded="true" signature="1767:1843" ph="SELECT hname... comesalong" />
+            <marker date="1499355659964" expanded="true" signature="1435:1524" ph="SELECT hname... hashtag" />
+            <marker date="1499355659964" expanded="true" signature="1562:1726" ph="SELECT COUNT... contains" />
+            <marker date="1499355659964" expanded="true" signature="1767:1843" ph="SELECT hname... comesalong" />
           </folding>
         </state>
       </provider>
