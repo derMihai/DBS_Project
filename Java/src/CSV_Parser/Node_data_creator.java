@@ -1,15 +1,10 @@
 package CSV_Parser;
-
-import net.sf.javaml.core.Dataset;
-import org.apache.commons.csv.CSVFormat;
-import org.apache.commons.csv.CSVPrinter;
-
-import java.io.File;
+import org.json.JSONArray;
+import org.json.JSONObject;
 import java.io.FileWriter;
 import java.sql.*;
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+
 
 /**
  * Erzeugt CSV-Dateien mit informationen für
@@ -18,26 +13,20 @@ public class Node_data_creator {
     private static String[] colors = {"rgb(255,51,51)","rgb(255,153,51)","rgb(255,255,51)","rgb(153,255,51)","rgb(51,255,153)","rgb(51,153,255)",
             "rgb(153,51,255)","rgb(255,51,255)","rgb(255,51,153)","rgb(160,160,160)"};
 
-    private static final String[] METADATA_NODES = { "hname", "importance", "appeareances", "cluster"};
-    private static final String[] METADATA_EDGES = { "hname1", "hname2"};
-
+    private static FileWriter json_writer;
     public static void main(String[] args){
-        FileWriter hashtag_writer;
-        FileWriter calong_writer;
+
 
         try{
-            hashtag_writer = new FileWriter(args[0]);
-            calong_writer = new FileWriter(args[1]);
+            json_writer = new FileWriter(args[0]);
         } catch (Exception e){
             e.printStackTrace();
             return;
         }
-
-        get_data(hashtag_writer, calong_writer);
-
+        get_data();
     }
 
-    private static boolean get_data(FileWriter hashtags_writer, FileWriter calong_writer){
+    private static boolean get_data(){
         /*mit der Datenbank verbinden*/
         Connection db_conn;
         try{
@@ -50,7 +39,7 @@ public class Node_data_creator {
             return false;
         }
 
-        Statement stmt = null;
+        Statement stmt;
 
         ArrayList<String[]> h_records = new ArrayList<>();
         ArrayList<String[]> ca_records = new ArrayList<>();
@@ -107,29 +96,46 @@ public class Node_data_creator {
             return false;
         }
 
-        CSVPrinter printer;
-        CSVFormat format = CSVFormat.DEFAULT.withHeader(METADATA_NODES).withDelimiter(';').withQuote('"').withRecordSeparator('\n');
-
         try{
-            printer = new CSVPrinter(hashtags_writer, format);
 
-            for(String[] record : h_records){
-                List<String> l_record = Arrays.asList(record);
-                printer.printRecord(l_record);
+            JSONArray NodeJsonArray = new JSONArray();
+            JSONArray EdgeJsonArray = new JSONArray();
+            JSONObject FinalObject = new JSONObject();
+
+            JSONObject obj;
+            String[] record;
+            for (int i = 0; i < h_records.size(); i++){
+                obj = new JSONObject();
+                record = h_records.get(i);
+                //obj.put("id", Integer.toString(i));
+                obj.put("id", record[0]);
+                obj.put("label", record[0]);
+                obj.put("x", record[1]);
+                obj.put("y", record[2]);
+                obj.put("color", record[3]);
+
+                NodeJsonArray.put(obj);
             }
-            printer.flush();
+            FinalObject.put("nodes", NodeJsonArray);
 
-            format = CSVFormat.DEFAULT.withHeader(METADATA_EDGES).withDelimiter(';').withQuote('"').withRecordSeparator('\n');
-            printer = new CSVPrinter(calong_writer, format);
+            for (int i = 0; i < ca_records.size(); i++){
+                obj = new JSONObject();
+                record = ca_records.get(i);
+                obj.put("id", Integer.toString(i));
+                obj.put("source", record[0]);
+                obj.put("target", record[1]);
 
-            for(String[] record : ca_records){
-                List<String> l_record = Arrays.asList(record);
-                printer.printRecord(l_record);
+                EdgeJsonArray.put(obj);
             }
-            printer.flush();
+
+            FinalObject.put("edges", EdgeJsonArray);
+
+            FinalObject.write(json_writer,2, 1);
+            json_writer.flush();
+            json_writer.close();
 
         } catch (Exception e){
-            System.err.println("Error while writing destination CSV File(s)!");
+            System.err.println("Error while writing destination JSON File!");
             e.printStackTrace();
         }
         
