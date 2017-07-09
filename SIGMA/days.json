@@ -2,1201 +2,5809 @@
    {
      "x": 0,
      "y": 1,
-     "label": "2016-01-05"
+     "label": "2016-01-05",
+     "htags": [{
+       "y": 1,
+       "hname": "Trump2016"
+     }]
    },
    {
      "x": 1,
      "y": 3,
-     "label": "2016-01-06"
+     "label": "2016-01-06",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "DavidCameron"
+       },
+       {
+         "y": 1,
+         "hname": "Trump4President"
+       },
+       {
+         "y": 1,
+         "hname": "WH"
+       }
+     ]
    },
    {
      "x": 2,
      "y": 5,
-     "label": "2016-01-08"
+     "label": "2016-01-08",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "FoxNews"
+       },
+       {
+         "y": 1,
+         "hname": "Rubio"
+       },
+       {
+         "y": 1,
+         "hname": "Bush"
+       },
+       {
+         "y": 1,
+         "hname": "MakeAmericaGreatAgain"
+       },
+       {
+         "y": 1,
+         "hname": "Trump2016"
+       }
+     ]
    },
    {
      "x": 3,
      "y": 1,
-     "label": "2016-01-09"
+     "label": "2016-01-09",
+     "htags": [{
+       "y": 1,
+       "hname": "Laurence"
+     }]
    },
    {
      "x": 4,
      "y": 8,
-     "label": "2016-01-11"
+     "label": "2016-01-11",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "LESM"
+       },
+       {
+         "y": 1,
+         "hname": "GoldenGlobe"
+       },
+       {
+         "y": 2,
+         "hname": "MakeAmericaGreatAgain"
+       },
+       {
+         "y": 4,
+         "hname": "Trump2016"
+       }
+     ]
    },
    {
      "x": 5,
      "y": 4,
-     "label": "2016-01-12"
+     "label": "2016-01-12",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "Trump2016"
+       },
+       {
+         "y": 1,
+         "hname": "IACaucus"
+       },
+       {
+         "y": 1,
+         "hname": "TeamTrump"
+       },
+       {
+         "y": 1,
+         "hname": "FITN"
+       }
+     ]
    },
    {
      "x": 6,
      "y": 15,
-     "label": "2016-01-13"
+     "label": "2016-01-13",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "IACaucus"
+       },
+       {
+         "y": 1,
+         "hname": "IAPolitics"
+       },
+       {
+         "y": 2,
+         "hname": "SOTU"
+       },
+       {
+         "y": 1,
+         "hname": "IowaCaucus"
+       },
+       {
+         "y": 5,
+         "hname": "VoteTrump"
+       },
+       {
+         "y": 1,
+         "hname": "MakeAmericaGreatAgain"
+       },
+       {
+         "y": 3,
+         "hname": "Trump2016"
+       },
+       {
+         "y": 1,
+         "hname": "FITN"
+       }
+     ]
    },
    {
      "x": 7,
      "y": 5,
-     "label": "2016-01-14"
+     "label": "2016-01-14",
+     "htags": [
+       {
+         "y": 3,
+         "hname": "Trump2016"
+       },
+       {
+         "y": 1,
+         "hname": "FoxNews"
+       },
+       {
+         "y": 1,
+         "hname": "VoteTrump"
+       }
+     ]
    },
    {
      "x": 8,
      "y": 2,
-     "label": "2016-01-15"
+     "label": "2016-01-15",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "HarveyPitt"
+       },
+       {
+         "y": 1,
+         "hname": "GOPDebate"
+       }
+     ]
    },
    {
      "x": 9,
      "y": 2,
-     "label": "2016-01-16"
+     "label": "2016-01-16",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "Trump2016"
+       },
+       {
+         "y": 1,
+         "hname": "MakeAmericaGreatAgain"
+       }
+     ]
    },
    {
      "x": 10,
      "y": 1,
-     "label": "2016-01-17"
+     "label": "2016-01-17",
+     "htags": [{
+       "y": 1,
+       "hname": "Trump2016"
+     }]
    },
    {
      "x": 11,
      "y": 4,
-     "label": "2016-01-18"
+     "label": "2016-01-18",
+     "htags": [
+       {
+         "y": 3,
+         "hname": "Trump2016"
+       },
+       {
+         "y": 1,
+         "hname": "Obamacare"
+       }
+     ]
    },
    {
      "x": 12,
      "y": 6,
-     "label": "2016-01-19"
+     "label": "2016-01-19",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "CBNNews"
+       },
+       {
+         "y": 1,
+         "hname": "TeamTrump"
+       },
+       {
+         "y": 1,
+         "hname": "2016"
+       },
+       {
+         "y": 1,
+         "hname": "MakeAmericaGreatAgain"
+       },
+       {
+         "y": 2,
+         "hname": "Trump2016"
+       }
+     ]
    },
    {
      "x": 13,
      "y": 11,
-     "label": "2016-01-20"
+     "label": "2016-01-20",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "ECONOMY"
+       },
+       {
+         "y": 2,
+         "hname": "FITN"
+       },
+       {
+         "y": 1,
+         "hname": "NHPolitics"
+       },
+       {
+         "y": 2,
+         "hname": "MakeAmericaGreatAgain"
+       },
+       {
+         "y": 5,
+         "hname": "Trump2016"
+       }
+     ]
    },
    {
      "x": 14,
      "y": 6,
-     "label": "2016-01-21"
+     "label": "2016-01-21",
+     "htags": [
+       {
+         "y": 4,
+         "hname": "Trump2016"
+       },
+       {
+         "y": 1,
+         "hname": "MakeAmericaGreatAgain"
+       },
+       {
+         "y": 1,
+         "hname": "VoteTrump"
+       }
+     ]
    },
    {
      "x": 15,
      "y": 23,
-     "label": "2016-01-22"
+     "label": "2016-01-22",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "IACaucus"
+       },
+       {
+         "y": 1,
+         "hname": "TrumpTrain"
+       },
+       {
+         "y": 1,
+         "hname": "Cruz"
+       },
+       {
+         "y": 1,
+         "hname": "LaurenceTribe"
+       },
+       {
+         "y": 1,
+         "hname": "CommonLaw"
+       },
+       {
+         "y": 2,
+         "hname": "TedCruz"
+       },
+       {
+         "y": 1,
+         "hname": "NaturalBorn"
+       },
+       {
+         "y": 1,
+         "hname": "FITN"
+       },
+       {
+         "y": 1,
+         "hname": "laurencetribe"
+       },
+       {
+         "y": 2,
+         "hname": "MaryBrigidMcManamon"
+       },
+       {
+         "y": 4,
+         "hname": "MakeAmericaGreatAgain"
+       },
+       {
+         "y": 1,
+         "hname": "VoteTrump"
+       },
+       {
+         "y": 6,
+         "hname": "Trump2016"
+       }
+     ]
    },
    {
      "x": 16,
      "y": 9,
-     "label": "2016-01-23"
+     "label": "2016-01-23",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "IACaucus"
+       },
+       {
+         "y": 1,
+         "hname": "RNC"
+       },
+       {
+         "y": 1,
+         "hname": "POTUS"
+       },
+       {
+         "y": 1,
+         "hname": "MakeAmericaGreatAgain"
+       },
+       {
+         "y": 1,
+         "hname": "VoteTrump"
+       },
+       {
+         "y": 4,
+         "hname": "Trump2016"
+       }
+     ]
    },
    {
      "x": 17,
      "y": 9,
-     "label": "2016-01-24"
+     "label": "2016-01-24",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "IACaucus"
+       },
+       {
+         "y": 1,
+         "hname": "VoteTrump"
+       },
+       {
+         "y": 1,
+         "hname": "MakeAmericaGreatAgain"
+       },
+       {
+         "y": 1,
+         "hname": "Excellent"
+       },
+       {
+         "y": 3,
+         "hname": "Trump2016"
+       },
+       {
+         "y": 1,
+         "hname": "AmericaGreatAgain"
+       },
+       {
+         "y": 1,
+         "hname": "FITN"
+       }
+     ]
    },
    {
      "x": 18,
      "y": 23,
-     "label": "2016-01-25"
+     "label": "2016-01-25",
+     "htags": [
+       {
+         "y": 2,
+         "hname": "IACaucus"
+       },
+       {
+         "y": 1,
+         "hname": "WeWantTrump"
+       },
+       {
+         "y": 1,
+         "hname": "IowaCaucus"
+       },
+       {
+         "y": 1,
+         "hname": "NewYork"
+       },
+       {
+         "y": 1,
+         "hname": "trump"
+       },
+       {
+         "y": 1,
+         "hname": "NewYorkValues"
+       },
+       {
+         "y": 1,
+         "hname": "With_Cruz_you_lose"
+       },
+       {
+         "y": 1,
+         "hname": "WeAreBernie"
+       },
+       {
+         "y": 1,
+         "hname": "VoteTrump"
+       },
+       {
+         "y": 3,
+         "hname": "MakeAmericaGreatAgain"
+       },
+       {
+         "y": 4,
+         "hname": "Trump2016"
+       },
+       {
+         "y": 1,
+         "hname": "Jonas"
+       },
+       {
+         "y": 3,
+         "hname": "FITN"
+       },
+       {
+         "y": 1,
+         "hname": "makeamericagreatagain"
+       },
+       {
+         "y": 1,
+         "hname": "trump2016"
+       }
+     ]
    },
    {
      "x": 19,
      "y": 13,
-     "label": "2016-01-26"
+     "label": "2016-01-26",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "GOPDebate"
+       },
+       {
+         "y": 2,
+         "hname": "IACaucus"
+       },
+       {
+         "y": 3,
+         "hname": "MakeAmericaGreatAgain"
+       },
+       {
+         "y": 5,
+         "hname": "Trump2016"
+       },
+       {
+         "y": 1,
+         "hname": "GOPdebate"
+       },
+       {
+         "y": 1,
+         "hname": "FITN"
+       }
+     ]
    },
    {
      "x": 20,
      "y": 2,
-     "label": "2016-01-27"
+     "label": "2016-01-27",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "Trump2016"
+       },
+       {
+         "y": 1,
+         "hname": "MakeAmericaGreatAgain"
+       }
+     ]
    },
    {
      "x": 21,
      "y": 10,
-     "label": "2016-01-28"
+     "label": "2016-01-28",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "Trump4Vets"
+       },
+       {
+         "y": 1,
+         "hname": "GOPDebate"
+       },
+       {
+         "y": 1,
+         "hname": "MichaelMoore"
+       },
+       {
+         "y": 1,
+         "hname": "FoxNews"
+       },
+       {
+         "y": 1,
+         "hname": "Iowa"
+       },
+       {
+         "y": 1,
+         "hname": "MakeAmericaGreatAgain"
+       },
+       {
+         "y": 2,
+         "hname": "Trump2016"
+       },
+       {
+         "y": 1,
+         "hname": "ROGERAILES"
+       },
+       {
+         "y": 1,
+         "hname": "YUGE"
+       }
+     ]
    },
    {
      "x": 22,
      "y": 14,
-     "label": "2016-01-29"
+     "label": "2016-01-29",
+     "htags": [
+       {
+         "y": 3,
+         "hname": "IACaucus"
+       },
+       {
+         "y": 3,
+         "hname": "GOPDebate"
+       },
+       {
+         "y": 3,
+         "hname": "MakeAmericaGreatAgain"
+       },
+       {
+         "y": 1,
+         "hname": "ThankAVet"
+       },
+       {
+         "y": 4,
+         "hname": "Trump2016"
+       }
+     ]
    },
    {
      "x": 23,
      "y": 5,
-     "label": "2016-01-30"
+     "label": "2016-01-30",
+     "htags": [
+       {
+         "y": 3,
+         "hname": "CaucusForTrump"
+       },
+       {
+         "y": 2,
+         "hname": "IACaucus"
+       }
+     ]
    },
    {
      "x": 24,
      "y": 4,
-     "label": "2016-01-31"
+     "label": "2016-01-31",
+     "htags": [
+       {
+         "y": 3,
+         "hname": "CaucusForTrump"
+       },
+       {
+         "y": 1,
+         "hname": "IACaucus"
+       }
+     ]
    },
    {
      "x": 25,
      "y": 1,
-     "label": "2016-02-01"
+     "label": "2016-02-01",
+     "htags": [{
+       "y": 1,
+       "hname": "CaucusForTrump"
+     }]
    },
    {
      "x": 26,
      "y": 3,
-     "label": "2016-02-02"
+     "label": "2016-02-02",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "Trump2016"
+       },
+       {
+         "y": 1,
+         "hname": "FITN"
+       },
+       {
+         "y": 1,
+         "hname": "TrumpTrain"
+       }
+     ]
    },
    {
      "x": 27,
      "y": 6,
-     "label": "2016-02-03"
+     "label": "2016-02-03",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "ObamaCare"
+       },
+       {
+         "y": 1,
+         "hname": "CruzFraud"
+       },
+       {
+         "y": 1,
+         "hname": "VotersSpeak"
+       },
+       {
+         "y": 1,
+         "hname": "FITN"
+       },
+       {
+         "y": 2,
+         "hname": "MakeAmericaGreatAgain"
+       }
+     ]
    },
    {
      "x": 28,
      "y": 2,
-     "label": "2016-02-04"
+     "label": "2016-02-04",
+     "htags": [{
+       "y": 2,
+       "hname": "Trump2016"
+     }]
    },
    {
      "x": 29,
      "y": 10,
-     "label": "2016-02-05"
+     "label": "2016-02-05",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "VoteTrumpNH"
+       },
+       {
+         "y": 1,
+         "hname": "NHPolitics"
+       },
+       {
+         "y": 3,
+         "hname": "MakeAmericaGreatAgain"
+       },
+       {
+         "y": 1,
+         "hname": "NewHampshire"
+       },
+       {
+         "y": 1,
+         "hname": "Trump2016"
+       },
+       {
+         "y": 1,
+         "hname": "TrumpSupporters"
+       },
+       {
+         "y": 2,
+         "hname": "FITN"
+       }
+     ]
    },
    {
      "x": 30,
      "y": 7,
-     "label": "2016-02-06"
+     "label": "2016-02-06",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "TrumpTrain"
+       },
+       {
+         "y": 1,
+         "hname": "NHPrimary"
+       },
+       {
+         "y": 1,
+         "hname": "Hannity"
+       },
+       {
+         "y": 1,
+         "hname": "MakeAmericaGreatAgain"
+       },
+       {
+         "y": 1,
+         "hname": "MAKEAMERICAGREATAGAIN"
+       },
+       {
+         "y": 1,
+         "hname": "VoteTrump"
+       },
+       {
+         "y": 1,
+         "hname": "FITN"
+       }
+     ]
    },
    {
      "x": 31,
      "y": 12,
-     "label": "2016-02-07"
+     "label": "2016-02-07",
+     "htags": [
+       {
+         "y": 5,
+         "hname": "GOPDebate"
+       },
+       {
+         "y": 1,
+         "hname": "VoteTrumpNH"
+       },
+       {
+         "y": 1,
+         "hname": "NHPrimary"
+       },
+       {
+         "y": 1,
+         "hname": "SuperBowlSunday"
+       },
+       {
+         "y": 1,
+         "hname": "SB50"
+       },
+       {
+         "y": 2,
+         "hname": "FITN"
+       },
+       {
+         "y": 1,
+         "hname": "GPLFers"
+       }
+     ]
    },
    {
      "x": 32,
      "y": 5,
-     "label": "2016-02-08"
+     "label": "2016-02-08",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "VoteTrumpNH"
+       },
+       {
+         "y": 1,
+         "hname": "CommonCore"
+       },
+       {
+         "y": 2,
+         "hname": "FITN"
+       },
+       {
+         "y": 1,
+         "hname": "NHPrimary"
+       }
+     ]
    },
    {
      "x": 33,
      "y": 11,
-     "label": "2016-02-09"
+     "label": "2016-02-09",
+     "htags": [
+       {
+         "y": 4,
+         "hname": "VoteTrumpNH"
+       },
+       {
+         "y": 4,
+         "hname": "FITN"
+       },
+       {
+         "y": 2,
+         "hname": "NHPrimary"
+       },
+       {
+         "y": 1,
+         "hname": "MakeAmericaGreatAgain"
+       }
+     ]
    },
    {
      "x": 34,
      "y": 2,
-     "label": "2016-02-10"
+     "label": "2016-02-10",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "FITN"
+       },
+       {
+         "y": 1,
+         "hname": "NHPrimary"
+       }
+     ]
    },
    {
      "x": 35,
      "y": 4,
-     "label": "2016-02-11"
+     "label": "2016-02-11",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "Trump2016"
+       },
+       {
+         "y": 1,
+         "hname": "SCPrimary"
+       },
+       {
+         "y": 2,
+         "hname": "MakeAmericaGreatAgain"
+       }
+     ]
    },
    {
      "x": 36,
      "y": 4,
-     "label": "2016-02-12"
+     "label": "2016-02-12",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "Trump2016"
+       },
+       {
+         "y": 3,
+         "hname": "MakeAmericaGreatAgain"
+       }
+     ]
    },
    {
      "x": 37,
      "y": 11,
-     "label": "2016-02-13"
+     "label": "2016-02-13",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "Carrier"
+       },
+       {
+         "y": 2,
+         "hname": "MakeAmericaGreatAgain"
+       },
+       {
+         "y": 1,
+         "hname": "Mexico"
+       },
+       {
+         "y": 3,
+         "hname": "Trump2016"
+       },
+       {
+         "y": 1,
+         "hname": "SouthCarolinaPrimary"
+       },
+       {
+         "y": 1,
+         "hname": "Jobs"
+       },
+       {
+         "y": 1,
+         "hname": "Trump"
+       },
+       {
+         "y": 1,
+         "hname": "Ford"
+       }
+     ]
    },
    {
      "x": 38,
      "y": 4,
-     "label": "2016-02-14"
+     "label": "2016-02-14",
+     "htags": [{
+       "y": 4,
+       "hname": "GOPDebate"
+     }]
    },
    {
      "x": 39,
      "y": 3,
-     "label": "2016-02-15"
+     "label": "2016-02-15",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "Trump2016"
+       },
+       {
+         "y": 1,
+         "hname": "VoteTrumpSC"
+       },
+       {
+         "y": 1,
+         "hname": "MakeAmericaGreatAgain"
+       }
+     ]
    },
    {
      "x": 40,
      "y": 10,
-     "label": "2016-02-16"
+     "label": "2016-02-16",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "Colbert"
+       },
+       {
+         "y": 1,
+         "hname": "MaitnerStrong"
+       },
+       {
+         "y": 1,
+         "hname": "TeamTrump"
+       },
+       {
+         "y": 2,
+         "hname": "MakeAmericaGreatAgain"
+       },
+       {
+         "y": 1,
+         "hname": "LSSC"
+       },
+       {
+         "y": 1,
+         "hname": "Trump2016"
+       },
+       {
+         "y": 3,
+         "hname": "VoteTrumpSC"
+       }
+     ]
    },
    {
      "x": 41,
      "y": 10,
-     "label": "2016-02-17"
+     "label": "2016-02-17",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "POTUS"
+       },
+       {
+         "y": 2,
+         "hname": "MakeAmericaGreatAgain"
+       },
+       {
+         "y": 2,
+         "hname": "SCPrimary"
+       },
+       {
+         "y": 4,
+         "hname": "Trump2016"
+       },
+       {
+         "y": 1,
+         "hname": "VoteTrumpSC"
+       }
+     ]
    },
    {
      "x": 42,
      "y": 6,
-     "label": "2016-02-18"
+     "label": "2016-02-18",
+     "htags": [
+       {
+         "y": 2,
+         "hname": "SCPrimary"
+       },
+       {
+         "y": 3,
+         "hname": "Trump2016"
+       },
+       {
+         "y": 1,
+         "hname": "VoteTrumpSC"
+       }
+     ]
    },
    {
      "x": 43,
      "y": 12,
-     "label": "2016-02-19"
+     "label": "2016-02-19",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "MAKEAMERICAGREATAGAIN"
+       },
+       {
+         "y": 2,
+         "hname": "MakeAmericaGreatAgain"
+       },
+       {
+         "y": 1,
+         "hname": "vaticanwalls"
+       },
+       {
+         "y": 1,
+         "hname": "SCPrimary"
+       },
+       {
+         "y": 2,
+         "hname": "Trump2016"
+       },
+       {
+         "y": 2,
+         "hname": "ObamaCare"
+       },
+       {
+         "y": 3,
+         "hname": "VoteTrumpSC"
+       }
+     ]
    },
    {
      "x": 44,
      "y": 7,
-     "label": "2016-02-20"
+     "label": "2016-02-20",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "Ted"
+       },
+       {
+         "y": 1,
+         "hname": "WATCH"
+       },
+       {
+         "y": 1,
+         "hname": "MakeAmericaGreatAgain"
+       },
+       {
+         "y": 1,
+         "hname": "fairandbalancedmyass"
+       },
+       {
+         "y": 1,
+         "hname": "VoteTrump"
+       },
+       {
+         "y": 1,
+         "hname": "SCPrimary"
+       },
+       {
+         "y": 1,
+         "hname": "SouthCarolina"
+       }
+     ]
    },
    {
      "x": 45,
      "y": 3,
-     "label": "2016-02-21"
+     "label": "2016-02-21",
+     "htags": [
+       {
+         "y": 2,
+         "hname": "Trump2016"
+       },
+       {
+         "y": 1,
+         "hname": "VoteTrumpNV"
+       }
+     ]
    },
    {
      "x": 46,
      "y": 5,
-     "label": "2016-02-22"
+     "label": "2016-02-22",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "BikersForTrump"
+       },
+       {
+         "y": 2,
+         "hname": "Trump2016"
+       },
+       {
+         "y": 2,
+         "hname": "VoteTrumpNV"
+       }
+     ]
    },
    {
      "x": 47,
      "y": 20,
-     "label": "2016-02-23"
+     "label": "2016-02-23",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "ICYMI"
+       },
+       {
+         "y": 1,
+         "hname": "TrumpLV"
+       },
+       {
+         "y": 1,
+         "hname": "Hannity"
+       },
+       {
+         "y": 4,
+         "hname": "NevadaCaucus"
+       },
+       {
+         "y": 1,
+         "hname": "VoteTrumpIL"
+       },
+       {
+         "y": 4,
+         "hname": "VoteTrumpNV"
+       },
+       {
+         "y": 1,
+         "hname": "VoteTrumpMI"
+       },
+       {
+         "y": 1,
+         "hname": "VoteTrumpNC"
+       },
+       {
+         "y": 1,
+         "hname": "trump2016"
+       },
+       {
+         "y": 2,
+         "hname": "Trump2016"
+       },
+       {
+         "y": 1,
+         "hname": "TrumpNV"
+       },
+       {
+         "y": 1,
+         "hname": "VoteTrumpMA"
+       },
+       {
+         "y": 1,
+         "hname": "VoteTrumpVT"
+       }
+     ]
    },
    {
      "x": 48,
      "y": 5,
-     "label": "2016-02-24"
+     "label": "2016-02-24",
+     "htags": [
+       {
+         "y": 3,
+         "hname": "Trump2016"
+       },
+       {
+         "y": 1,
+         "hname": "NVcaucus"
+       },
+       {
+         "y": 1,
+         "hname": "MakeAmericaGreatAgain"
+       }
+     ]
    },
    {
      "x": 49,
      "y": 10,
-     "label": "2016-02-25"
+     "label": "2016-02-25",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "NoLoyalty"
+       },
+       {
+         "y": 3,
+         "hname": "MakeAmericaGreatAgain"
+       },
+       {
+         "y": 1,
+         "hname": "VoteTrump"
+       },
+       {
+         "y": 4,
+         "hname": "Trump2016"
+       },
+       {
+         "y": 1,
+         "hname": "MakeYoutubeGreatAgain"
+       }
+     ]
    },
    {
      "x": 50,
      "y": 11,
-     "label": "2016-02-26"
+     "label": "2016-02-26",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "GOPDebate"
+       },
+       {
+         "y": 4,
+         "hname": "MakeAmericaGreatAgain"
+       },
+       {
+         "y": 4,
+         "hname": "Trump2016"
+       },
+       {
+         "y": 1,
+         "hname": "SuperTuesday"
+       },
+       {
+         "y": 1,
+         "hname": "LoneStarState"
+       }
+     ]
    },
    {
      "x": 51,
      "y": 7,
-     "label": "2016-02-27"
+     "label": "2016-02-27",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "VoteTrump"
+       },
+       {
+         "y": 2,
+         "hname": "MakeAmericaGreatAgain"
+       },
+       {
+         "y": 2,
+         "hname": "Trump2016"
+       },
+       {
+         "y": 1,
+         "hname": "Greta"
+       },
+       {
+         "y": 1,
+         "hname": "RogerStone"
+       }
+     ]
    },
    {
      "x": 52,
      "y": 8,
-     "label": "2016-02-28"
+     "label": "2016-02-28",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "RobotRubio"
+       },
+       {
+         "y": 1,
+         "hname": "TrumpTrain"
+       },
+       {
+         "y": 2,
+         "hname": "MakeAmericaGreatAgain"
+       },
+       {
+         "y": 2,
+         "hname": "Trump2016"
+       },
+       {
+         "y": 1,
+         "hname": "StopCommonCore"
+       },
+       {
+         "y": 1,
+         "hname": "AlwaysTrump"
+       }
+     ]
    },
    {
      "x": 53,
      "y": 8,
-     "label": "2016-02-29"
+     "label": "2016-02-29",
+     "htags": [
+       {
+         "y": 4,
+         "hname": "Trump2016"
+       },
+       {
+         "y": 1,
+         "hname": "VoteTrump"
+       },
+       {
+         "y": 3,
+         "hname": "MakeAmericaGreatAgain"
+       }
+     ]
    },
    {
      "x": 54,
      "y": 17,
-     "label": "2016-03-01"
+     "label": "2016-03-01",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "FAIL"
+       },
+       {
+         "y": 1,
+         "hname": "NASCAR"
+       },
+       {
+         "y": 5,
+         "hname": "VoteTrump"
+       },
+       {
+         "y": 3,
+         "hname": "MakeAmericaGreatAgain"
+       },
+       {
+         "y": 2,
+         "hname": "Trump2016"
+       },
+       {
+         "y": 4,
+         "hname": "SuperTuesday"
+       },
+       {
+         "y": 1,
+         "hname": "Politician"
+       }
+     ]
    },
    {
      "x": 55,
      "y": 19,
-     "label": "2016-03-02"
+     "label": "2016-03-02",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "KenLangone"
+       },
+       {
+         "y": 1,
+         "hname": "NeilCavuto"
+       },
+       {
+         "y": 1,
+         "hname": "OnTheRecord"
+       },
+       {
+         "y": 1,
+         "hname": "Fox"
+       },
+       {
+         "y": 8,
+         "hname": "SuperTuesday"
+       },
+       {
+         "y": 7,
+         "hname": "Trump2016"
+       }
+     ]
    },
    {
      "x": 56,
      "y": 8,
-     "label": "2016-03-03"
+     "label": "2016-03-03",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "GOPDebate"
+       },
+       {
+         "y": 1,
+         "hname": "TrumpTrain"
+       },
+       {
+         "y": 2,
+         "hname": "MakeAmericaGreatAgain"
+       },
+       {
+         "y": 3,
+         "hname": "Trump2016"
+       },
+       {
+         "y": 1,
+         "hname": "MAGA"
+       }
+     ]
    },
    {
      "x": 57,
      "y": 11,
-     "label": "2016-03-04"
+     "label": "2016-03-04",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "MorningJoe"
+       },
+       {
+         "y": 1,
+         "hname": "GOPDebate"
+       },
+       {
+         "y": 1,
+         "hname": "VoteTrumpMI"
+       },
+       {
+         "y": 4,
+         "hname": "MakeAmericaGreatAgain"
+       },
+       {
+         "y": 4,
+         "hname": "Trump2016"
+       }
+     ]
    },
    {
      "x": 58,
      "y": 15,
-     "label": "2016-03-05"
+     "label": "2016-03-05",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "KansasCaucus"
+       },
+       {
+         "y": 1,
+         "hname": "CaucusForTrump"
+       },
+       {
+         "y": 1,
+         "hname": "TrumpTrain"
+       },
+       {
+         "y": 6,
+         "hname": "MakeAmericaGreatAgain"
+       },
+       {
+         "y": 3,
+         "hname": "VoteTrump"
+       },
+       {
+         "y": 2,
+         "hname": "Trump2016"
+       },
+       {
+         "y": 1,
+         "hname": "LittleMarco"
+       }
+     ]
    },
    {
      "x": 59,
      "y": 9,
-     "label": "2016-03-06"
+     "label": "2016-03-06",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "1"
+       },
+       {
+         "y": 1,
+         "hname": "TRUMPDOG"
+       },
+       {
+         "y": 1,
+         "hname": "TrumpTrain"
+       },
+       {
+         "y": 1,
+         "hname": "MakeAmericaGreatAgain"
+       },
+       {
+         "y": 3,
+         "hname": "Trump2016"
+       },
+       {
+         "y": 2,
+         "hname": "SuperSaturday"
+       }
+     ]
    },
    {
      "x": 60,
      "y": 1,
-     "label": "2016-03-07"
+     "label": "2016-03-07",
+     "htags": [{
+       "y": 1,
+       "hname": "MSPrimary"
+     }]
    },
    {
      "x": 61,
      "y": 3,
-     "label": "2016-03-08"
+     "label": "2016-03-08",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "TrumpWaikiki"
+       },
+       {
+         "y": 1,
+         "hname": "Mahalo"
+       },
+       {
+         "y": 1,
+         "hname": "Mediafraud"
+       }
+     ]
    },
    {
      "x": 62,
      "y": 10,
-     "label": "2016-03-09"
+     "label": "2016-03-09",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "LightweightSenatorMarcoRubio"
+       },
+       {
+         "y": 1,
+         "hname": "TrumpTrain"
+       },
+       {
+         "y": 1,
+         "hname": "MakeAmericaGreatAgain"
+       },
+       {
+         "y": 7,
+         "hname": "Trump2016"
+       }
+     ]
    },
    {
      "x": 63,
      "y": 9,
-     "label": "2016-03-11"
+     "label": "2016-03-11",
+     "htags": [
+       {
+         "y": 2,
+         "hname": "GOPDebate"
+       },
+       {
+         "y": 1,
+         "hname": "NeverTrump"
+       },
+       {
+         "y": 1,
+         "hname": "Donald"
+       },
+       {
+         "y": 2,
+         "hname": "MakeAmericaGreatAgain"
+       },
+       {
+         "y": 3,
+         "hname": "Trump2016"
+       }
+     ]
    },
    {
      "x": 64,
      "y": 8,
-     "label": "2016-03-12"
+     "label": "2016-03-12",
+     "htags": [
+       {
+         "y": 2,
+         "hname": "MakeAmericaGreatAgain"
+       },
+       {
+         "y": 1,
+         "hname": "VoteTrump"
+       },
+       {
+         "y": 1,
+         "hname": "EndCommonCore"
+       },
+       {
+         "y": 4,
+         "hname": "Trump2016"
+       }
+     ]
    },
    {
      "x": 65,
      "y": 7,
-     "label": "2016-03-14"
+     "label": "2016-03-14",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "Trump2016"
+       },
+       {
+         "y": 1,
+         "hname": "TrumpTrain"
+       },
+       {
+         "y": 2,
+         "hname": "MakeAmericaGreatAgain"
+       },
+       {
+         "y": 3,
+         "hname": "VoteTrump"
+       }
+     ]
    },
    {
      "x": 66,
      "y": 9,
-     "label": "2016-03-15"
+     "label": "2016-03-15",
+     "htags": [
+       {
+         "y": 3,
+         "hname": "VoteTrump"
+       },
+       {
+         "y": 1,
+         "hname": "MakeAmericaGreatAgain"
+       },
+       {
+         "y": 1,
+         "hname": "CNN"
+       },
+       {
+         "y": 2,
+         "hname": "SuperTuesday"
+       },
+       {
+         "y": 1,
+         "hname": "Trump2016"
+       },
+       {
+         "y": 1,
+         "hname": "GO"
+       }
+     ]
    },
    {
      "x": 67,
      "y": 14,
-     "label": "2016-03-16"
+     "label": "2016-03-16",
+     "htags": [
+       {
+         "y": 5,
+         "hname": "Trump2016"
+       },
+       {
+         "y": 4,
+         "hname": "SuperTuesday"
+       },
+       {
+         "y": 5,
+         "hname": "MakeAmericaGreatAgain"
+       }
+     ]
    },
    {
      "x": 68,
      "y": 6,
-     "label": "2016-03-18"
+     "label": "2016-03-18",
+     "htags": [
+       {
+         "y": 3,
+         "hname": "Trump2016"
+       },
+       {
+         "y": 3,
+         "hname": "MakeAmericaGreatAgain"
+       }
+     ]
    },
    {
      "x": 69,
      "y": 20,
-     "label": "2016-03-19"
+     "label": "2016-03-19",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "UtahPrimary"
+       },
+       {
+         "y": 1,
+         "hname": "voteTrump"
+       },
+       {
+         "y": 1,
+         "hname": "AZ"
+       },
+       {
+         "y": 1,
+         "hname": "Utah4Trump"
+       },
+       {
+         "y": 1,
+         "hname": "TrumpCountry"
+       },
+       {
+         "y": 1,
+         "hname": "Trump"
+       },
+       {
+         "y": 1,
+         "hname": "Mormon"
+       },
+       {
+         "y": 1,
+         "hname": "UT"
+       },
+       {
+         "y": 1,
+         "hname": "VoteTrump"
+       },
+       {
+         "y": 4,
+         "hname": "MakeAmericaGreatAgain"
+       },
+       {
+         "y": 2,
+         "hname": "Utah"
+       },
+       {
+         "y": 5,
+         "hname": "Trump2016"
+       }
+     ]
    },
    {
      "x": 70,
      "y": 10,
-     "label": "2016-03-20"
+     "label": "2016-03-20",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "WattersWorld"
+       },
+       {
+         "y": 1,
+         "hname": "AZPrimary"
+       },
+       {
+         "y": 2,
+         "hname": "VoteTrump"
+       },
+       {
+         "y": 4,
+         "hname": "MakeAmericaGreatAgain"
+       },
+       {
+         "y": 2,
+         "hname": "Trump2016"
+       }
+     ]
    },
    {
      "x": 71,
      "y": 18,
-     "label": "2016-03-22"
+     "label": "2016-03-22",
+     "htags": [
+       {
+         "y": 2,
+         "hname": "UtahCaucus"
+       },
+       {
+         "y": 2,
+         "hname": "AZPrimary"
+       },
+       {
+         "y": 2,
+         "hname": "UTCaucus"
+       },
+       {
+         "y": 2,
+         "hname": "ArizonaPrimary"
+       },
+       {
+         "y": 1,
+         "hname": "Brussels"
+       },
+       {
+         "y": 2,
+         "hname": "Trump2016"
+       },
+       {
+         "y": 1,
+         "hname": "AmericanSamoa"
+       },
+       {
+         "y": 1,
+         "hname": "AIPAC2016"
+       },
+       {
+         "y": 1,
+         "hname": "POTUS"
+       },
+       {
+         "y": 1,
+         "hname": "Arizona"
+       },
+       {
+         "y": 2,
+         "hname": "MakeAmericaGreatAgain"
+       },
+       {
+         "y": 1,
+         "hname": "VoteTrump"
+       }
+     ]
    },
    {
      "x": 72,
      "y": 6,
-     "label": "2016-03-23"
+     "label": "2016-03-23",
+     "htags": [
+       {
+         "y": 2,
+         "hname": "TrumpTrain"
+       },
+       {
+         "y": 1,
+         "hname": "MakeAmericaGreatAgain"
+       },
+       {
+         "y": 1,
+         "hname": "WesternTuesday"
+       },
+       {
+         "y": 2,
+         "hname": "Trump2016"
+       }
+     ]
    },
    {
      "x": 73,
      "y": 4,
-     "label": "2016-03-24"
+     "label": "2016-03-24",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "Trump2016"
+       },
+       {
+         "y": 1,
+         "hname": "NeverCruz"
+       },
+       {
+         "y": 1,
+         "hname": "VoteTrump2016"
+       },
+       {
+         "y": 1,
+         "hname": "LyingTed"
+       }
+     ]
    },
    {
      "x": 74,
      "y": 1,
-     "label": "2016-03-25"
+     "label": "2016-03-25",
+     "htags": [{
+       "y": 1,
+       "hname": "LyingTed"
+     }]
    },
    {
      "x": 75,
      "y": 2,
-     "label": "2016-03-26"
+     "label": "2016-03-26",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "WOMEN4TRUMP"
+       },
+       {
+         "y": 1,
+         "hname": "Derp"
+       }
+     ]
    },
    {
      "x": 76,
      "y": 2,
-     "label": "2016-03-28"
+     "label": "2016-03-28",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "WIPrimary"
+       },
+       {
+         "y": 1,
+         "hname": "MakeAmericaGreatAgain"
+       }
+     ]
    },
    {
      "x": 77,
      "y": 2,
-     "label": "2016-03-29"
+     "label": "2016-03-29",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "Trump2016"
+       },
+       {
+         "y": 1,
+         "hname": "MakeAmericaGreatAgain"
+       }
+     ]
    },
    {
      "x": 78,
      "y": 6,
-     "label": "2016-03-30"
+     "label": "2016-03-30",
+     "htags": [
+       {
+         "y": 3,
+         "hname": "Trump2016"
+       },
+       {
+         "y": 1,
+         "hname": "WIPrimary"
+       },
+       {
+         "y": 2,
+         "hname": "MakeAmericaGreatAgain"
+       }
+     ]
    },
    {
      "x": 79,
      "y": 6,
-     "label": "2016-03-31"
+     "label": "2016-03-31",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "WIPrimary"
+       },
+       {
+         "y": 1,
+         "hname": "MakeAmericaGreatAgain"
+       },
+       {
+         "y": 1,
+         "hname": "VoteTrump"
+       },
+       {
+         "y": 3,
+         "hname": "Trump2016"
+       }
+     ]
    },
    {
      "x": 80,
      "y": 2,
-     "label": "2016-04-01"
+     "label": "2016-04-01",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "Trump2016"
+       },
+       {
+         "y": 1,
+         "hname": "WIPrimary"
+       }
+     ]
    },
    {
      "x": 81,
      "y": 9,
-     "label": "2016-04-02"
+     "label": "2016-04-02",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "EauClaire"
+       },
+       {
+         "y": 1,
+         "hname": "TrumpTrain"
+       },
+       {
+         "y": 1,
+         "hname": "Racine"
+       },
+       {
+         "y": 1,
+         "hname": "Wausau"
+       },
+       {
+         "y": 2,
+         "hname": "Trump2016"
+       },
+       {
+         "y": 2,
+         "hname": "WIPrimary"
+       },
+       {
+         "y": 1,
+         "hname": "JohnRyder"
+       }
+     ]
    },
    {
      "x": 82,
      "y": 14,
-     "label": "2016-04-03"
+     "label": "2016-04-03",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "WISCONSIN"
+       },
+       {
+         "y": 3,
+         "hname": "MakeAmericaGreatAgain"
+       },
+       {
+         "y": 1,
+         "hname": "VoteTrump"
+       },
+       {
+         "y": 7,
+         "hname": "Trump2016"
+       },
+       {
+         "y": 2,
+         "hname": "WIPrimary"
+       }
+     ]
    },
    {
      "x": 83,
      "y": 9,
-     "label": "2016-04-04"
+     "label": "2016-04-04",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "Wisconsin"
+       },
+       {
+         "y": 1,
+         "hname": "VoteTrumpWI"
+       },
+       {
+         "y": 1,
+         "hname": "MakeAmericaGreatAgain"
+       },
+       {
+         "y": 3,
+         "hname": "Trump2016"
+       },
+       {
+         "y": 3,
+         "hname": "WIPrimary"
+       }
+     ]
    },
    {
      "x": 84,
      "y": 9,
-     "label": "2016-04-05"
+     "label": "2016-04-05",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "Wisconsin"
+       },
+       {
+         "y": 1,
+         "hname": "DonaldTrump"
+       },
+       {
+         "y": 1,
+         "hname": "TrumpTrain"
+       },
+       {
+         "y": 1,
+         "hname": "MakeAmericaGreatAgain"
+       },
+       {
+         "y": 2,
+         "hname": "Trump2016"
+       },
+       {
+         "y": 2,
+         "hname": "WIPrimary"
+       },
+       {
+         "y": 1,
+         "hname": "MAGA"
+       }
+     ]
    },
    {
      "x": 85,
      "y": 4,
-     "label": "2016-04-08"
+     "label": "2016-04-08",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "WakeUpAmerica"
+       },
+       {
+         "y": 1,
+         "hname": "NewDay"
+       },
+       {
+         "y": 2,
+         "hname": "MakeAmericaGreatAgain"
+       }
+     ]
    },
    {
      "x": 86,
      "y": 6,
-     "label": "2016-04-09"
+     "label": "2016-04-09",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "NewYorkValues"
+       },
+       {
+         "y": 1,
+         "hname": "trump2016"
+       },
+       {
+         "y": 1,
+         "hname": "HaileyPuckett"
+       },
+       {
+         "y": 1,
+         "hname": "MakeAmericaGreatAgain"
+       },
+       {
+         "y": 1,
+         "hname": "MAKEAMERICAGREATAGAIN"
+       },
+       {
+         "y": 1,
+         "hname": "trump"
+       }
+     ]
    },
    {
      "x": 87,
      "y": 4,
-     "label": "2016-04-10"
+     "label": "2016-04-10",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "Trump2016"
+       },
+       {
+         "y": 1,
+         "hname": "TrumpTrain"
+       },
+       {
+         "y": 2,
+         "hname": "MakeAmericaGreatAgain"
+       }
+     ]
    },
    {
      "x": 88,
      "y": 5,
-     "label": "2016-04-11"
+     "label": "2016-04-11",
+     "htags": [
+       {
+         "y": 2,
+         "hname": "Trump2016"
+       },
+       {
+         "y": 1,
+         "hname": "NYPrimary"
+       },
+       {
+         "y": 2,
+         "hname": "TrumpTrain"
+       }
+     ]
    },
    {
      "x": 89,
      "y": 9,
-     "label": "2016-04-12"
+     "label": "2016-04-12",
+     "htags": [
+       {
+         "y": 4,
+         "hname": "Trump2016"
+       },
+       {
+         "y": 2,
+         "hname": "NewYorkValues"
+       },
+       {
+         "y": 3,
+         "hname": "MakeAmericaGreatAgain"
+       }
+     ]
    },
    {
      "x": 90,
      "y": 2,
-     "label": "2016-04-13"
+     "label": "2016-04-13",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "Trump2016"
+       },
+       {
+         "y": 1,
+         "hname": "TrumpTrain"
+       }
+     ]
    },
    {
      "x": 91,
      "y": 5,
-     "label": "2016-04-14"
+     "label": "2016-04-14",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "NYPrimary"
+       },
+       {
+         "y": 3,
+         "hname": "Trump2016"
+       },
+       {
+         "y": 1,
+         "hname": "MakeAmericaGreatAgain"
+       }
+     ]
    },
    {
      "x": 92,
      "y": 2,
-     "label": "2016-04-15"
+     "label": "2016-04-15",
+     "htags": [{
+       "y": 2,
+       "hname": "Trump2016"
+     }]
    },
    {
      "x": 93,
      "y": 11,
-     "label": "2016-04-16"
+     "label": "2016-04-16",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "presidenttrump"
+       },
+       {
+         "y": 1,
+         "hname": "primary"
+       },
+       {
+         "y": 3,
+         "hname": "NYPrimary"
+       },
+       {
+         "y": 1,
+         "hname": "ICYMI"
+       },
+       {
+         "y": 1,
+         "hname": "VoteTrumpNY"
+       },
+       {
+         "y": 1,
+         "hname": "MakeAmericaGreatAgain"
+       },
+       {
+         "y": 3,
+         "hname": "Trump2016"
+       }
+     ]
    },
    {
      "x": 94,
      "y": 7,
-     "label": "2016-04-17"
+     "label": "2016-04-17",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "NYPrimary"
+       },
+       {
+         "y": 1,
+         "hname": "NewYorkValues"
+       },
+       {
+         "y": 1,
+         "hname": "HRC4PA"
+       },
+       {
+         "y": 1,
+         "hname": "TrumpTrain"
+       },
+       {
+         "y": 2,
+         "hname": "MakeAmericaGreatAgain"
+       },
+       {
+         "y": 1,
+         "hname": "Trump2016"
+       }
+     ]
    },
    {
      "x": 95,
      "y": 3,
-     "label": "2016-04-18"
+     "label": "2016-04-18",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "HoustonFlood"
+       },
+       {
+         "y": 2,
+         "hname": "FightForFamilies"
+       }
+     ]
    },
    {
      "x": 96,
      "y": 27,
-     "label": "2016-04-19"
+     "label": "2016-04-19",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "ICYMI"
+       },
+       {
+         "y": 6,
+         "hname": "PrimaryDay"
+       },
+       {
+         "y": 1,
+         "hname": "FightForFamilies"
+       },
+       {
+         "y": 1,
+         "hname": "LSSC"
+       },
+       {
+         "y": 1,
+         "hname": "POTUS"
+       },
+       {
+         "y": 1,
+         "hname": "iVoted"
+       },
+       {
+         "y": 1,
+         "hname": "EastVillage"
+       },
+       {
+         "y": 2,
+         "hname": "NYPrimary"
+       },
+       {
+         "y": 1,
+         "hname": "NewYorkValues"
+       },
+       {
+         "y": 2,
+         "hname": "VoteTrumpNY"
+       },
+       {
+         "y": 4,
+         "hname": "MakeAmericaGreatAgain"
+       },
+       {
+         "y": 2,
+         "hname": "VoteTrump"
+       },
+       {
+         "y": 4,
+         "hname": "Trump2016"
+       }
+     ]
    },
    {
      "x": 97,
      "y": 9,
-     "label": "2016-04-20"
+     "label": "2016-04-20",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "TrumpTrain"
+       },
+       {
+         "y": 3,
+         "hname": "MakeAmericaGreatAgain"
+       },
+       {
+         "y": 1,
+         "hname": "Trump360"
+       },
+       {
+         "y": 4,
+         "hname": "Trump2016"
+       }
+     ]
    },
    {
      "x": 98,
      "y": 6,
-     "label": "2016-04-21"
+     "label": "2016-04-21",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "HillaryClinton"
+       },
+       {
+         "y": 1,
+         "hname": "TBT"
+       },
+       {
+         "y": 1,
+         "hname": "StopGunViolence"
+       },
+       {
+         "y": 1,
+         "hname": "HillaryOnGMA"
+       },
+       {
+         "y": 1,
+         "hname": "Trump2016"
+       },
+       {
+         "y": 1,
+         "hname": "Prince"
+       }
+     ]
    },
    {
      "x": 99,
      "y": 8,
-     "label": "2016-04-22"
+     "label": "2016-04-22",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "EarthDay"
+       },
+       {
+         "y": 3,
+         "hname": "MakeAmericaGreatAgain"
+       },
+       {
+         "y": 1,
+         "hname": "ActOnClimate"
+       },
+       {
+         "y": 3,
+         "hname": "Trump2016"
+       }
+     ]
    },
    {
      "x": 100,
      "y": 10,
-     "label": "2016-04-23"
+     "label": "2016-04-23",
+     "htags": [
+       {
+         "y": 5,
+         "hname": "Trump2016"
+       },
+       {
+         "y": 1,
+         "hname": "TrumpTrain"
+       },
+       {
+         "y": 4,
+         "hname": "MakeAmericaGreatAgain"
+       }
+     ]
    },
    {
      "x": 101,
      "y": 2,
-     "label": "2016-04-24"
+     "label": "2016-04-24",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "NYPrimary"
+       },
+       {
+         "y": 1,
+         "hname": "GOP"
+       }
+     ]
    },
    {
      "x": 102,
      "y": 6,
-     "label": "2016-04-25"
+     "label": "2016-04-25",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "PAPrimary"
+       },
+       {
+         "y": 1,
+         "hname": "MakeAmericaGreatAgain"
+       },
+       {
+         "y": 2,
+         "hname": "VoteTrump"
+       },
+       {
+         "y": 1,
+         "hname": "EstoyConElla"
+       },
+       {
+         "y": 1,
+         "hname": "RIPrimary"
+       }
+     ]
    },
    {
      "x": 103,
      "y": 18,
-     "label": "2016-04-26"
+     "label": "2016-04-26",
+     "htags": [
+       {
+         "y": 2,
+         "hname": "MakeAmericaGreatAgain"
+       },
+       {
+         "y": 5,
+         "hname": "VoteTrump"
+       },
+       {
+         "y": 1,
+         "hname": "DEPrimary"
+       },
+       {
+         "y": 3,
+         "hname": "Trump2016"
+       },
+       {
+         "y": 1,
+         "hname": "EstoyConElla"
+       },
+       {
+         "y": 1,
+         "hname": "RIPrimary"
+       },
+       {
+         "y": 1,
+         "hname": "MDPrimary"
+       },
+       {
+         "y": 2,
+         "hname": "MSNBCTownhall"
+       },
+       {
+         "y": 1,
+         "hname": "CTPrimary"
+       },
+       {
+         "y": 1,
+         "hname": "PAPrimary"
+       }
+     ]
    },
    {
      "x": 104,
      "y": 11,
-     "label": "2016-04-27"
+     "label": "2016-04-27",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "womancard"
+       },
+       {
+         "y": 1,
+         "hname": "Indiana"
+       },
+       {
+         "y": 1,
+         "hname": "ImWithHer"
+       },
+       {
+         "y": 1,
+         "hname": "MakeAmericaGreatAgain"
+       },
+       {
+         "y": 1,
+         "hname": "WomanCard"
+       },
+       {
+         "y": 6,
+         "hname": "Trump2016"
+       }
+     ]
    },
    {
      "x": 105,
      "y": 3,
-     "label": "2016-04-28"
+     "label": "2016-04-28",
+     "htags": [
+       {
+         "y": 2,
+         "hname": "TBT"
+       },
+       {
+         "y": 1,
+         "hname": "MakeAmericaGreatAgain"
+       }
+     ]
    },
    {
      "x": 106,
      "y": 8,
-     "label": "2016-04-29"
+     "label": "2016-04-29",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "HillaryOnCNN"
+       },
+       {
+         "y": 3,
+         "hname": "WomanCard"
+       },
+       {
+         "y": 1,
+         "hname": "INDPrimary"
+       },
+       {
+         "y": 1,
+         "hname": "Trump"
+       },
+       {
+         "y": 2,
+         "hname": "Trump2016"
+       }
+     ]
    },
    {
      "x": 107,
      "y": 5,
-     "label": "2016-04-30"
+     "label": "2016-04-30",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "MAGA"
+       },
+       {
+         "y": 1,
+         "hname": "LoveTrumpsHate"
+       },
+       {
+         "y": 2,
+         "hname": "WomanCard"
+       },
+       {
+         "y": 1,
+         "hname": "Trump2016"
+       }
+     ]
    },
    {
      "x": 108,
      "y": 10,
-     "label": "2016-05-01"
+     "label": "2016-05-01",
+     "htags": [
+       {
+         "y": 2,
+         "hname": "INPrimary"
+       },
+       {
+         "y": 1,
+         "hname": "APAHM"
+       },
+       {
+         "y": 1,
+         "hname": "WHCD"
+       },
+       {
+         "y": 1,
+         "hname": "MakeAmericaGreatAgain"
+       },
+       {
+         "y": 1,
+         "hname": "WomanCard"
+       },
+       {
+         "y": 2,
+         "hname": "Trump2016"
+       },
+       {
+         "y": 1,
+         "hname": "FNS"
+       },
+       {
+         "y": 1,
+         "hname": "MayDay"
+       }
+     ]
    },
    {
      "x": 109,
      "y": 9,
-     "label": "2016-05-02"
+     "label": "2016-05-02",
+     "htags": [
+       {
+         "y": 3,
+         "hname": "INPrimary"
+       },
+       {
+         "y": 3,
+         "hname": "MakeAmericaGreatAgain"
+       },
+       {
+         "y": 1,
+         "hname": "VoteTrump"
+       },
+       {
+         "y": 2,
+         "hname": "Trump2016"
+       }
+     ]
    },
    {
      "x": 110,
      "y": 17,
-     "label": "2016-05-03"
+     "label": "2016-05-03",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "TeacherAppreciationDay"
+       },
+       {
+         "y": 5,
+         "hname": "INPrimary"
+       },
+       {
+         "y": 1,
+         "hname": "MakeAmericaGreatAgain"
+       },
+       {
+         "y": 6,
+         "hname": "VoteTrump"
+       },
+       {
+         "y": 4,
+         "hname": "Trump2016"
+       }
+     ]
    },
    {
      "x": 111,
      "y": 1,
-     "label": "2016-05-04"
+     "label": "2016-05-04",
+     "htags": [{
+       "y": 1,
+       "hname": "ThanksObama"
+     }]
    },
    {
      "x": 112,
      "y": 4,
-     "label": "2016-05-05"
+     "label": "2016-05-05",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "Trump2016"
+       },
+       {
+         "y": 1,
+         "hname": "SmallBizWeek"
+       },
+       {
+         "y": 1,
+         "hname": "MakeAmericaGreatAgain"
+       },
+       {
+         "y": 1,
+         "hname": "CincoDeMayo"
+       }
+     ]
    },
    {
      "x": 113,
      "y": 3,
-     "label": "2016-05-06"
+     "label": "2016-05-06",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "Trump2016"
+       },
+       {
+         "y": 1,
+         "hname": "TrumpTrain"
+       },
+       {
+         "y": 1,
+         "hname": "MakeAmericaGreatAgain"
+       }
+     ]
    },
    {
      "x": 114,
      "y": 1,
-     "label": "2016-05-07"
+     "label": "2016-05-07",
+     "htags": [{
+       "y": 1,
+       "hname": "KentuckyDerby"
+     }]
    },
    {
      "x": 115,
      "y": 2,
-     "label": "2016-05-08"
+     "label": "2016-05-08",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "MothersDay"
+       },
+       {
+         "y": 1,
+         "hname": "MadeForHistory"
+       }
+     ]
    },
    {
      "x": 116,
      "y": 3,
-     "label": "2016-05-09"
+     "label": "2016-05-09",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "MattSchlapp"
+       },
+       {
+         "y": 1,
+         "hname": "GOP"
+       },
+       {
+         "y": 1,
+         "hname": "jenniferrubin"
+       }
+     ]
    },
    {
      "x": 117,
      "y": 14,
-     "label": "2016-05-10"
+     "label": "2016-05-10",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "NebraskaPrimary"
+       },
+       {
+         "y": 4,
+         "hname": "MakeAmericaGreatAgain"
+       },
+       {
+         "y": 2,
+         "hname": "VoteTrump"
+       },
+       {
+         "y": 5,
+         "hname": "Trump2016"
+       },
+       {
+         "y": 1,
+         "hname": "RepMikeKelly"
+       },
+       {
+         "y": 1,
+         "hname": "TrumpForPresident"
+       }
+     ]
    },
    {
      "x": 118,
      "y": 6,
-     "label": "2016-05-11"
+     "label": "2016-05-11",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "WashingtonDC"
+       },
+       {
+         "y": 1,
+         "hname": "Statehood"
+       },
+       {
+         "y": 2,
+         "hname": "MakeAmericaGreatAgain"
+       },
+       {
+         "y": 2,
+         "hname": "Trump2016"
+       }
+     ]
    },
    {
      "x": 119,
      "y": 3,
-     "label": "2016-05-12"
+     "label": "2016-05-12",
+     "htags": [
+       {
+         "y": 2,
+         "hname": "Trump2016"
+       },
+       {
+         "y": 1,
+         "hname": "TBT"
+       }
+     ]
    },
    {
      "x": 120,
      "y": 2,
-     "label": "2016-05-13"
+     "label": "2016-05-13",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "TBT"
+       },
+       {
+         "y": 1,
+         "hname": "InternationalNursesDay"
+       }
+     ]
    },
    {
      "x": 121,
      "y": 2,
-     "label": "2016-05-15"
+     "label": "2016-05-15",
+     "htags": [{
+       "y": 2,
+       "hname": "Trump2016"
+     }]
    },
    {
      "x": 122,
      "y": 4,
-     "label": "2016-05-16"
+     "label": "2016-05-16",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "Trump2016"
+       },
+       {
+         "y": 1,
+         "hname": "MadeInAmerica"
+       },
+       {
+         "y": 1,
+         "hname": "SCOTUS"
+       },
+       {
+         "y": 1,
+         "hname": "MakeAmericaGreatAgain"
+       }
+     ]
    },
    {
      "x": 123,
      "y": 2,
-     "label": "2016-05-17"
+     "label": "2016-05-17",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "VoteTrump"
+       },
+       {
+         "y": 1,
+         "hname": "ORPrimary"
+       }
+     ]
    },
    {
      "x": 124,
      "y": 9,
-     "label": "2016-05-18"
+     "label": "2016-05-18",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "AmericaFIRST"
+       },
+       {
+         "y": 4,
+         "hname": "MakeAmericaGreatAgain"
+       },
+       {
+         "y": 1,
+         "hname": "MegynKellyPresents"
+       },
+       {
+         "y": 1,
+         "hname": "Trump"
+       },
+       {
+         "y": 2,
+         "hname": "Trump2016"
+       }
+     ]
    },
    {
      "x": 125,
      "y": 1,
-     "label": "2016-05-19"
+     "label": "2016-05-19",
+     "htags": [{
+       "y": 1,
+       "hname": "SayHerName"
+     }]
    },
    {
      "x": 126,
      "y": 12,
-     "label": "2016-05-20"
+     "label": "2016-05-20",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "TBT"
+       },
+       {
+         "y": 1,
+         "hname": "ImWithHer"
+       },
+       {
+         "y": 1,
+         "hname": "ChangeAgents"
+       },
+       {
+         "y": 1,
+         "hname": "MakeAmericaGreatAgain"
+       },
+       {
+         "y": 1,
+         "hname": "MichaelBrown"
+       },
+       {
+         "y": 3,
+         "hname": "Trump2016"
+       },
+       {
+         "y": 2,
+         "hname": "2A"
+       },
+       {
+         "y": 1,
+         "hname": "SecondAmendment"
+       },
+       {
+         "y": 1,
+         "hname": "MothersoftheMovement"
+       }
+     ]
    },
    {
      "x": 127,
      "y": 3,
-     "label": "2016-05-21"
+     "label": "2016-05-21",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "StopGunViolence"
+       },
+       {
+         "y": 1,
+         "hname": "ArmedForcesDay"
+       },
+       {
+         "y": 1,
+         "hname": "TrumpTrain"
+       }
+     ]
    },
    {
      "x": 128,
      "y": 3,
-     "label": "2016-05-22"
+     "label": "2016-05-22",
+     "htags": [
+       {
+         "y": 2,
+         "hname": "Trump2016"
+       },
+       {
+         "y": 1,
+         "hname": "MAGA"
+       }
+     ]
    },
    {
      "x": 129,
      "y": 7,
-     "label": "2016-05-25"
+     "label": "2016-05-25",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "TrumpTrain"
+       },
+       {
+         "y": 1,
+         "hname": "ActOnClimate"
+       },
+       {
+         "y": 2,
+         "hname": "MakeAmericaGreatAgain"
+       },
+       {
+         "y": 3,
+         "hname": "Trump2016"
+       }
+     ]
    },
    {
      "x": 130,
      "y": 6,
-     "label": "2016-05-26"
+     "label": "2016-05-26",
+     "htags": [
+       {
+         "y": 3,
+         "hname": "Trump2016"
+       },
+       {
+         "y": 1,
+         "hname": "SallyRideDay"
+       },
+       {
+         "y": 1,
+         "hname": "MeetTheTrumps"
+       },
+       {
+         "y": 1,
+         "hname": "UAW"
+       }
+     ]
    },
    {
      "x": 131,
      "y": 5,
-     "label": "2016-05-27"
+     "label": "2016-05-27",
+     "htags": [
+       {
+         "y": 3,
+         "hname": "Trump2016"
+       },
+       {
+         "y": 1,
+         "hname": "TBT"
+       },
+       {
+         "y": 1,
+         "hname": "MakeAmericaGreatAgain"
+       }
+     ]
    },
    {
      "x": 132,
      "y": 2,
-     "label": "2016-05-28"
+     "label": "2016-05-28",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "MDW"
+       },
+       {
+         "y": 1,
+         "hname": "Trump2016"
+       }
+     ]
    },
    {
      "x": 133,
      "y": 3,
-     "label": "2016-05-30"
+     "label": "2016-05-30",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "Trump2016"
+       },
+       {
+         "y": 1,
+         "hname": "MemorialDay"
+       },
+       {
+         "y": 1,
+         "hname": "TRUMP"
+       }
+     ]
    },
    {
      "x": 134,
      "y": 2,
-     "label": "2016-05-31"
+     "label": "2016-05-31",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "Trump2016"
+       },
+       {
+         "y": 1,
+         "hname": "UnderstandSlavery"
+       }
+     ]
    },
    {
      "x": 135,
      "y": 2,
-     "label": "2016-06-01"
+     "label": "2016-06-01",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "Trump2016"
+       },
+       {
+         "y": 1,
+         "hname": "MakeAmericaGreatAgain"
+       }
+     ]
    },
    {
      "x": 136,
      "y": 11,
-     "label": "2016-06-02"
+     "label": "2016-06-02",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "SaveElephants"
+       },
+       {
+         "y": 2,
+         "hname": "MakeAmericaGreatAgain"
+       },
+       {
+         "y": 1,
+         "hname": "CA4Trump"
+       },
+       {
+         "y": 1,
+         "hname": "Trump2016"
+       },
+       {
+         "y": 1,
+         "hname": "MAGA"
+       },
+       {
+         "y": 1,
+         "hname": "Teachers4Trump"
+       },
+       {
+         "y": 1,
+         "hname": "Caribbean"
+       },
+       {
+         "y": 1,
+         "hname": "TRUMP2016"
+       },
+       {
+         "y": 1,
+         "hname": "GunViolence"
+       },
+       {
+         "y": 1,
+         "hname": "NeverDems"
+       }
+     ]
    },
    {
      "x": 137,
      "y": 6,
-     "label": "2016-06-03"
+     "label": "2016-06-03",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "CAPrimary"
+       },
+       {
+         "y": 1,
+         "hname": "Women4Ttump"
+       },
+       {
+         "y": 1,
+         "hname": "ImWithHer"
+       },
+       {
+         "y": 1,
+         "hname": "MakeAmericaGreatAgain"
+       },
+       {
+         "y": 2,
+         "hname": "Trump2016"
+       }
+     ]
    },
    {
      "x": 138,
      "y": 5,
-     "label": "2016-06-04"
+     "label": "2016-06-04",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "POTUS"
+       },
+       {
+         "y": 1,
+         "hname": "TrumpTrain"
+       },
+       {
+         "y": 1,
+         "hname": "Elkhart"
+       },
+       {
+         "y": 1,
+         "hname": "MakeAmericaGreatAgain"
+       },
+       {
+         "y": 1,
+         "hname": "VoteTrump2016"
+       }
+     ]
    },
    {
      "x": 139,
      "y": 1,
-     "label": "2016-06-05"
+     "label": "2016-06-05",
+     "htags": [{
+       "y": 1,
+       "hname": "Decision2016"
+     }]
    },
    {
      "x": 140,
      "y": 3,
-     "label": "2016-06-06"
+     "label": "2016-06-06",
+     "htags": [
+       {
+         "y": 2,
+         "hname": "DDay"
+       },
+       {
+         "y": 1,
+         "hname": "1"
+       }
+     ]
    },
    {
      "x": 141,
      "y": 2,
-     "label": "2016-06-07"
+     "label": "2016-06-07",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "CAPrimary"
+       },
+       {
+         "y": 1,
+         "hname": "MakeAmericaGreatAgain"
+       }
+     ]
    },
    {
      "x": 142,
      "y": 12,
-     "label": "2016-06-08"
+     "label": "2016-06-08",
+     "htags": [
+       {
+         "y": 4,
+         "hname": "ImWithHer"
+       },
+       {
+         "y": 1,
+         "hname": "AmericaFirst"
+       },
+       {
+         "y": 1,
+         "hname": "HistoryMade"
+       },
+       {
+         "y": 6,
+         "hname": "Trump2016"
+       }
+     ]
    },
    {
      "x": 143,
      "y": 1,
-     "label": "2016-06-09"
+     "label": "2016-06-09",
+     "htags": [{
+       "y": 1,
+       "hname": "WIBackHer"
+     }]
    },
    {
      "x": 144,
      "y": 6,
-     "label": "2016-06-10"
+     "label": "2016-06-10",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "RTM2016"
+       },
+       {
+         "y": 4,
+         "hname": "Trump2016"
+       },
+       {
+         "y": 1,
+         "hname": "MakeAmericaGreatAgain"
+       }
+     ]
    },
    {
      "x": 145,
      "y": 8,
-     "label": "2016-06-11"
+     "label": "2016-06-11",
+     "htags": [
+       {
+         "y": 4,
+         "hname": "AmericaFirst"
+       },
+       {
+         "y": 1,
+         "hname": "TrumpTrain"
+       },
+       {
+         "y": 1,
+         "hname": "MakeAmericaGreatAgain"
+       },
+       {
+         "y": 2,
+         "hname": "Trump2016"
+       }
+     ]
    },
    {
      "x": 146,
      "y": 1,
-     "label": "2016-06-13"
+     "label": "2016-06-13",
+     "htags": [{
+       "y": 1,
+       "hname": "StanleyCup"
+     }]
    },
    {
      "x": 147,
      "y": 3,
-     "label": "2016-06-14"
+     "label": "2016-06-14",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "Trump2016"
+       },
+       {
+         "y": 1,
+         "hname": "ArmyBDay"
+       },
+       {
+         "y": 1,
+         "hname": "NetNeutrality"
+       }
+     ]
    },
    {
      "x": 148,
      "y": 8,
-     "label": "2016-06-15"
+     "label": "2016-06-15",
+     "htags": [
+       {
+         "y": 2,
+         "hname": "OrlandoUnited"
+       },
+       {
+         "y": 1,
+         "hname": "Enough"
+       },
+       {
+         "y": 3,
+         "hname": "AmericaFirst"
+       },
+       {
+         "y": 1,
+         "hname": "Filibuster"
+       },
+       {
+         "y": 1,
+         "hname": "Trump2016"
+       }
+     ]
    },
    {
      "x": 149,
      "y": 2,
-     "label": "2016-06-16"
+     "label": "2016-06-16",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "Trump2016"
+       },
+       {
+         "y": 1,
+         "hname": "ShesWithUs"
+       }
+     ]
    },
    {
      "x": 150,
      "y": 7,
-     "label": "2016-06-17"
+     "label": "2016-06-17",
+     "htags": [
+       {
+         "y": 3,
+         "hname": "AmericaFirst"
+       },
+       {
+         "y": 1,
+         "hname": "TrumpDallas"
+       },
+       {
+         "y": 1,
+         "hname": "Charleston9"
+       },
+       {
+         "y": 1,
+         "hname": "Trump"
+       },
+       {
+         "y": 1,
+         "hname": "Trump2016"
+       }
+     ]
    },
    {
      "x": 151,
      "y": 8,
-     "label": "2016-06-18"
+     "label": "2016-06-18",
+     "htags": [
+       {
+         "y": 4,
+         "hname": "Trump2016"
+       },
+       {
+         "y": 4,
+         "hname": "AmericaFirst"
+       }
+     ]
    },
    {
      "x": 152,
      "y": 6,
-     "label": "2016-06-19"
+     "label": "2016-06-19",
+     "htags": [
+       {
+         "y": 3,
+         "hname": "Trump2016"
+       },
+       {
+         "y": 1,
+         "hname": "AmericaFirst"
+       },
+       {
+         "y": 1,
+         "hname": "LaudatoSi"
+       },
+       {
+         "y": 1,
+         "hname": "MakeAmericaGreatAgain"
+       }
+     ]
    },
    {
      "x": 153,
      "y": 1,
-     "label": "2016-06-20"
+     "label": "2016-06-20",
+     "htags": [{
+       "y": 1,
+       "hname": "WorldRefugeeDay"
+     }]
    },
    {
      "x": 154,
      "y": 2,
-     "label": "2016-06-21"
+     "label": "2016-06-21",
+     "htags": [{
+       "y": 2,
+       "hname": "DisarmHate"
+     }]
    },
    {
      "x": 155,
      "y": 4,
-     "label": "2016-06-22"
+     "label": "2016-06-22",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "veterans"
+       },
+       {
+         "y": 1,
+         "hname": "Imwithyou"
+       },
+       {
+         "y": 1,
+         "hname": "GIBill"
+       },
+       {
+         "y": 1,
+         "hname": "MoreInCommon"
+       }
+     ]
    },
    {
      "x": 156,
      "y": 28,
-     "label": "2016-06-23"
+     "label": "2016-06-23",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "imwithyou"
+       },
+       {
+         "y": 1,
+         "hname": "gunviolence"
+       },
+       {
+         "y": 1,
+         "hname": "holdthefloor"
+       },
+       {
+         "y": 1,
+         "hname": "DisarmHate"
+       },
+       {
+         "y": 1,
+         "hname": "EndGunViolence"
+       },
+       {
+         "y": 8,
+         "hname": "NoBillNoBreak"
+       },
+       {
+         "y": 1,
+         "hname": "NotOneMore"
+       },
+       {
+         "y": 1,
+         "hname": "AsLongAsItTakes"
+       },
+       {
+         "y": 2,
+         "hname": "NoMoreSilence"
+       },
+       {
+         "y": 1,
+         "hname": "SCOTUS"
+       },
+       {
+         "y": 1,
+         "hname": "CrookedHillary"
+       },
+       {
+         "y": 1,
+         "hname": "DemocraticSitIn"
+       },
+       {
+         "y": 1,
+         "hname": "TitleIX"
+       },
+       {
+         "y": 2,
+         "hname": "sitin"
+       },
+       {
+         "y": 1,
+         "hname": "Trump"
+       },
+       {
+         "y": 1,
+         "hname": "goodtrouble"
+       },
+       {
+         "y": 1,
+         "hname": "Clinton"
+       },
+       {
+         "y": 1,
+         "hname": "Imwithyou"
+       },
+       {
+         "y": 1,
+         "hname": "Olmstead"
+       }
+     ]
    },
    {
      "x": 157,
      "y": 5,
-     "label": "2016-06-24"
+     "label": "2016-06-24",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "Brexit"
+       },
+       {
+         "y": 4,
+         "hname": "BrexitVote"
+       }
+     ]
    },
    {
      "x": 158,
      "y": 2,
-     "label": "2016-06-25"
+     "label": "2016-06-25",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "WestVirginia"
+       },
+       {
+         "y": 1,
+         "hname": "ImWithYou"
+       }
+     ]
    },
    {
      "x": 159,
      "y": 9,
-     "label": "2016-06-26"
+     "label": "2016-06-26",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "USMC2016"
+       },
+       {
+         "y": 4,
+         "hname": "DemPlatform"
+       },
+       {
+         "y": 1,
+         "hname": "ImWithHer"
+       },
+       {
+         "y": 1,
+         "hname": "AmericaFirst"
+       },
+       {
+         "y": 1,
+         "hname": "NYCPride"
+       },
+       {
+         "y": 1,
+         "hname": "CrookedHillary"
+       }
+     ]
    },
    {
      "x": 160,
      "y": 5,
-     "label": "2016-06-27"
+     "label": "2016-06-27",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "TurnUpToVote"
+       },
+       {
+         "y": 1,
+         "hname": "MAGA"
+       },
+       {
+         "y": 1,
+         "hname": "dtmag"
+       },
+       {
+         "y": 1,
+         "hname": "OHHillYes"
+       },
+       {
+         "y": 1,
+         "hname": "Trump2016"
+       }
+     ]
    },
    {
      "x": 161,
      "y": 6,
-     "label": "2016-06-28"
+     "label": "2016-06-28",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "POTUS"
+       },
+       {
+         "y": 1,
+         "hname": "UPUPUP"
+       },
+       {
+         "y": 1,
+         "hname": "Trump"
+       },
+       {
+         "y": 1,
+         "hname": "SCOTUS"
+       },
+       {
+         "y": 1,
+         "hname": "CrookedHillary"
+       },
+       {
+         "y": 1,
+         "hname": "Trump2016"
+       }
+     ]
    },
    {
      "x": 162,
      "y": 3,
-     "label": "2016-06-29"
+     "label": "2016-06-29",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "Trump2016"
+       },
+       {
+         "y": 2,
+         "hname": "CreatorsAskHRC"
+       }
+     ]
    },
    {
      "x": 163,
      "y": 2,
-     "label": "2016-06-30"
+     "label": "2016-06-30",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "WakeUpAmerica"
+       },
+       {
+         "y": 1,
+         "hname": "StoptheHate"
+       }
+     ]
    },
    {
      "x": 164,
      "y": 7,
-     "label": "2016-07-01"
+     "label": "2016-07-01",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "TBT"
+       },
+       {
+         "y": 1,
+         "hname": "WCS16"
+       },
+       {
+         "y": 1,
+         "hname": "makersandtakers"
+       },
+       {
+         "y": 2,
+         "hname": "AmericaFirst"
+       },
+       {
+         "y": 2,
+         "hname": "ImWithYou"
+       }
+     ]
    },
    {
      "x": 165,
      "y": 9,
-     "label": "2016-07-02"
+     "label": "2016-07-02",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "LeadRight2016"
+       },
+       {
+         "y": 5,
+         "hname": "AmericaFirst"
+       },
+       {
+         "y": 3,
+         "hname": "ImWithYou"
+       }
+     ]
    },
    {
      "x": 166,
      "y": 2,
-     "label": "2016-07-04"
+     "label": "2016-07-04",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "Trump2016"
+       },
+       {
+         "y": 1,
+         "hname": "AmericaFirst"
+       }
+     ]
    },
    {
      "x": 167,
      "y": 2,
-     "label": "2016-07-05"
+     "label": "2016-07-05",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "RiggedSystem"
+       },
+       {
+         "y": 1,
+         "hname": "FirstInPOTUS"
+       }
+     ]
    },
    {
      "x": 168,
      "y": 7,
-     "label": "2016-07-07"
+     "label": "2016-07-07",
+     "htags": [
+       {
+         "y": 3,
+         "hname": "Trump2016"
+       },
+       {
+         "y": 2,
+         "hname": "AmericaFirst"
+       },
+       {
+         "y": 1,
+         "hname": "PhilandoCastile"
+       },
+       {
+         "y": 1,
+         "hname": "Frozen"
+       }
+     ]
    },
    {
      "x": 169,
      "y": 1,
-     "label": "2016-07-08"
+     "label": "2016-07-08",
+     "htags": [{
+       "y": 1,
+       "hname": "TBT"
+     }]
    },
    {
      "x": 170,
      "y": 2,
-     "label": "2016-07-09"
+     "label": "2016-07-09",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "Trump2016"
+       },
+       {
+         "y": 1,
+         "hname": "Wimbledon"
+       }
+     ]
    },
    {
      "x": 171,
      "y": 3,
-     "label": "2016-07-11"
+     "label": "2016-07-11",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "NeverForget"
+       },
+       {
+         "y": 1,
+         "hname": "Trump2016"
+       },
+       {
+         "y": 1,
+         "hname": "Srebrenica"
+       }
+     ]
    },
    {
      "x": 172,
      "y": 8,
-     "label": "2016-07-12"
+     "label": "2016-07-12",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "StoptheHate"
+       },
+       {
+         "y": 1,
+         "hname": "WORK"
+       },
+       {
+         "y": 2,
+         "hname": "ImWithYou"
+       },
+       {
+         "y": 1,
+         "hname": "Trump2016"
+       },
+       {
+         "y": 2,
+         "hname": "CrookedHillary"
+       },
+       {
+         "y": 1,
+         "hname": "Orlando"
+       }
+     ]
    },
    {
      "x": 173,
      "y": 9,
-     "label": "2016-07-13"
+     "label": "2016-07-13",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "ImWithHer"
+       },
+       {
+         "y": 1,
+         "hname": "FeelTheBern"
+       },
+       {
+         "y": 1,
+         "hname": "NAACP107"
+       },
+       {
+         "y": 2,
+         "hname": "ImWithYou"
+       },
+       {
+         "y": 3,
+         "hname": "CrookedHillary"
+       },
+       {
+         "y": 1,
+         "hname": "Trump2016"
+       }
+     ]
    },
    {
      "x": 174,
      "y": 6,
-     "label": "2016-07-14"
+     "label": "2016-07-14",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "JuntosSePuede"
+       },
+       {
+         "y": 1,
+         "hname": "IranDeal"
+       },
+       {
+         "y": 1,
+         "hname": "fixdemocracyfirst"
+       },
+       {
+         "y": 2,
+         "hname": "ImWithYou"
+       },
+       {
+         "y": 1,
+         "hname": "Trump2016"
+       }
+     ]
    },
    {
      "x": 175,
      "y": 2,
-     "label": "2016-07-15"
+     "label": "2016-07-15",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "MikePence"
+       },
+       {
+         "y": 1,
+         "hname": "NeverTrump"
+       }
+     ]
    },
    {
      "x": 176,
      "y": 5,
-     "label": "2016-07-16"
+     "label": "2016-07-16",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "CitizensUnited"
+       },
+       {
+         "y": 1,
+         "hname": "campaignfinance"
+       },
+       {
+         "y": 1,
+         "hname": "TrumpPence16"
+       },
+       {
+         "y": 1,
+         "hname": "ImWithHer"
+       },
+       {
+         "y": 1,
+         "hname": "Turkey"
+       }
+     ]
    },
    {
      "x": 177,
      "y": 1,
-     "label": "2016-07-17"
+     "label": "2016-07-17",
+     "htags": [{
+       "y": 1,
+       "hname": "60Minutes"
+     }]
    },
    {
      "x": 178,
      "y": 6,
-     "label": "2016-07-18"
+     "label": "2016-07-18",
+     "htags": [
+       {
+         "y": 3,
+         "hname": "RNCinCLE"
+       },
+       {
+         "y": 1,
+         "hname": "MakeAmericaSafeAgain"
+       },
+       {
+         "y": 1,
+         "hname": "AIDSFreeGeneration"
+       },
+       {
+         "y": 1,
+         "hname": "StrongerTogether"
+       }
+     ]
    },
    {
      "x": 179,
      "y": 11,
-     "label": "2016-07-19"
+     "label": "2016-07-19",
+     "htags": [
+       {
+         "y": 2,
+         "hname": "GOPConvention"
+       },
+       {
+         "y": 9,
+         "hname": "RNCinCLE"
+       }
+     ]
    },
    {
      "x": 180,
      "y": 17,
-     "label": "2016-07-20"
+     "label": "2016-07-20",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "GOPConvention"
+       },
+       {
+         "y": 1,
+         "hname": "CitizensUnited"
+       },
+       {
+         "y": 14,
+         "hname": "RNCinCLE"
+       },
+       {
+         "y": 1,
+         "hname": "AmericaFirst"
+       }
+     ]
    },
    {
      "x": 181,
      "y": 34,
-     "label": "2016-07-21"
+     "label": "2016-07-21",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "GOPConvention"
+       },
+       {
+         "y": 4,
+         "hname": "TrumpYourself"
+       },
+       {
+         "y": 19,
+         "hname": "RNCinCLE"
+       },
+       {
+         "y": 5,
+         "hname": "AmericaFirst"
+       },
+       {
+         "y": 1,
+         "hname": "NATO"
+       },
+       {
+         "y": 1,
+         "hname": "GOPinCLE"
+       },
+       {
+         "y": 1,
+         "hname": "TrumpPence2016"
+       },
+       {
+         "y": 1,
+         "hname": "StandTogether"
+       },
+       {
+         "y": 1,
+         "hname": "RNCINCLE"
+       }
+     ]
    },
    {
      "x": 182,
      "y": 17,
-     "label": "2016-07-22"
+     "label": "2016-07-22",
+     "htags": [
+       {
+         "y": 10,
+         "hname": "RNCinCLE"
+       },
+       {
+         "y": 1,
+         "hname": "TrumpPence16"
+       },
+       {
+         "y": 1,
+         "hname": "TrumpIsWithYou"
+       },
+       {
+         "y": 1,
+         "hname": "MakeAmericaGreatAgain"
+       },
+       {
+         "y": 3,
+         "hname": "RNCInCLE"
+       },
+       {
+         "y": 1,
+         "hname": "RNCwithBernie"
+       }
+     ]
    },
    {
      "x": 183,
      "y": 9,
-     "label": "2016-07-23"
+     "label": "2016-07-23",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "HillaryKaine2016"
+       },
+       {
+         "y": 1,
+         "hname": "RNCinCLE"
+       },
+       {
+         "y": 2,
+         "hname": "ImWithHer"
+       },
+       {
+         "y": 1,
+         "hname": "StrongerTogether"
+       },
+       {
+         "y": 2,
+         "hname": "ClintonKaine"
+       },
+       {
+         "y": 1,
+         "hname": "MakeAmericaSafeAgain"
+       },
+       {
+         "y": 1,
+         "hname": "VirWINia"
+       }
+     ]
    },
    {
      "x": 184,
      "y": 14,
-     "label": "2016-07-25"
+     "label": "2016-07-25",
+     "htags": [
+       {
+         "y": 3,
+         "hname": "DemConvention"
+       },
+       {
+         "y": 1,
+         "hname": "LoveTrumpsHate"
+       },
+       {
+         "y": 3,
+         "hname": "TrumpPence16"
+       },
+       {
+         "y": 4,
+         "hname": "DemsInPhilly"
+       },
+       {
+         "y": 1,
+         "hname": "MakeAmericaGreatAgain"
+       },
+       {
+         "y": 1,
+         "hname": "MAGA"
+       },
+       {
+         "y": 1,
+         "hname": "LGBT"
+       }
+     ]
    },
    {
      "x": 185,
      "y": 51,
-     "label": "2016-07-26"
+     "label": "2016-07-26",
+     "htags": [
+       {
+         "y": 2,
+         "hname": "TrumpPence16"
+       },
+       {
+         "y": 32,
+         "hname": "DemsInPhilly"
+       },
+       {
+         "y": 1,
+         "hname": "MakeAmericaGreatAgain"
+       },
+       {
+         "y": 2,
+         "hname": "DemsInPHL"
+       },
+       {
+         "y": 4,
+         "hname": "WeMadeHistory"
+       },
+       {
+         "y": 2,
+         "hname": "MAGA"
+       },
+       {
+         "y": 2,
+         "hname": "RollCallVote"
+       },
+       {
+         "y": 4,
+         "hname": "DemConvention"
+       },
+       {
+         "y": 1,
+         "hname": "DemsinPHL"
+       },
+       {
+         "y": 1,
+         "hname": "ImWithHer"
+       }
+     ]
    },
    {
      "x": 186,
      "y": 21,
-     "label": "2016-07-27"
+     "label": "2016-07-27",
+     "htags": [
+       {
+         "y": 9,
+         "hname": "DemsInPhilly"
+       },
+       {
+         "y": 1,
+         "hname": "DNCinPHL"
+       },
+       {
+         "y": 2,
+         "hname": "MakeAmericaGreatAgain"
+       },
+       {
+         "y": 1,
+         "hname": "DemsInPHL"
+       },
+       {
+         "y": 1,
+         "hname": "MAGA"
+       },
+       {
+         "y": 1,
+         "hname": "LGBT"
+       },
+       {
+         "y": 2,
+         "hname": "DemsinPhilly"
+       },
+       {
+         "y": 2,
+         "hname": "DemConvention"
+       },
+       {
+         "y": 1,
+         "hname": "Pulse"
+       },
+       {
+         "y": 1,
+         "hname": "StrongerTogether"
+       }
+     ]
    },
    {
      "x": 187,
      "y": 16,
-     "label": "2016-07-28"
+     "label": "2016-07-28",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "TBT"
+       },
+       {
+         "y": 1,
+         "hname": "StopGunViolence"
+       },
+       {
+         "y": 1,
+         "hname": "ImWithHer"
+       },
+       {
+         "y": 6,
+         "hname": "DemsInPhilly"
+       },
+       {
+         "y": 1,
+         "hname": "DNC"
+       },
+       {
+         "y": 1,
+         "hname": "MakeAmericaGreatAgain"
+       },
+       {
+         "y": 1,
+         "hname": "enough"
+       },
+       {
+         "y": 2,
+         "hname": "MAGA"
+       },
+       {
+         "y": 1,
+         "hname": "NATO"
+       },
+       {
+         "y": 1,
+         "hname": "DemConvention"
+       }
+     ]
    },
    {
      "x": 188,
      "y": 5,
-     "label": "2016-07-29"
+     "label": "2016-07-29",
+     "htags": [
+       {
+         "y": 2,
+         "hname": "NeverHillary"
+       },
+       {
+         "y": 1,
+         "hname": "DemConvention"
+       },
+       {
+         "y": 1,
+         "hname": "TrumpPence16"
+       },
+       {
+         "y": 1,
+         "hname": "StrongerTogether"
+       }
+     ]
    },
    {
      "x": 189,
      "y": 10,
-     "label": "2016-07-30"
+     "label": "2016-07-30",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "LESM"
+       },
+       {
+         "y": 1,
+         "hname": "1"
+       },
+       {
+         "y": 1,
+         "hname": "ImWithHer"
+       },
+       {
+         "y": 2,
+         "hname": "MakeAmericaGreatAgain"
+       },
+       {
+         "y": 2,
+         "hname": "CrookedHillary"
+       },
+       {
+         "y": 1,
+         "hname": "KhizrKhan"
+       },
+       {
+         "y": 1,
+         "hname": "Trump2016"
+       },
+       {
+         "y": 1,
+         "hname": "MAGA"
+       }
+     ]
    },
    {
      "x": 190,
      "y": 2,
-     "label": "2016-07-31"
+     "label": "2016-07-31",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "MSM"
+       },
+       {
+         "y": 1,
+         "hname": "VoterFraud"
+       }
+     ]
    },
    {
      "x": 191,
      "y": 6,
-     "label": "2016-08-01"
+     "label": "2016-08-01",
+     "htags": [
+       {
+         "y": 2,
+         "hname": "MAGA"
+       },
+       {
+         "y": 3,
+         "hname": "ImWithYou"
+       },
+       {
+         "y": 1,
+         "hname": "MakeAmericaGreatAgain"
+       }
+     ]
    },
    {
      "x": 192,
      "y": 10,
-     "label": "2016-08-02"
+     "label": "2016-08-02",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "ICYMI"
+       },
+       {
+         "y": 1,
+         "hname": "ImWithHer"
+       },
+       {
+         "y": 1,
+         "hname": "MakeAmericaGreatAgain"
+       },
+       {
+         "y": 1,
+         "hname": "CrookedHillary"
+       },
+       {
+         "y": 2,
+         "hname": "MAGA"
+       },
+       {
+         "y": 1,
+         "hname": "ImWithYou"
+       },
+       {
+         "y": 2,
+         "hname": "DemConvention"
+       },
+       {
+         "y": 1,
+         "hname": "TrumpMovement"
+       }
+     ]
    },
    {
      "x": 193,
      "y": 5,
-     "label": "2016-08-03"
+     "label": "2016-08-03",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "LESM"
+       },
+       {
+         "y": 2,
+         "hname": "MAGA"
+       },
+       {
+         "y": 1,
+         "hname": "ImWithYou"
+       },
+       {
+         "y": 1,
+         "hname": "MakeAmericaGreatAgain"
+       }
+     ]
    },
    {
      "x": 194,
      "y": 4,
-     "label": "2016-08-04"
+     "label": "2016-08-04",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "CoastGuardDay"
+       },
+       {
+         "y": 1,
+         "hname": "MAGA"
+       },
+       {
+         "y": 2,
+         "hname": "MakeAmericaGreatAgain"
+       }
+     ]
    },
    {
      "x": 195,
      "y": 4,
-     "label": "2016-08-05"
+     "label": "2016-08-05",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "NABJNAHJ16"
+       },
+       {
+         "y": 1,
+         "hname": "MAGA"
+       },
+       {
+         "y": 1,
+         "hname": "TrumpPence16"
+       },
+       {
+         "y": 1,
+         "hname": "TrumpTrain"
+       }
+     ]
    },
    {
      "x": 196,
      "y": 11,
-     "label": "2016-08-06"
+     "label": "2016-08-06",
+     "htags": [
+       {
+         "y": 2,
+         "hname": "RestoreTheVRA"
+       },
+       {
+         "y": 1,
+         "hname": "OpeningCeremony"
+       },
+       {
+         "y": 2,
+         "hname": "TrumpPence16"
+       },
+       {
+         "y": 1,
+         "hname": "CrookedHillary"
+       },
+       {
+         "y": 1,
+         "hname": "ugpride2016"
+       },
+       {
+         "y": 1,
+         "hname": "MAGA"
+       },
+       {
+         "y": 1,
+         "hname": "Rio2016"
+       },
+       {
+         "y": 1,
+         "hname": "TeamUSA"
+       },
+       {
+         "y": 1,
+         "hname": "DemConvention"
+       }
+     ]
    },
    {
      "x": 197,
      "y": 6,
-     "label": "2016-08-07"
+     "label": "2016-08-07",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "PurpleHeartDay"
+       },
+       {
+         "y": 1,
+         "hname": "sendDonaldtospace"
+       },
+       {
+         "y": 1,
+         "hname": "TrumpPence16"
+       },
+       {
+         "y": 1,
+         "hname": "ImWithHernandez"
+       },
+       {
+         "y": 1,
+         "hname": "VirWINia"
+       },
+       {
+         "y": 1,
+         "hname": "MAGA"
+       }
+     ]
    },
    {
      "x": 198,
      "y": 5,
-     "label": "2016-08-08"
+     "label": "2016-08-08",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "ICYMI"
+       },
+       {
+         "y": 1,
+         "hname": "smallbiz"
+       },
+       {
+         "y": 1,
+         "hname": "NeverTrump"
+       },
+       {
+         "y": 1,
+         "hname": "MakeAmericaGreatAgain"
+       },
+       {
+         "y": 1,
+         "hname": "taxplan"
+       }
+     ]
    },
    {
      "x": 199,
      "y": 10,
-     "label": "2016-08-09"
+     "label": "2016-08-09",
+     "htags": [
+       {
+         "y": 3,
+         "hname": "NeverHillary"
+       },
+       {
+         "y": 1,
+         "hname": "DefendtheSecond"
+       },
+       {
+         "y": 1,
+         "hname": "MakeAmericaGreatAgain"
+       },
+       {
+         "y": 1,
+         "hname": "ElectionDay"
+       },
+       {
+         "y": 1,
+         "hname": "SCOTUS"
+       },
+       {
+         "y": 2,
+         "hname": "2A"
+       },
+       {
+         "y": 1,
+         "hname": "MAGA"
+       }
+     ]
    },
    {
      "x": 200,
      "y": 5,
-     "label": "2016-08-10"
+     "label": "2016-08-10",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "LESM"
+       },
+       {
+         "y": 1,
+         "hname": "MAGA"
+       },
+       {
+         "y": 2,
+         "hname": "TrumpPence16"
+       },
+       {
+         "y": 1,
+         "hname": "MakeAmericaGreatAgain"
+       }
+     ]
    },
    {
      "x": 201,
      "y": 1,
-     "label": "2016-08-11"
+     "label": "2016-08-11",
+     "htags": [{
+       "y": 1,
+       "hname": "MakeAmericaGreatAgain"
+     }]
    },
    {
      "x": 202,
      "y": 4,
-     "label": "2016-08-12"
+     "label": "2016-08-12",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "TBT"
+       },
+       {
+         "y": 1,
+         "hname": "YouthDay"
+       },
+       {
+         "y": 1,
+         "hname": "MAGA"
+       },
+       {
+         "y": 1,
+         "hname": "MakeAmericaGreatAgain"
+       }
+     ]
    },
    {
      "x": 203,
      "y": 3,
-     "label": "2016-08-13"
+     "label": "2016-08-13",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "TrumpTrain"
+       },
+       {
+         "y": 1,
+         "hname": "MakeAmericaGreatAgain"
+       },
+       {
+         "y": 1,
+         "hname": "USA"
+       }
+     ]
    },
    {
      "x": 204,
      "y": 2,
-     "label": "2016-08-15"
+     "label": "2016-08-15",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "DACA"
+       },
+       {
+         "y": 1,
+         "hname": "extremevetting"
+       }
+     ]
    },
    {
      "x": 205,
      "y": 1,
-     "label": "2016-08-16"
+     "label": "2016-08-16",
+     "htags": [{
+       "y": 1,
+       "hname": "Obamacare"
+     }]
    },
    {
      "x": 206,
      "y": 12,
-     "label": "2016-08-17"
+     "label": "2016-08-17",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "Obamacare"
+       },
+       {
+         "y": 3,
+         "hname": "MakeAmericaGreatAgain"
+       },
+       {
+         "y": 6,
+         "hname": "ImWithYou"
+       },
+       {
+         "y": 2,
+         "hname": "LawandOrder"
+       }
+     ]
    },
    {
      "x": 207,
      "y": 1,
-     "label": "2016-08-18"
+     "label": "2016-08-18",
+     "htags": [{
+       "y": 1,
+       "hname": "RosanellEaton"
+     }]
    },
    {
      "x": 208,
      "y": 5,
-     "label": "2016-08-19"
+     "label": "2016-08-19",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "WHD"
+       },
+       {
+         "y": 1,
+         "hname": "TrumpPence16"
+       },
+       {
+         "y": 1,
+         "hname": "TrumpTrain"
+       },
+       {
+         "y": 1,
+         "hname": "ImWithYou"
+       },
+       {
+         "y": 1,
+         "hname": "MakeAmericaGreatAgain"
+       }
+     ]
    },
    {
      "x": 209,
      "y": 7,
-     "label": "2016-08-20"
+     "label": "2016-08-20",
+     "htags": [
+       {
+         "y": 2,
+         "hname": "MAGA"
+       },
+       {
+         "y": 1,
+         "hname": "AlwaysTrump"
+       },
+       {
+         "y": 1,
+         "hname": "StandWithLouisiana"
+       },
+       {
+         "y": 2,
+         "hname": "TrumpPence16"
+       },
+       {
+         "y": 1,
+         "hname": "WheresHillary"
+       }
+     ]
    },
    {
      "x": 210,
      "y": 3,
-     "label": "2016-08-22"
+     "label": "2016-08-22",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "TeamTrump"
+       },
+       {
+         "y": 1,
+         "hname": "MAGA"
+       },
+       {
+         "y": 1,
+         "hname": "TrumpPence16"
+       }
+     ]
    },
    {
      "x": 211,
      "y": 4,
-     "label": "2016-08-23"
+     "label": "2016-08-23",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "LAflood"
+       },
+       {
+         "y": 1,
+         "hname": "BlackWomensEqualPay"
+       },
+       {
+         "y": 1,
+         "hname": "smallbiz"
+       },
+       {
+         "y": 1,
+         "hname": "Diwali"
+       }
+     ]
    },
    {
      "x": 212,
      "y": 8,
-     "label": "2016-08-24"
+     "label": "2016-08-24",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "AmericaFirst"
+       },
+       {
+         "y": 1,
+         "hname": "TrumpPence16"
+       },
+       {
+         "y": 1,
+         "hname": "ImWithHer"
+       },
+       {
+         "y": 1,
+         "hname": "ImWithYou"
+       },
+       {
+         "y": 3,
+         "hname": "MakeAmericaGreatAgain"
+       },
+       {
+         "y": 1,
+         "hname": "MakeAmericaSafeAgain"
+       }
+     ]
    },
    {
      "x": 213,
      "y": 7,
-     "label": "2016-08-25"
+     "label": "2016-08-25",
+     "htags": [
+       {
+         "y": 2,
+         "hname": "NPS100"
+       },
+       {
+         "y": 1,
+         "hname": "Hannity"
+       },
+       {
+         "y": 1,
+         "hname": "brexit"
+       },
+       {
+         "y": 1,
+         "hname": "BuildTheWall"
+       },
+       {
+         "y": 1,
+         "hname": "CrookedHillary"
+       },
+       {
+         "y": 1,
+         "hname": "MAGA"
+       }
+     ]
    },
    {
      "x": 214,
      "y": 11,
-     "label": "2016-08-26"
+     "label": "2016-08-26",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "AmericaFirst"
+       },
+       {
+         "y": 1,
+         "hname": "TrumpPence16"
+       },
+       {
+         "y": 1,
+         "hname": "FlashbackFriday"
+       },
+       {
+         "y": 1,
+         "hname": "MakeAmericaGreatAgain"
+       },
+       {
+         "y": 1,
+         "hname": "Enjoy"
+       },
+       {
+         "y": 1,
+         "hname": "CrookedHillary"
+       },
+       {
+         "y": 1,
+         "hname": "ImWithYou"
+       },
+       {
+         "y": 4,
+         "hname": "WomensEqualityDay"
+       }
+     ]
    },
    {
      "x": 215,
      "y": 6,
-     "label": "2016-08-27"
+     "label": "2016-08-27",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "StrongerTogether"
+       },
+       {
+         "y": 2,
+         "hname": "ImWithYou"
+       },
+       {
+         "y": 1,
+         "hname": "Hillary2016"
+       },
+       {
+         "y": 1,
+         "hname": "BlackMenForBernie"
+       },
+       {
+         "y": 1,
+         "hname": "BlacksForTrump"
+       }
+     ]
    },
    {
      "x": 216,
      "y": 5,
-     "label": "2016-08-28"
+     "label": "2016-08-28",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "NeverHillary"
+       },
+       {
+         "y": 1,
+         "hname": "StrongerTogether"
+       },
+       {
+         "y": 1,
+         "hname": "GoodTrouble"
+       },
+       {
+         "y": 1,
+         "hname": "VoteTrump"
+       },
+       {
+         "y": 1,
+         "hname": "TrumpPence2016"
+       }
+     ]
    },
    {
      "x": 217,
      "y": 4,
-     "label": "2016-08-29"
+     "label": "2016-08-29",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "JuanGabriel"
+       },
+       {
+         "y": 1,
+         "hname": "DivoDeJuarez"
+       },
+       {
+         "y": 1,
+         "hname": "Obamacare"
+       },
+       {
+         "y": 1,
+         "hname": "RIP"
+       }
+     ]
    },
    {
      "x": 218,
      "y": 4,
-     "label": "2016-08-30"
+     "label": "2016-08-30",
+     "htags": [
+       {
+         "y": 2,
+         "hname": "MAGA"
+       },
+       {
+         "y": 2,
+         "hname": "ImWithYou"
+       }
+     ]
    },
    {
      "x": 219,
      "y": 3,
-     "label": "2016-08-31"
+     "label": "2016-08-31",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "AmericaFirst"
+       },
+       {
+         "y": 1,
+         "hname": "ImWithYou"
+       },
+       {
+         "y": 1,
+         "hname": "TrumpinEverett"
+       }
+     ]
    },
    {
      "x": 220,
      "y": 11,
-     "label": "2016-09-01"
+     "label": "2016-09-01",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "ALConvention2016"
+       },
+       {
+         "y": 2,
+         "hname": "AmericaFirst"
+       },
+       {
+         "y": 1,
+         "hname": "TrumpPence16"
+       },
+       {
+         "y": 5,
+         "hname": "ImWithYou"
+       },
+       {
+         "y": 2,
+         "hname": "MakeAmericaGreatAgain"
+       }
+     ]
    },
    {
      "x": 221,
      "y": 3,
-     "label": "2016-09-02"
+     "label": "2016-09-02",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "MAGA"
+       },
+       {
+         "y": 1,
+         "hname": "MakeAmericaGreatAgain"
+       },
+       {
+         "y": 1,
+         "hname": "ImWithYou"
+       }
+     ]
    },
    {
      "x": 222,
      "y": 6,
-     "label": "2016-09-05"
+     "label": "2016-09-05",
+     "htags": [
+       {
+         "y": 2,
+         "hname": "LaborDay"
+       },
+       {
+         "y": 1,
+         "hname": "MAGA"
+       },
+       {
+         "y": 3,
+         "hname": "AmericaFirst"
+       }
+     ]
    },
    {
      "x": 223,
      "y": 6,
-     "label": "2016-09-06"
+     "label": "2016-09-06",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "1"
+       },
+       {
+         "y": 1,
+         "hname": "AmericaFirst"
+       },
+       {
+         "y": 2,
+         "hname": "ImWithYou"
+       },
+       {
+         "y": 2,
+         "hname": "VoteTrump"
+       }
+     ]
    },
    {
      "x": 224,
      "y": 6,
-     "label": "2016-09-07"
+     "label": "2016-09-07",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "MAGA"
+       },
+       {
+         "y": 1,
+         "hname": "media"
+       },
+       {
+         "y": 2,
+         "hname": "AmericaFirst"
+       },
+       {
+         "y": 1,
+         "hname": "VoteTrump"
+       },
+       {
+         "y": 1,
+         "hname": "MakeAmericaGreatAgain"
+       }
+     ]
    },
    {
      "x": 225,
      "y": 18,
-     "label": "2016-09-08"
+     "label": "2016-09-08",
+     "htags": [
+       {
+         "y": 2,
+         "hname": "AmericaFirst"
+       },
+       {
+         "y": 1,
+         "hname": "TrumpTrain"
+       },
+       {
+         "y": 1,
+         "hname": "ImWithYou"
+       },
+       {
+         "y": 1,
+         "hname": "CommanderInChiefForum"
+       },
+       {
+         "y": 12,
+         "hname": "NBCNewsForum"
+       },
+       {
+         "y": 1,
+         "hname": "POTUS"
+       }
+     ]
    },
    {
      "x": 226,
      "y": 6,
-     "label": "2016-09-09"
+     "label": "2016-09-09",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "LoveTrumpsHate"
+       },
+       {
+         "y": 1,
+         "hname": "MAGA"
+       },
+       {
+         "y": 1,
+         "hname": "AmericaFirst"
+       },
+       {
+         "y": 2,
+         "hname": "ImWithYou"
+       },
+       {
+         "y": 1,
+         "hname": "MakeAmericaGreatAgain"
+       }
+     ]
    },
    {
      "x": 227,
      "y": 1,
-     "label": "2016-09-10"
+     "label": "2016-09-10",
+     "htags": [{
+       "y": 1,
+       "hname": "AmericaFirst"
+     }]
    },
    {
      "x": 228,
      "y": 6,
-     "label": "2016-09-13"
+     "label": "2016-09-13",
+     "htags": [
+       {
+         "y": 2,
+         "hname": "MAGA"
+       },
+       {
+         "y": 1,
+         "hname": "election2016"
+       },
+       {
+         "y": 1,
+         "hname": "AmericaFirst"
+       },
+       {
+         "y": 2,
+         "hname": "MakeAmericaGreatAgain"
+       }
+     ]
    },
    {
      "x": 229,
      "y": 3,
-     "label": "2016-09-14"
+     "label": "2016-09-14",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "AmericaFirst"
+       },
+       {
+         "y": 2,
+         "hname": "ImWithYou"
+       }
+     ]
    },
    {
      "x": 230,
      "y": 9,
-     "label": "2016-09-15"
+     "label": "2016-09-15",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "LESM"
+       },
+       {
+         "y": 1,
+         "hname": "LibrarianOfCongress"
+       },
+       {
+         "y": 1,
+         "hname": "AmericaFirst"
+       },
+       {
+         "y": 1,
+         "hname": "HispanicHeritageMonth"
+       },
+       {
+         "y": 1,
+         "hname": "WeTrumpHate"
+       },
+       {
+         "y": 4,
+         "hname": "MAGA"
+       }
+     ]
    },
    {
      "x": 231,
      "y": 8,
-     "label": "2016-09-16"
+     "label": "2016-09-16",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "JimmyFallon"
+       },
+       {
+         "y": 1,
+         "hname": "AmericaFirst"
+       },
+       {
+         "y": 1,
+         "hname": "TrumpPence16"
+       },
+       {
+         "y": 1,
+         "hname": "MyTeacherIsWeird"
+       },
+       {
+         "y": 1,
+         "hname": "TheDonald"
+       },
+       {
+         "y": 1,
+         "hname": "MAGA"
+       },
+       {
+         "y": 1,
+         "hname": "TheTonightShow"
+       },
+       {
+         "y": 1,
+         "hname": "FallonTonight"
+       }
+     ]
    },
    {
      "x": 232,
      "y": 1,
-     "label": "2016-09-18"
+     "label": "2016-09-18",
+     "htags": [{
+       "y": 1,
+       "hname": "polls"
+     }]
    },
    {
      "x": 233,
      "y": 8,
-     "label": "2016-09-20"
+     "label": "2016-09-20",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "TerenceCrutcher"
+       },
+       {
+         "y": 1,
+         "hname": "UNGA"
+       },
+       {
+         "y": 3,
+         "hname": "AmericaFirst"
+       },
+       {
+         "y": 2,
+         "hname": "MakeAmericaGreatAgain"
+       },
+       {
+         "y": 1,
+         "hname": "ImWithYou"
+       }
+     ]
    },
    {
      "x": 234,
      "y": 4,
-     "label": "2016-09-22"
+     "label": "2016-09-22",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "imwithher"
+       },
+       {
+         "y": 1,
+         "hname": "MAGA"
+       },
+       {
+         "y": 1,
+         "hname": "ADA"
+       },
+       {
+         "y": 1,
+         "hname": "CripTheVote"
+       }
+     ]
    },
    {
      "x": 235,
      "y": 2,
-     "label": "2016-09-23"
+     "label": "2016-09-23",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "OpioidAwarenessWeek"
+       },
+       {
+         "y": 1,
+         "hname": "MakeAmericaGreatAgain"
+       }
+     ]
    },
    {
      "x": 236,
      "y": 2,
-     "label": "2016-09-24"
+     "label": "2016-09-24",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "LoveTrumpsHate"
+       },
+       {
+         "y": 1,
+         "hname": "DeclareYourAmbition"
+       }
+     ]
    },
    {
      "x": 237,
      "y": 1,
-     "label": "2016-09-25"
+     "label": "2016-09-25",
+     "htags": [{
+       "y": 1,
+       "hname": "LoveTrumpsHate"
+     }]
    },
    {
      "x": 238,
      "y": 13,
-     "label": "2016-09-26"
+     "label": "2016-09-26",
+     "htags": [
+       {
+         "y": 8,
+         "hname": "DebateNight"
+       },
+       {
+         "y": 1,
+         "hname": "TrumpPence16"
+       },
+       {
+         "y": 1,
+         "hname": "Polls"
+       },
+       {
+         "y": 2,
+         "hname": "Debates2016"
+       },
+       {
+         "y": 1,
+         "hname": "slipping"
+       }
+     ]
    },
    {
      "x": 239,
      "y": 93,
-     "label": "2016-09-27"
+     "label": "2016-09-27",
+     "htags": [
+       {
+         "y": 1,
+         "hname": "LoveTrumpsHate"
+       },
+       {
+         "y": 19,
+         "hname": "debatenight"
+       },
+       {
+         "y": 9,
+         "hname": "MAGA"
+       },
+       {
+         "y": 1,
+         "hname": "ISIS"
+       },
+       {
+         "y": 1,
+         "hname": "VoterRegistrationDay"
+       },
+       {
+         "y": 1,
+         "hname": "ImWithYou"
+       },
+       {
+         "y": 1,
+         "hname": "iRegistered"
+       },
+       {
+         "y": 22,
+         "hname": "DebateNight"
+       },
+       {
+         "y": 1,
+         "hname": "1"
+       },
+       {
+         "y": 1,
+         "hname": "StrongerTogether"
+       },
+       {
+         "y": 4,
+         "hname": "SheWon"
+       },
+       {
+         "y": 2,
+         "hname": "AmericaFirst"
+       },
+       {
+         "y": 1,
+         "hname": "ImWithHer"
+       },
+       {
+         "y": 1,
+         "hname": "MakeAmericaGreatAgain"
+       },
+       {
+         "y": 2,
+         "hname": "TrumpWon"
+       },
+       {
+         "y": 1,
+         "hname": "Debate"
+       },
+       {
+         "y": 12,
+         "hname": "Debates2016"
+       },
+       {
+         "y": 4,
+         "hname": "debate"
+       },
+       {
+         "y": 1,
+         "hname": "TPP"
+       },
+       {
+         "y": 1,
+         "hname": "Benghazi"
+       },
+       {
+         "y": 7,
+         "hname": "NationalVoterRegistrationDay"
+       }
+     ]
    }
  ]

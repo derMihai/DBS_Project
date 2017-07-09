@@ -64,6 +64,11 @@ public class Node_data_creator {
                                         +   "GROUP BY datum "
                                         +   "ORDER BY datum ASC;";
         //execute the statements, store the information blabla
+
+        String get_hashtahgaInaDay_query =  "SELECT hname, COUNT(c.hname) "
+                                        +   "FROM contains c "
+                                        +   "WHERE date_trunc('day', c.datum) = ? "
+                                        +   "GROUP BY c.hname";
         try {
             stmt = db_conn.createStatement();
             PreparedStatement pstmt;
@@ -165,10 +170,14 @@ public class Node_data_creator {
 
         try{
             rset = stmt.executeQuery(get_day_occurences_query);
+            JSONArray hashtags_subarray;
+            ResultSet rset2;
+            PreparedStatement h_subarray_stmt;
+
             int i = 0;
 
             JSONArray days_array = new JSONArray();
-            JSONObject day_object, wrapper_object;
+            JSONObject day_object, htag_obj;
 
             //int days[][] = new int[][2];
 
@@ -180,7 +189,19 @@ public class Node_data_creator {
 
               //  days[i][0] = i;
               //  days[i][1] = rset.getInt(2);
+                hashtags_subarray = new JSONArray();
 
+                h_subarray_stmt = db_conn.prepareStatement(get_hashtahgaInaDay_query);
+                h_subarray_stmt.setDate(1, rset.getDate(1));
+                rset2 = h_subarray_stmt.executeQuery();
+
+                while(rset2.next()){
+                    htag_obj = new JSONObject();
+                    htag_obj.put("hname", rset2.getString(1));
+                    htag_obj.put("y", rset2.getInt(2));
+                    hashtags_subarray.put(htag_obj);
+                }
+                day_object.put("htags", hashtags_subarray);
                 days_array.put(day_object);
                 i++;
             }
