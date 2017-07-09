@@ -16,7 +16,7 @@ public class Clusterer {
         if(!get_data(hashtags_dataset)) return;
 
         //K-Means-clusterer-Objekt
-        KMeans clusterer = new KMeans(10);
+        KMeans clusterer = new KMeans(6);
 
         //Berechnet die Clusters
         Dataset hashtag_clusters[] = clusterer.cluster(hashtags_dataset);
