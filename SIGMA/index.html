@@ -27,8 +27,9 @@ test = sigma.parsers.json( "plots.json",
   function(s) {
 
     s.graph.nodes().forEach(function(node, i, a) {
-      node.x = a[i]["x"];
-      node.y = a[i]["y"];
+
+      node.x = a[i].x;
+      node.y = a[i].y;
     });
 
     s.refresh();

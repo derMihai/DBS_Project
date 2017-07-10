@@ -18,7 +18,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1060">
               <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -36,13 +38,26 @@
       <file leaf-file-name="Node_data_creator.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/CSV_Parser/Node_data_creator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-65">
-              <caret line="103" column="0" lean-forward="true" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
+            <state relative-caret-position="375">
+              <caret line="68" column="58" lean-forward="false" selection-start-line="68" selection-start-column="58" selection-end-line="68" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1499335324532" expanded="true" signature="1435:1524" ph="SELECT hname... hashtag" />
-                <marker date="1499335324532" expanded="true" signature="1562:1726" ph="SELECT COUNT... contains" />
-                <marker date="1499335324532" expanded="true" signature="1767:1843" ph="SELECT hname... comesalong" />
+                <marker date="1499636469699" expanded="true" signature="1729:1818" ph="SELECT hname... hashtag" />
+                <marker date="1499636469699" expanded="true" signature="1911:2075" ph="SELECT COUNT... contains" />
+                <marker date="1499636469699" expanded="true" signature="2147:2223" ph="SELECT hname... comesalong" />
+                <marker date="1499636469699" expanded="true" signature="2318:2460" ph="SELECT FROM WHERE... " />
+                <marker date="1499636469699" expanded="true" signature="2318:2514" ph="SELECT FROM hashWHERE... " />
+                <marker date="1499636469699" expanded="true" signature="2318:2515" ph="SELECT t.dat... hashtag" />
+                <marker date="1499636469699" expanded="true" signature="2318:2520" ph="SELECT t.dat... hashtag" />
+                <marker date="1499636469699" expanded="true" signature="2318:2582" ph="SELECT t.dat... hashtag" />
+                <marker date="1499636469699" expanded="true" signature="2318:2586" ph="SELECT c.dat... hashtag" />
+                <marker date="1499636469699" expanded="true" signature="2398:2452" ph="SELECT EXTRA... " />
+                <marker date="1499636469699" expanded="true" signature="2699:2712" ph="SELECT hname... " />
+                <marker date="1499636469699" expanded="true" signature="2699:2727" ph="SELECT hname... " />
+                <marker date="1499636469699" expanded="true" signature="2699:2790" ph="SELECT hname... comesalong" />
+                <marker date="1499636469699" expanded="true" signature="2699:2870" ph="SELECT hname... comesalong" />
+                <marker date="1499636469699" expanded="true" signature="2699:2874" ph="SELECT hname... comesalong" />
+                <marker date="1499636469699" expanded="true" signature="2699:2938" ph="SELECT hname... contains" />
               </folding>
             </state>
           </provider>
@@ -51,12 +66,13 @@
       <file leaf-file-name="Clusterer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Clusterer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1760">
-              <caret line="93" column="53" lean-forward="false" selection-start-line="93" selection-start-column="53" selection-end-line="93" selection-end-column="53" />
+            <state relative-caret-position="260">
+              <caret line="18" column="39" lean-forward="false" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
               <folding>
-                <marker date="1499184661674" expanded="true" signature="1723:1993" ph="SELECT hname... tweet" />
-                <marker date="1499184661674" expanded="true" signature="3150:3198" ph="INSERT INTO hashtag... " />
-                <marker date="1499184661674" expanded="true" signature="3150:3257" ph="INSERT INTO hashtag... " />
+                <element signature="imports" expanded="false" />
+                <marker date="1499357330082" expanded="true" signature="1722:1992" ph="SELECT hname... tweet" />
+                <marker date="1499357330082" expanded="true" signature="3149:3197" ph="INSERT INTO hashtag... " />
+                <marker date="1499357330082" expanded="true" signature="3149:3256" ph="INSERT INTO hashtag... " />
               </folding>
             </state>
           </provider>
@@ -68,6 +84,7 @@
             <state relative-caret-position="2220">
               <caret line="121" column="56" lean-forward="false" selection-start-line="121" selection-start-column="56" selection-end-line="121" selection-end-column="56" />
               <folding>
+                <element signature="imports" expanded="false" />
                 <marker date="1499157762797" expanded="true" signature="3517:3669" ph="INSERT INTO tweet... " />
                 <marker date="1499157762797" expanded="true" signature="4505:4592" ph="INSERT INTO contains... " />
                 <marker date="1499157762797" expanded="true" signature="5175:5359" ph="UPDATE comes... " />
@@ -155,6 +172,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -211,9 +231,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -362,7 +379,7 @@
     <configuration default="false" name="Node_data_creator" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="CSV_Parser.Node_data_creator" />
       <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="../SIGMA/plots.json" />
+      <option name="PROGRAM_PARAMETERS" value="../SIGMA/plots.json ../SIGMA/days.json" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -429,11 +446,15 @@
       <workItem from="1499291143787" duration="880000" />
       <workItem from="1499296070559" duration="28000" />
       <workItem from="1499334765724" duration="986000" />
+      <workItem from="1499355280044" duration="2415000" />
+      <workItem from="1499440773549" duration="7957000" />
+      <workItem from="1499602323629" duration="1512000" />
+      <workItem from="1499635074512" duration="1403000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65954000" />
+    <option name="totallyTimeSpent" value="79241000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1875" height="1083" extended-state="6" />
@@ -444,7 +465,7 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295688" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="right" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3801388" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="right" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3363588" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -510,9 +531,10 @@
         <state relative-caret-position="1420">
           <caret line="76" column="98" lean-forward="false" selection-start-line="76" selection-start-column="98" selection-end-line="76" selection-end-column="98" />
           <folding>
-            <marker date="1499184661674" expanded="true" signature="1723:1993" ph="SELECT hname... tweet" />
-            <marker date="1499184661674" expanded="true" signature="3150:3198" ph="INSERT INTO hashtag... " />
-            <marker date="1499184661674" expanded="true" signature="3150:3257" ph="INSERT INTO hashtag... " />
+            <element signature="imports" expanded="false" />
+            <marker date="1499357330082" expanded="true" signature="1722:1992" ph="SELECT hname... tweet" />
+            <marker date="1499357330082" expanded="true" signature="3149:3197" ph="INSERT INTO hashtag... " />
+            <marker date="1499357330082" expanded="true" signature="3149:3256" ph="INSERT INTO hashtag... " />
           </folding>
         </state>
       </provider>
@@ -530,6 +552,7 @@
         <state relative-caret-position="1240">
           <caret line="62" column="48" lean-forward="false" selection-start-line="62" selection-start-column="48" selection-end-line="62" selection-end-column="48" />
           <folding>
+            <element signature="imports" expanded="false" />
             <marker date="1499157762797" expanded="true" signature="3517:3669" ph="INSERT INTO tweet... " />
             <marker date="1499157762797" expanded="true" signature="4505:4592" ph="INSERT INTO contains... " />
             <marker date="1499157762797" expanded="true" signature="5175:5359" ph="UPDATE comes... " />
@@ -543,7 +566,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1060">
           <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -560,6 +585,7 @@
         <state relative-caret-position="1920">
           <caret line="106" column="0" lean-forward="false" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
           <folding>
+            <element signature="imports" expanded="false" />
             <marker date="1499157762797" expanded="true" signature="3517:3669" ph="INSERT INTO tweet... " />
             <marker date="1499157762797" expanded="true" signature="4505:4592" ph="INSERT INTO contains... " />
             <marker date="1499157762797" expanded="true" signature="5175:5359" ph="UPDATE comes... " />
@@ -581,9 +607,10 @@
         <state relative-caret-position="60">
           <caret line="3" column="63" lean-forward="false" selection-start-line="3" selection-start-column="63" selection-end-line="3" selection-end-column="63" />
           <folding>
-            <marker date="1499184661674" expanded="true" signature="1723:1993" ph="SELECT hname... tweet" />
-            <marker date="1499184661674" expanded="true" signature="3150:3198" ph="INSERT INTO hashtag... " />
-            <marker date="1499184661674" expanded="true" signature="3150:3257" ph="INSERT INTO hashtag... " />
+            <element signature="imports" expanded="false" />
+            <marker date="1499357330082" expanded="true" signature="1722:1992" ph="SELECT hname... tweet" />
+            <marker date="1499357330082" expanded="true" signature="3149:3197" ph="INSERT INTO hashtag... " />
+            <marker date="1499357330082" expanded="true" signature="3149:3256" ph="INSERT INTO hashtag... " />
           </folding>
         </state>
       </provider>
@@ -592,7 +619,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1060">
           <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -609,6 +638,7 @@
         <state relative-caret-position="1920">
           <caret line="106" column="0" lean-forward="false" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
           <folding>
+            <element signature="imports" expanded="false" />
             <marker date="1499157762797" expanded="true" signature="3517:3669" ph="INSERT INTO tweet... " />
             <marker date="1499157762797" expanded="true" signature="4505:4592" ph="INSERT INTO contains... " />
             <marker date="1499157762797" expanded="true" signature="5175:5359" ph="UPDATE comes... " />
@@ -630,9 +660,10 @@
         <state relative-caret-position="60">
           <caret line="3" column="63" lean-forward="false" selection-start-line="3" selection-start-column="63" selection-end-line="3" selection-end-column="63" />
           <folding>
-            <marker date="1499184661674" expanded="true" signature="1723:1993" ph="SELECT hname... tweet" />
-            <marker date="1499184661674" expanded="true" signature="3150:3198" ph="INSERT INTO hashtag... " />
-            <marker date="1499184661674" expanded="true" signature="3150:3257" ph="INSERT INTO hashtag... " />
+            <element signature="imports" expanded="false" />
+            <marker date="1499357330082" expanded="true" signature="1722:1992" ph="SELECT hname... tweet" />
+            <marker date="1499357330082" expanded="true" signature="3149:3197" ph="INSERT INTO hashtag... " />
+            <marker date="1499357330082" expanded="true" signature="3149:3256" ph="INSERT INTO hashtag... " />
           </folding>
         </state>
       </provider>
@@ -641,7 +672,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1060">
           <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -658,6 +691,7 @@
         <state relative-caret-position="2160">
           <caret line="118" column="34" lean-forward="false" selection-start-line="118" selection-start-column="34" selection-end-line="118" selection-end-column="34" />
           <folding>
+            <element signature="imports" expanded="false" />
             <marker date="1499157762797" expanded="true" signature="3517:3669" ph="INSERT INTO tweet... " />
             <marker date="1499157762797" expanded="true" signature="4505:4592" ph="INSERT INTO contains... " />
             <marker date="1499157762797" expanded="true" signature="5175:5359" ph="UPDATE comes... " />
@@ -678,7 +712,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -695,6 +731,7 @@
         <state relative-caret-position="2160">
           <caret line="118" column="34" lean-forward="false" selection-start-line="118" selection-start-column="34" selection-end-line="118" selection-end-column="34" />
           <folding>
+            <element signature="imports" expanded="false" />
             <marker date="1499157762797" expanded="true" signature="3517:3669" ph="INSERT INTO tweet... " />
             <marker date="1499157762797" expanded="true" signature="4505:4592" ph="INSERT INTO contains... " />
             <marker date="1499157762797" expanded="true" signature="5175:5359" ph="UPDATE comes... " />
@@ -715,7 +752,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -732,6 +771,7 @@
         <state relative-caret-position="2160">
           <caret line="118" column="34" lean-forward="false" selection-start-line="118" selection-start-column="34" selection-end-line="118" selection-end-column="34" />
           <folding>
+            <element signature="imports" expanded="false" />
             <marker date="1499157762797" expanded="true" signature="3517:3669" ph="INSERT INTO tweet... " />
             <marker date="1499157762797" expanded="true" signature="4505:4592" ph="INSERT INTO contains... " />
             <marker date="1499157762797" expanded="true" signature="5175:5359" ph="UPDATE comes... " />
@@ -752,7 +792,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1060">
           <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -769,6 +811,7 @@
         <state relative-caret-position="2360">
           <caret line="118" column="34" lean-forward="false" selection-start-line="118" selection-start-column="34" selection-end-line="118" selection-end-column="34" />
           <folding>
+            <element signature="imports" expanded="false" />
             <marker date="1499157762797" expanded="true" signature="3517:3669" ph="INSERT INTO tweet... " />
             <marker date="1499157762797" expanded="true" signature="4505:4592" ph="INSERT INTO contains... " />
             <marker date="1499157762797" expanded="true" signature="5175:5359" ph="UPDATE comes... " />
@@ -789,7 +832,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1120">
           <caret line="56" column="0" lean-forward="true" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -813,6 +858,7 @@
         <state relative-caret-position="2360">
           <caret line="118" column="34" lean-forward="false" selection-start-line="118" selection-start-column="34" selection-end-line="118" selection-end-column="34" />
           <folding>
+            <element signature="imports" expanded="false" />
             <marker date="1499157762797" expanded="true" signature="3517:3669" ph="INSERT INTO tweet... " />
             <marker date="1499157762797" expanded="true" signature="4505:4592" ph="INSERT INTO contains... " />
             <marker date="1499157762797" expanded="true" signature="5175:5359" ph="UPDATE comes... " />
@@ -826,7 +872,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -842,6 +890,7 @@
         <state relative-caret-position="1180">
           <caret line="69" column="26" lean-forward="false" selection-start-line="69" selection-start-column="26" selection-end-line="69" selection-end-column="26" />
           <folding>
+            <element signature="imports" expanded="false" />
             <marker date="1499157762797" expanded="true" signature="3517:3669" ph="INSERT INTO tweet... " />
             <marker date="1499157762797" expanded="true" signature="4505:4592" ph="INSERT INTO contains... " />
             <marker date="1499157762797" expanded="true" signature="5175:5359" ph="UPDATE comes... " />
@@ -855,7 +904,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -871,6 +922,7 @@
         <state relative-caret-position="1380">
           <caret line="69" column="26" lean-forward="false" selection-start-line="69" selection-start-column="26" selection-end-line="69" selection-end-column="26" />
           <folding>
+            <element signature="imports" expanded="false" />
             <marker date="1499157762797" expanded="true" signature="3517:3669" ph="INSERT INTO tweet... " />
             <marker date="1499157762797" expanded="true" signature="4505:4592" ph="INSERT INTO contains... " />
             <marker date="1499157762797" expanded="true" signature="5175:5359" ph="UPDATE comes... " />
@@ -884,7 +936,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="27" column="15" lean-forward="false" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -907,6 +961,7 @@
         <state relative-caret-position="2260">
           <caret line="113" column="61" lean-forward="false" selection-start-line="113" selection-start-column="61" selection-end-line="113" selection-end-column="61" />
           <folding>
+            <element signature="imports" expanded="false" />
             <marker date="1499157762797" expanded="true" signature="3517:3669" ph="INSERT INTO tweet... " />
             <marker date="1499157762797" expanded="true" signature="4505:4592" ph="INSERT INTO contains... " />
             <marker date="1499157762797" expanded="true" signature="5175:5359" ph="UPDATE comes... " />
@@ -927,7 +982,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1060">
           <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -944,23 +1001,12 @@
         <state relative-caret-position="2220">
           <caret line="121" column="56" lean-forward="false" selection-start-line="121" selection-start-column="56" selection-end-line="121" selection-end-column="56" />
           <folding>
+            <element signature="imports" expanded="false" />
             <marker date="1499157762797" expanded="true" signature="3517:3669" ph="INSERT INTO tweet... " />
             <marker date="1499157762797" expanded="true" signature="4505:4592" ph="INSERT INTO contains... " />
             <marker date="1499157762797" expanded="true" signature="5175:5359" ph="UPDATE comes... " />
             <marker date="1499157762797" expanded="true" signature="5803:6037" ph="INSERT INTO comesalong... " />
             <marker date="1499157762797" expanded="false" signature="6969:6979" ph="&lt;~&gt;" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Clusterer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1760">
-          <caret line="93" column="53" lean-forward="false" selection-start-line="93" selection-start-column="53" selection-end-line="93" selection-end-column="53" />
-          <folding>
-            <marker date="1499184661674" expanded="true" signature="1723:1993" ph="SELECT hname... tweet" />
-            <marker date="1499184661674" expanded="true" signature="3150:3198" ph="INSERT INTO hashtag... " />
-            <marker date="1499184661674" expanded="true" signature="3150:3257" ph="INSERT INTO hashtag... " />
           </folding>
         </state>
       </provider>
@@ -973,15 +1019,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Clusterer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="18" column="39" lean-forward="false" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <marker date="1499357330082" expanded="true" signature="1722:1992" ph="SELECT hname... tweet" />
+            <marker date="1499357330082" expanded="true" signature="3149:3197" ph="INSERT INTO hashtag... " />
+            <marker date="1499357330082" expanded="true" signature="3149:3256" ph="INSERT INTO hashtag... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/CSV_Parser/Node_data_creator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-65">
-          <caret line="103" column="0" lean-forward="true" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
+        <state relative-caret-position="375">
+          <caret line="68" column="58" lean-forward="false" selection-start-line="68" selection-start-column="58" selection-end-line="68" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1499335324532" expanded="true" signature="1435:1524" ph="SELECT hname... hashtag" />
-            <marker date="1499335324532" expanded="true" signature="1562:1726" ph="SELECT COUNT... contains" />
-            <marker date="1499335324532" expanded="true" signature="1767:1843" ph="SELECT hname... comesalong" />
+            <marker date="1499636469699" expanded="true" signature="1729:1818" ph="SELECT hname... hashtag" />
+            <marker date="1499636469699" expanded="true" signature="1911:2075" ph="SELECT COUNT... contains" />
+            <marker date="1499636469699" expanded="true" signature="2147:2223" ph="SELECT hname... comesalong" />
+            <marker date="1499636469699" expanded="true" signature="2318:2460" ph="SELECT FROM WHERE... " />
+            <marker date="1499636469699" expanded="true" signature="2318:2514" ph="SELECT FROM hashWHERE... " />
+            <marker date="1499636469699" expanded="true" signature="2318:2515" ph="SELECT t.dat... hashtag" />
+            <marker date="1499636469699" expanded="true" signature="2318:2520" ph="SELECT t.dat... hashtag" />
+            <marker date="1499636469699" expanded="true" signature="2318:2582" ph="SELECT t.dat... hashtag" />
+            <marker date="1499636469699" expanded="true" signature="2318:2586" ph="SELECT c.dat... hashtag" />
+            <marker date="1499636469699" expanded="true" signature="2398:2452" ph="SELECT EXTRA... " />
+            <marker date="1499636469699" expanded="true" signature="2699:2712" ph="SELECT hname... " />
+            <marker date="1499636469699" expanded="true" signature="2699:2727" ph="SELECT hname... " />
+            <marker date="1499636469699" expanded="true" signature="2699:2790" ph="SELECT hname... comesalong" />
+            <marker date="1499636469699" expanded="true" signature="2699:2870" ph="SELECT hname... comesalong" />
+            <marker date="1499636469699" expanded="true" signature="2699:2874" ph="SELECT hname... comesalong" />
+            <marker date="1499636469699" expanded="true" signature="2699:2938" ph="SELECT hname... contains" />
           </folding>
         </state>
       </provider>

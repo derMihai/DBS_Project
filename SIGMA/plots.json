@@ -2,3006 +2,3864 @@
    "nodes": [
      {
        "color": "rgb(255,51,51)",
-       "x": "9.33241960776693169",
-       "y": "309",
-       "id": "Trump2016",
-       "label": "Trump2016"
+       "size": 100,
+       "x": "151.70049367694241",
+       "y": "20.0",
+       "id": "jenniferrubin",
+       "label": "jenniferrubin",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "104.24232425346673",
+       "y": "20.0",
+       "id": "HillaryOnGMA",
+       "label": "HillaryOnGMA",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "159.32187288984576",
+       "y": "20.0",
+       "id": "Turkey",
+       "label": "Turkey",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "162.50873620944355",
+       "y": "20.0",
+       "id": "NewHampshire",
+       "label": "NewHampshire",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "205.23578722922767",
+       "y": "20.0",
+       "id": "ISIS",
+       "label": "ISIS",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "179.57324467493407",
+       "y": "20.0",
+       "id": "FallonTonight",
+       "label": "FallonTonight",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "119.88409143242211",
+       "y": "20.0",
+       "id": "laurencetribe",
+       "label": "laurencetribe",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "190.23247864175914",
+       "y": "20.0",
+       "id": "MeetTheTrumps",
+       "label": "MeetTheTrumps",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "143.8069036157058",
+       "y": "20.0",
+       "id": "womancard",
+       "label": "womancard",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "96.98649809661075",
+       "y": "20.0",
+       "id": "Statehood",
+       "label": "Statehood",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "102.35546239926347",
+       "y": "20.0",
+       "id": "RIP",
+       "label": "RIP",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "133.59733984574126",
+       "y": "20.0",
+       "id": "CBNNews",
+       "label": "CBNNews",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "172.5009098156552",
+       "y": "23.78414230005442",
+       "id": "RestoreTheVRA",
+       "label": "RestoreTheVRA",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "136.33054041109904",
+       "y": "20.0",
+       "id": "WeWantTrump",
+       "label": "WeWantTrump",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "179.57324467493407",
+       "y": "20.0",
+       "id": "MyTeacherIsWeird",
+       "label": "MyTeacherIsWeird",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "170.66321648626",
+       "y": "20.0",
+       "id": "WHCD",
+       "label": "WHCD",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "197.84904912077877",
+       "y": "23.78414230005442",
+       "id": "LawandOrder",
+       "label": "LawandOrder",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "354.6558354870461",
+       "y": "20.0",
+       "id": "CincoDeMayo",
+       "label": "CincoDeMayo",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "291.1784750230472",
+       "y": "20.0",
+       "id": "WheresHillary",
+       "label": "WheresHillary",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "102.87373447220803",
+       "y": "20.0",
+       "id": "SmallBizWeek",
+       "label": "SmallBizWeek",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "124.62982050850329",
+       "y": "23.78414230005442",
+       "id": "TedCruz",
+       "label": "TedCruz",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "188.95296013345913",
+       "y": "20.0",
+       "id": "MDPrimary",
+       "label": "MDPrimary",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "155.1931537891079",
+       "y": "28.284271247461902",
+       "id": "TeamTrump",
+       "label": "TeamTrump",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "130.5833800831755",
+       "y": "23.78414230005442",
+       "id": "CreatorsAskHRC",
+       "label": "CreatorsAskHRC",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "163.70705543744901",
+       "y": "20.0",
+       "id": "GOPdebate",
+       "label": "GOPdebate",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "115.31095399343346",
+       "y": "20.0",
+       "id": "ugpride2016",
+       "label": "ugpride2016",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "176.47532024539512",
+       "y": "20.0",
+       "id": "Politician",
+       "label": "Politician",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "102.35546239926347",
+       "y": "20.0",
+       "id": "DivoDeJuarez",
+       "label": "DivoDeJuarez",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "130.5056898561707",
+       "y": "20.0",
+       "id": "ArmyBDay",
+       "label": "ArmyBDay",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "175.54367113290712",
+       "y": "20.0",
+       "id": "CA4Trump",
+       "label": "CA4Trump",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "150.11763931532244",
+       "y": "20.0",
+       "id": "KentuckyDerby",
+       "label": "KentuckyDerby",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "174.99390638727147",
+       "y": "20.0",
+       "id": "AmericanSamoa",
+       "label": "AmericanSamoa",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "175.1578911453077",
+       "y": "20.0",
+       "id": "UPUPUP",
+       "label": "UPUPUP",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "110.17800472142711",
+       "y": "20.0",
+       "id": "MadeForHistory",
+       "label": "MadeForHistory",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "126.01407299592918",
+       "y": "20.0",
+       "id": "NaturalBorn",
+       "label": "NaturalBorn",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "290.127739593873",
+       "y": "20.0",
+       "id": "Frozen",
+       "label": "Frozen",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "149.02282380742375",
+       "y": "23.78414230005442",
+       "id": "MSNBCTownhall",
+       "label": "MSNBCTownhall",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "211.64744868956828",
+       "y": "20.0",
+       "id": "DonaldTrump",
+       "label": "DonaldTrump",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "150.48284874878286",
+       "y": "20.0",
+       "id": "SouthCarolina",
+       "label": "SouthCarolina",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "156.3412478775947",
+       "y": "20.0",
+       "id": "OpioidAwarenessWeek",
+       "label": "OpioidAwarenessWeek",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "109.2082469994847",
+       "y": "20.0",
+       "id": "EastVillage",
+       "label": "EastVillage",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "187.0569014118604",
+       "y": "20.0",
+       "id": "vaticanwalls",
+       "label": "vaticanwalls",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "191.93517044213237",
+       "y": "20.0",
+       "id": "Clinton",
+       "label": "Clinton",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "187.80411118262774",
+       "y": "20.0",
+       "id": "AmericaFIRST",
+       "label": "AmericaFIRST",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "147.04506157315828",
+       "y": "26.32148025904985",
+       "id": "StopGunViolence",
+       "label": "StopGunViolence",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "139.91245436053023",
+       "y": "20.0",
+       "id": "USMC2016",
+       "label": "USMC2016",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "98.9846400767953",
+       "y": "20.0",
+       "id": "Srebrenica",
+       "label": "Srebrenica",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "180.23957613907976",
+       "y": "20.0",
+       "id": "AIPAC2016",
+       "label": "AIPAC2016",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "143.1296364967193",
+       "y": "20.0",
+       "id": "SouthCarolinaPrimary",
+       "label": "SouthCarolinaPrimary",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "176.14689759809875",
+       "y": "20.0",
+       "id": "extremevetting",
+       "label": "extremevetting",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "182.15315604839805",
+       "y": "26.32148025904985",
+       "id": "DisarmHate",
+       "label": "DisarmHate",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "133.96487382646112",
+       "y": "20.0",
+       "id": "NotOneMore",
+       "label": "NotOneMore",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "126.37235386801065",
+       "y": "20.0",
+       "id": "NetNeutrality",
+       "label": "NetNeutrality",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "180.7768493937661",
+       "y": "20.0",
+       "id": "Mormon",
+       "label": "Mormon",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "180.96613062613068",
+       "y": "20.0",
+       "id": "Elkhart",
+       "label": "Elkhart",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "188.95296013345913",
+       "y": "20.0",
+       "id": "DEPrimary",
+       "label": "DEPrimary",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "102.35546239926347",
+       "y": "20.0",
+       "id": "JuanGabriel",
+       "label": "JuanGabriel",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "152.6314241750291",
+       "y": "20.0",
+       "id": "Mexico",
+       "label": "Mexico",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "198.62590369587107",
+       "y": "20.0",
+       "id": "WOMEN4TRUMP",
+       "label": "WOMEN4TRUMP",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "194.41541709641453",
+       "y": "20.0",
+       "id": "GoodTrouble",
+       "label": "GoodTrouble",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "146.06647994988904",
+       "y": "20.0",
+       "id": "Bush",
+       "label": "Bush",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "107.83113410791387",
+       "y": "20.0",
+       "id": "ChangeAgents",
+       "label": "ChangeAgents",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "199.00256317568454",
+       "y": "20.0",
+       "id": "Indiana",
+       "label": "Indiana",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "172.53331292237982",
+       "y": "23.78414230005442",
+       "id": "ArizonaPrimary",
+       "label": "ArizonaPrimary",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "163.36867419483957",
+       "y": "20.0",
+       "id": "WIBackHer",
+       "label": "WIBackHer",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "187.20340216485172",
+       "y": "20.0",
+       "id": "BlacksForTrump",
+       "label": "BlacksForTrump",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "109.63568470645575",
+       "y": "20.0",
+       "id": "Prince",
+       "label": "Prince",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "119.86086933129752",
+       "y": "20.0",
+       "id": "OHHillYes",
+       "label": "OHHillYes",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "211.57991060400508",
+       "y": "20.0",
+       "id": "TrumpMovement",
+       "label": "TrumpMovement",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "141.23714887970053",
+       "y": "20.0",
+       "id": "APAHM",
+       "label": "APAHM",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "127.21612578331069",
+       "y": "20.0",
+       "id": "With_Cruz_you_lose",
+       "label": "With_Cruz_you_lose",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "117.61502103316764",
+       "y": "20.0",
+       "id": "WHD",
+       "label": "WHD",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "173.4432272622401",
+       "y": "20.0",
+       "id": "Donald",
+       "label": "Donald",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "190.35437980897217",
+       "y": "20.0",
+       "id": "CruzFraud",
+       "label": "CruzFraud",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "125.89396413222978",
+       "y": "20.0",
+       "id": "Olmstead",
+       "label": "Olmstead",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "154.00762100817528",
+       "y": "20.0",
+       "id": "HistoryMade",
+       "label": "HistoryMade",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "137.08204636083514",
+       "y": "20.0",
+       "id": "RNC",
+       "label": "RNC",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "131.95695922437412",
+       "y": "20.0",
+       "id": "HispanicHeritageMonth",
+       "label": "HispanicHeritageMonth",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "168.92273654904744",
+       "y": "20.0",
+       "id": "ORPrimary",
+       "label": "ORPrimary",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "215.25435288910643",
+       "y": "20.0",
+       "id": "ImWithHernandez",
+       "label": "ImWithHernandez",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "126.01407299592918",
+       "y": "20.0",
+       "id": "CommonLaw",
+       "label": "CommonLaw",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "206.41928023823664",
+       "y": "20.0",
+       "id": "RNCwithBernie",
+       "label": "RNCwithBernie",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "193.76989145166192",
+       "y": "20.0",
+       "id": "INDPrimary",
+       "label": "INDPrimary",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "157.17199575824958",
+       "y": "20.0",
+       "id": "MorningJoe",
+       "label": "MorningJoe",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "124.9204841589438",
+       "y": "20.0",
+       "id": "RNCINCLE",
+       "label": "RNCINCLE",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "188.36695860079055",
+       "y": "23.78414230005442",
+       "id": "SOTU",
+       "label": "SOTU",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "243.09769887506997",
+       "y": "23.78414230005442",
+       "id": "TrumpWon",
+       "label": "TrumpWon",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "151.70049367694241",
+       "y": "20.0",
+       "id": "MattSchlapp",
+       "label": "MattSchlapp",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "133.59733984574126",
+       "y": "20.0",
+       "id": "2016",
+       "label": "2016",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "188.95296013345913",
+       "y": "20.0",
+       "id": "CTPrimary",
+       "label": "CTPrimary",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "114.4402221030522",
+       "y": "20.0",
+       "id": "LAflood",
+       "label": "LAflood",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "148.13633049409347",
+       "y": "23.78414230005442",
+       "id": "NPS100",
+       "label": "NPS100",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "152.29281802803033",
+       "y": "20.0",
+       "id": "NAACP107",
+       "label": "NAACP107",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "178.49451328815636",
+       "y": "28.284271247461902",
+       "id": "BrexitVote",
+       "label": "BrexitVote",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "130.70319507667017",
+       "y": "20.0",
+       "id": "ThanksObama",
+       "label": "ThanksObama",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "199.16984561554617",
+       "y": "20.0",
+       "id": "BuildTheWall",
+       "label": "BuildTheWall",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "121.84133394876551",
+       "y": "28.284271247461902",
+       "id": "DemPlatform",
+       "label": "DemPlatform",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "116.28978116542129",
+       "y": "20.0",
+       "id": "LibrarianOfCongress",
+       "label": "LibrarianOfCongress",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "92.11558703193815",
+       "y": "20.0",
+       "id": "fixdemocracyfirst",
+       "label": "fixdemocracyfirst",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "180.32831873758553",
+       "y": "20.0",
+       "id": "Enjoy",
+       "label": "Enjoy",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "170.71147870058178",
+       "y": "20.0",
+       "id": "Greta",
+       "label": "Greta",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "94.24139920687621",
+       "y": "20.0",
+       "id": "Caribbean",
+       "label": "Caribbean",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "199.6490774802878",
+       "y": "20.0",
+       "id": "TheTonightShow",
+       "label": "TheTonightShow",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "187.20340216485172",
+       "y": "20.0",
+       "id": "Hillary2016",
+       "label": "Hillary2016",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "150.15309878143415",
+       "y": "20.0",
+       "id": "Colbert",
+       "label": "Colbert",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "129.30139842710554",
+       "y": "20.0",
+       "id": "HarveyPitt",
+       "label": "HarveyPitt",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "197.13920199892152",
+       "y": "20.0",
+       "id": "SecondAmendment",
+       "label": "SecondAmendment",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "170.71951842456383",
+       "y": "20.0",
+       "id": "TrumpSupporters",
+       "label": "TrumpSupporters",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "199.1546555317493",
+       "y": "20.0",
+       "id": "presidenttrump",
+       "label": "presidenttrump",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "312.39949168116976",
+       "y": "20.0",
+       "id": "RiggedSystem",
+       "label": "RiggedSystem",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "236.5193393971901",
+       "y": "20.0",
+       "id": "ArmedForcesDay",
+       "label": "ArmedForcesDay",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "135.58244897080777",
+       "y": "20.0",
+       "id": "HoustonFlood",
+       "label": "HoustonFlood",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "166.39356949436336",
+       "y": "20.0",
+       "id": "NewDay",
+       "label": "NewDay",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "183.9901257793089",
+       "y": "23.78414230005442",
+       "id": "Utah",
+       "label": "Utah",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "190.81087533847634",
+       "y": "20.0",
+       "id": "StopCommonCore",
+       "label": "StopCommonCore",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "129.19023506449724",
+       "y": "20.0",
+       "id": "AIDSFreeGeneration",
+       "label": "AIDSFreeGeneration",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "161.01567835759997",
+       "y": "20.0",
+       "id": "GPLFers",
+       "label": "GPLFers",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "168.85488988562201",
+       "y": "26.32148025904985",
+       "id": "Hannity",
+       "label": "Hannity",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "252.37972530600416",
+       "y": "20.0",
+       "id": "MSM",
+       "label": "MSM",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "154.28065619156195",
+       "y": "20.0",
+       "id": "Enough",
+       "label": "Enough",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "141.22294919632805",
+       "y": "20.0",
+       "id": "Charleston9",
+       "label": "Charleston9",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "162.6669500964039",
+       "y": "20.0",
+       "id": "GunViolence",
+       "label": "GunViolence",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "173.38953797326323",
+       "y": "20.0",
+       "id": "NVcaucus",
+       "label": "NVcaucus",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "196.79371894415436",
+       "y": "20.0",
+       "id": "VoteTrumpWI",
+       "label": "VoteTrumpWI",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "181.0117198471345",
+       "y": "26.32148025904985",
+       "id": "NeverTrump",
+       "label": "NeverTrump",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "140.03320094752016",
+       "y": "23.78414230005442",
+       "id": "RollCallVote",
+       "label": "RollCallVote",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "213.88170160305748",
+       "y": "20.0",
+       "id": "dtmag",
+       "label": "dtmag",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "289.2358839507967",
+       "y": "20.0",
+       "id": "Benghazi",
+       "label": "Benghazi",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "192.38614904512403",
+       "y": "20.0",
+       "id": "WattersWorld",
+       "label": "WattersWorld",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "206.22800347972185",
+       "y": "20.0",
+       "id": "media",
+       "label": "media",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "111.03525568907361",
+       "y": "20.0",
+       "id": "SaveElephants",
+       "label": "SaveElephants",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "136.33054041109904",
+       "y": "20.0",
+       "id": "WeAreBernie",
+       "label": "WeAreBernie",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "140.79423087503557",
+       "y": "26.32148025904985",
+       "id": "DemsInPHL",
+       "label": "DemsInPHL",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "158.02019635483867",
+       "y": "20.0",
+       "id": "MegynKellyPresents",
+       "label": "MegynKellyPresents",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "202.25477453538213",
+       "y": "23.78414230005442",
+       "id": "DDay",
+       "label": "DDay",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "235.79042013551714",
+       "y": "20.0",
+       "id": "MDW",
+       "label": "MDW",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "147.43339197993663",
+       "y": "20.0",
+       "id": "ECONOMY",
+       "label": "ECONOMY",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "211.21041384212901",
+       "y": "28.284271247461902",
+       "id": "Obamacare",
+       "label": "Obamacare",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "119.41706233189925",
+       "y": "20.0",
+       "id": "Diwali",
+       "label": "Diwali",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "182.77216450126696",
+       "y": "29.906975624424412",
+       "id": "ICYMI",
+       "label": "ICYMI",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "150.17672447625404",
+       "y": "20.0",
+       "id": "fairandbalancedmyass",
+       "label": "fairandbalancedmyass",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "108.68237413760669",
+       "y": "20.0",
+       "id": "imwithher",
+       "label": "imwithher",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "174.2955537977835",
+       "y": "20.0",
+       "id": "AsLongAsItTakes",
+       "label": "AsLongAsItTakes",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "179.74670395972825",
+       "y": "26.32148025904985",
+       "id": "VoteTrumpNY",
+       "label": "VoteTrumpNY",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "174.08364391809272",
+       "y": "20.0",
+       "id": "taxplan",
+       "label": "taxplan",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "102.39274357914688",
+       "y": "20.0",
+       "id": "SayHerName",
+       "label": "SayHerName",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "181.8638541515674",
+       "y": "20.0",
+       "id": "CNN",
+       "label": "CNN",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "172.4144878633868",
+       "y": "20.0",
+       "id": "TitleIX",
+       "label": "TitleIX",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "230.83358504123683",
+       "y": "20.0",
+       "id": "PhilandoCastile",
+       "label": "PhilandoCastile",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "182.732448393298",
+       "y": "26.32148025904985",
+       "id": "AZPrimary",
+       "label": "AZPrimary",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "155.88919233396027",
+       "y": "20.0",
+       "id": "UNGA",
+       "label": "UNGA",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "266.71529919456685",
+       "y": "20.0",
+       "id": "Brussels",
+       "label": "Brussels",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "119.0157341182275",
+       "y": "20.0",
+       "id": "WH",
+       "label": "WH",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "174.2955537977835",
+       "y": "20.0",
+       "id": "gunviolence",
+       "label": "gunviolence",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "141.72372834753838",
+       "y": "23.78414230005442",
+       "id": "LSSC",
+       "label": "LSSC",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "203.144623416142",
+       "y": "26.32148025904985",
+       "id": "MakeAmericaSafeAgain",
+       "label": "MakeAmericaSafeAgain",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "246.74714241386752",
+       "y": "20.0",
+       "id": "CoastGuardDay",
+       "label": "CoastGuardDay",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "252.37972530600416",
+       "y": "20.0",
+       "id": "VoterFraud",
+       "label": "VoterFraud",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "201.6250857128777",
+       "y": "20.0",
+       "id": "TRUMP2016",
+       "label": "TRUMP2016",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "96.98649809661075",
+       "y": "20.0",
+       "id": "WashingtonDC",
+       "label": "WashingtonDC",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "196.3936226412878",
+       "y": "20.0",
+       "id": "JohnRyder",
+       "label": "JohnRyder",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "152.6314241750291",
+       "y": "20.0",
+       "id": "Jobs",
+       "label": "Jobs",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "192.01432131424292",
+       "y": "20.0",
+       "id": "60Minutes",
+       "label": "60Minutes",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "138.09560422293083",
+       "y": "20.0",
+       "id": "IranDeal",
+       "label": "IranDeal",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "219.48353354053398",
+       "y": "20.0",
+       "id": "WesternTuesday",
+       "label": "WesternTuesday",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "197.8196024398191",
+       "y": "20.0",
+       "id": "RTM2016",
+       "label": "RTM2016",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "115.98334956639333",
+       "y": "20.0",
+       "id": "HillaryOnCNN",
+       "label": "HillaryOnCNN",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "107.76727199278257",
+       "y": "20.0",
+       "id": "veterans",
+       "label": "veterans",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "170.8742216487446",
+       "y": "23.78414230005442",
+       "id": "CAPrimary",
+       "label": "CAPrimary",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "199.6490774802878",
+       "y": "20.0",
+       "id": "JimmyFallon",
+       "label": "JimmyFallon",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "180.7768493937661",
+       "y": "20.0",
+       "id": "UtahPrimary",
+       "label": "UtahPrimary",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "163.807251762544",
+       "y": "20.0",
+       "id": "CommonCore",
+       "label": "CommonCore",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "151.5628134622011",
+       "y": "20.0",
+       "id": "campaignfinance",
+       "label": "campaignfinance",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "124.8794256540858",
+       "y": "20.0",
+       "id": "NewYork",
+       "label": "NewYork",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "149.3000458544234",
+       "y": "28.284271247461902",
+       "id": "WeMadeHistory",
+       "label": "WeMadeHistory",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "184.21127058836106",
+       "y": "23.78414230005442",
+       "id": "NATO",
+       "label": "NATO",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "170.55850766503187",
+       "y": "20.0",
+       "id": "MemorialDay",
+       "label": "MemorialDay",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "98.9846400767953",
+       "y": "20.0",
+       "id": "NeverForget",
+       "label": "NeverForget",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "100.71235210481767",
+       "y": "20.0",
+       "id": "WestVirginia",
+       "label": "WestVirginia",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "250.1941736623741",
+       "y": "20.0",
+       "id": "FlashbackFriday",
+       "label": "FlashbackFriday",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "136.9732201537721",
+       "y": "20.0",
+       "id": "AmericaGreatAgain",
+       "label": "AmericaGreatAgain",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "168.8230672737517",
+       "y": "20.0",
+       "id": "TrumpinEverett",
+       "label": "TrumpinEverett",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "157.4084148497714",
+       "y": "20.0",
+       "id": "IAPolitics",
+       "label": "IAPolitics",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "207.21509349958978",
+       "y": "20.0",
+       "id": "ElectionDay",
+       "label": "ElectionDay",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "126.84537157064506",
+       "y": "20.0",
+       "id": "Cruz",
+       "label": "Cruz",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "102.05573601240269",
+       "y": "20.0",
+       "id": "LaudatoSi",
+       "label": "LaudatoSi",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "175.54367113290712",
+       "y": "20.0",
+       "id": "NeverDems",
+       "label": "NeverDems",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "233.49929806423188",
+       "y": "20.0",
+       "id": "TerenceCrutcher",
+       "label": "TerenceCrutcher",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "176.64973190963903",
+       "y": "20.0",
+       "id": "LeadRight2016",
+       "label": "LeadRight2016",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "201.5957988959657",
+       "y": "20.0",
+       "id": "NYCPride",
+       "label": "NYCPride",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "147.5829442181554",
+       "y": "20.0",
+       "id": "iVoted",
+       "label": "iVoted",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "158.56478867550751",
+       "y": "20.0",
+       "id": "GoldenGlobe",
+       "label": "GoldenGlobe",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "198.67182817346813",
+       "y": "20.0",
+       "id": "TRUMP",
+       "label": "TRUMP",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "269.5986334247324",
+       "y": "20.0",
+       "id": "DNC",
+       "label": "DNC",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "177.7425220659508",
+       "y": "20.0",
+       "id": "MSPrimary",
+       "label": "MSPrimary",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "180.7768493937661",
+       "y": "20.0",
+       "id": "Utah4Trump",
+       "label": "Utah4Trump",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "218.69661089018237",
+       "y": "23.78414230005442",
+       "id": "LyingTed",
+       "label": "LyingTed",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "107.76727199278257",
+       "y": "20.0",
+       "id": "GIBill",
+       "label": "GIBill",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "157.9288815542991",
+       "y": "20.0",
+       "id": "WorldRefugeeDay",
+       "label": "WorldRefugeeDay",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "230.91484445644846",
+       "y": "20.0",
+       "id": "NeverCruz",
+       "label": "NeverCruz",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "151.14750576198676",
+       "y": "20.0",
+       "id": "VoteTrumpVT",
+       "label": "VoteTrumpVT",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "127.56440132515965",
+       "y": "20.0",
+       "id": "Trump4President",
+       "label": "Trump4President",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "176.47532024539512",
+       "y": "20.0",
+       "id": "FAIL",
+       "label": "FAIL",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "141.59075724716874",
+       "y": "20.0",
+       "id": "Iowa",
+       "label": "Iowa",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "152.75501702286698",
+       "y": "20.0",
+       "id": "Decision2016",
+       "label": "Decision2016",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "119.0157341182275",
+       "y": "20.0",
+       "id": "DavidCameron",
+       "label": "DavidCameron",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "180.88975217016946",
+       "y": "23.78414230005442",
+       "id": "VoteTrumpMI",
+       "label": "VoteTrumpMI",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "227.0675541881548",
+       "y": "20.0",
+       "id": "CommanderInChiefForum",
+       "label": "CommanderInChiefForum",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "211.0316116815278",
+       "y": "23.78414230005442",
+       "id": "TrumpPence2016",
+       "label": "TrumpPence2016",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "185.67891310223243",
+       "y": "20.0",
+       "id": "FNS",
+       "label": "FNS",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "140.4785898764307",
+       "y": "20.0",
+       "id": "StandTogether",
+       "label": "StandTogether",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "234.82765805960514",
+       "y": "29.906975624424412",
+       "id": "1",
+       "label": "1",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "194.37784557136112",
+       "y": "28.284271247461902",
+       "id": "SheWon",
+       "label": "SheWon",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "108.68237413760669",
+       "y": "20.0",
+       "id": "CripTheVote",
+       "label": "CripTheVote",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "153.53206748554334",
+       "y": "23.78414230005442",
+       "id": "NHPolitics",
+       "label": "NHPolitics",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "187.20340216485172",
+       "y": "20.0",
+       "id": "BlackMenForBernie",
+       "label": "BlackMenForBernie",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "170.08154038654607",
+       "y": "28.284271247461902",
+       "id": "WomensEqualityDay",
+       "label": "WomensEqualityDay",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "152.6314241750291",
+       "y": "20.0",
+       "id": "Ford",
+       "label": "Ford",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "171.64451557015295",
+       "y": "20.0",
+       "id": "voteTrump",
+       "label": "voteTrump",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "199.6490774802878",
+       "y": "20.0",
+       "id": "TheDonald",
+       "label": "TheDonald",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "246.84825849815167",
+       "y": "20.0",
+       "id": "TeamUSA",
+       "label": "TeamUSA",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "190.98337291585565",
+       "y": "20.0",
+       "id": "LightweightSenatorMarcoRubio",
+       "label": "LightweightSenatorMarcoRubio",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "121.25337421940588",
+       "y": "20.0",
+       "id": "MothersDay",
+       "label": "MothersDay",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "150.04664490468443",
+       "y": "20.0",
+       "id": "YouthDay",
+       "label": "YouthDay",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "199.03808258610815",
+       "y": "20.0",
+       "id": "WISCONSIN",
+       "label": "WISCONSIN",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "164.78137151256942",
+       "y": "20.0",
+       "id": "TRUMPDOG",
+       "label": "TRUMPDOG",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "135.60747586760885",
+       "y": "23.78414230005442",
+       "id": "ClintonKaine",
+       "label": "ClintonKaine",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "199.79969929806919",
+       "y": "20.0",
+       "id": "UT",
+       "label": "UT",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "173.74907085386423",
+       "y": "20.0",
+       "id": "TrumpWaikiki",
+       "label": "TrumpWaikiki",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "201.60068091853688",
+       "y": "20.0",
+       "id": "Mediafraud",
+       "label": "Mediafraud",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "152.6314241750291",
+       "y": "20.0",
+       "id": "Carrier",
+       "label": "Carrier",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "134.54342644059435",
+       "y": "20.0",
+       "id": "Excellent",
+       "label": "Excellent",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "193.98943620830215",
+       "y": "20.0",
+       "id": "goodtrouble",
+       "label": "goodtrouble",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "154.98028651119392",
+       "y": "26.32148025904985",
+       "id": "FoxNews",
+       "label": "FoxNews",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "197.05038759076888",
+       "y": "20.0",
+       "id": "brexit",
+       "label": "brexit",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "191.47529259308408",
+       "y": "20.0",
+       "id": "TrumpIsWithYou",
+       "label": "TrumpIsWithYou",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "132.4933455158913",
+       "y": "20.0",
+       "id": "Orlando",
+       "label": "Orlando",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "197.35290899490167",
+       "y": "20.0",
+       "id": "polls",
+       "label": "polls",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "218.17809386507886",
+       "y": "20.0",
+       "id": "PurpleHeartDay",
+       "label": "PurpleHeartDay",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "220.37296934450836",
+       "y": "28.284271247461902",
+       "id": "GOPConvention",
+       "label": "GOPConvention",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "115.80347011809349",
+       "y": "20.0",
+       "id": "UAW",
+       "label": "UAW",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "160.28405552879786",
+       "y": "23.78414230005442",
+       "id": "trump",
+       "label": "trump",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "108.11711870449548",
+       "y": "20.0",
+       "id": "HRC4PA",
+       "label": "HRC4PA",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "128.42282703036344",
+       "y": "20.0",
+       "id": "YUGE",
+       "label": "YUGE",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "159.09389438721462",
+       "y": "20.0",
+       "id": "KenLangone",
+       "label": "KenLangone",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "159.09389438721462",
+       "y": "20.0",
+       "id": "NeilCavuto",
+       "label": "NeilCavuto",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "132.11335808091906",
+       "y": "20.0",
+       "id": "WeTrumpHate",
+       "label": "WeTrumpHate",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "119.01893900705771",
+       "y": "23.78414230005442",
+       "id": "ActOnClimate",
+       "label": "ActOnClimate",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "107.83113410791387",
+       "y": "20.0",
+       "id": "MichaelBrown",
+       "label": "MichaelBrown",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "173.93180457266135",
+       "y": "20.0",
+       "id": "SuperBowlSunday",
+       "label": "SuperBowlSunday",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "197.53479408555606",
+       "y": "20.0",
+       "id": "Wausau",
+       "label": "Wausau",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "161.0348389075146",
+       "y": "20.0",
+       "id": "HaileyPuckett",
+       "label": "HaileyPuckett",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "187.97898957216586",
+       "y": "20.0",
+       "id": "imwithyou",
+       "label": "imwithyou",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "220.57624441142957",
+       "y": "20.0",
+       "id": "StanleyCup",
+       "label": "StanleyCup",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "122.14108628621744",
+       "y": "20.0",
+       "id": "UnderstandSlavery",
+       "label": "UnderstandSlavery",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "146.06647994988904",
+       "y": "20.0",
+       "id": "Rubio",
+       "label": "Rubio",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "201.41048979729774",
+       "y": "23.78414230005442",
+       "id": "VoteTrump2016",
+       "label": "VoteTrump2016",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "122.3381769812505",
+       "y": "20.0",
+       "id": "MadeInAmerica",
+       "label": "MadeInAmerica",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "109.63568470645575",
+       "y": "20.0",
+       "id": "HillaryClinton",
+       "label": "HillaryClinton",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "146.93156920696728",
+       "y": "20.0",
+       "id": "election2016",
+       "label": "election2016",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "195.05996575899724",
+       "y": "20.0",
+       "id": "KhizrKhan",
+       "label": "KhizrKhan",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "167.82498856741898",
+       "y": "20.0",
+       "id": "VoterRegistrationDay",
+       "label": "VoterRegistrationDay",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "156.94485308332045",
+       "y": "20.0",
+       "id": "MayDay",
+       "label": "MayDay",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "199.1546555317493",
+       "y": "20.0",
+       "id": "primary",
+       "label": "primary",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "178.7876790241212",
+       "y": "23.78414230005442",
+       "id": "Wisconsin",
+       "label": "Wisconsin",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "193.74789589066836",
+       "y": "20.0",
+       "id": "WCS16",
+       "label": "WCS16",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "172.1955483895992",
+       "y": "20.0",
+       "id": "VoteTrumpIL",
+       "label": "VoteTrumpIL",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "128.0998829775767",
+       "y": "23.78414230005442",
+       "id": "VirWINia",
+       "label": "VirWINia",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "127.58854665982822",
+       "y": "26.32148025904985",
+       "id": "RNCInCLE",
+       "label": "RNCInCLE",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "175.54367113290712",
+       "y": "20.0",
+       "id": "Teachers4Trump",
+       "label": "Teachers4Trump",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "199.9899992499125",
+       "y": "20.0",
+       "id": "TrumpForPresident",
+       "label": "TrumpForPresident",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "177.82794100389228",
+       "y": "20.0",
+       "id": "DemocraticSitIn",
+       "label": "DemocraticSitIn",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "152.9777832486111",
+       "y": "23.78414230005442",
+       "id": "sitin",
+       "label": "sitin",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "174.48185403976407",
+       "y": "23.78414230005442",
+       "id": "UtahCaucus",
+       "label": "UtahCaucus",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "108.68237413760669",
+       "y": "20.0",
+       "id": "ADA",
+       "label": "ADA",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "122.74450732213387",
+       "y": "26.32148025904985",
+       "id": "FightForFamilies",
+       "label": "FightForFamilies",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "189.85951769373753",
+       "y": "20.0",
+       "id": "EndCommonCore",
+       "label": "EndCommonCore",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "199.9899992499125",
+       "y": "20.0",
+       "id": "NebraskaPrimary",
+       "label": "NebraskaPrimary",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "197.53479408555606",
+       "y": "20.0",
+       "id": "EauClaire",
+       "label": "EauClaire",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "148.4952872105386",
+       "y": "20.0",
+       "id": "TrumpNV",
+       "label": "TrumpNV",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "159.09389438721462",
+       "y": "20.0",
+       "id": "Fox",
+       "label": "Fox",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "196.98238957046104",
+       "y": "20.0",
+       "id": "HillaryKaine2016",
+       "label": "HillaryKaine2016",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "126.13012295144455",
+       "y": "23.78414230005442",
+       "id": "OrlandoUnited",
+       "label": "OrlandoUnited",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "135.96599579772197",
+       "y": "20.0",
+       "id": "EarthDay",
+       "label": "EarthDay",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "207.21509349958978",
+       "y": "20.0",
+       "id": "DefendtheSecond",
+       "label": "DefendtheSecond",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "197.53479408555606",
+       "y": "20.0",
+       "id": "Racine",
+       "label": "Racine",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "246.84825849815167",
+       "y": "20.0",
+       "id": "Rio2016",
+       "label": "Rio2016",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "148.0905137373643",
+       "y": "20.0",
+       "id": "MikePence",
+       "label": "MikePence",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "178.06221054122997",
+       "y": "20.0",
+       "id": "NASCAR",
+       "label": "NASCAR",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "166.2631771291334",
+       "y": "20.0",
+       "id": "SallyRideDay",
+       "label": "SallyRideDay",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "124.01387474683318",
+       "y": "23.78414230005442",
+       "id": "LGBT",
+       "label": "LGBT",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "227.06413750625174",
+       "y": "20.0",
+       "id": "GOPinCLE",
+       "label": "GOPinCLE",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "146.3732505437847",
+       "y": "26.32148025904985",
+       "id": "trump2016",
+       "label": "trump2016",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "227.08799109574164",
+       "y": "29.906975624424412",
+       "id": "LESM",
+       "label": "LESM",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "107.08976117941975",
+       "y": "20.0",
+       "id": "DACA",
+       "label": "DACA",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "161.2737707478007",
+       "y": "20.0",
+       "id": "MaitnerStrong",
+       "label": "MaitnerStrong",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "158.71901406012327",
+       "y": "28.284271247461902",
+       "id": "NevadaCaucus",
+       "label": "NevadaCaucus",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "123.24556802107742",
+       "y": "20.0",
+       "id": "LaurenceTribe",
+       "label": "LaurenceTribe",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "136.21990165753726",
+       "y": "20.0",
+       "id": "holdthefloor",
+       "label": "holdthefloor",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "177.69263742481118",
+       "y": "20.0",
+       "id": "VotersSpeak",
+       "label": "VotersSpeak",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "160.13996011743106",
+       "y": "23.78414230005442",
+       "id": "DemsinPhilly",
+       "label": "DemsinPhilly",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "185.8349275853143",
+       "y": "20.0",
+       "id": "ThankAVet",
+       "label": "ThankAVet",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "119.51090685408465",
+       "y": "20.0",
+       "id": "RosanellEaton",
+       "label": "RosanellEaton",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "137.01592846394774",
+       "y": "23.78414230005442",
+       "id": "CitizensUnited",
+       "label": "CitizensUnited",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "177.94164179151906",
+       "y": "20.0",
+       "id": "OnTheRecord",
+       "label": "OnTheRecord",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "211.891733827257",
+       "y": "20.0",
+       "id": "DemsinPHL",
+       "label": "DemsinPHL",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "106.79542098567055",
+       "y": "20.0",
+       "id": "makersandtakers",
+       "label": "makersandtakers",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "126.42972228328713",
+       "y": "23.78414230005442",
+       "id": "MaryBrigidMcManamon",
+       "label": "MaryBrigidMcManamon",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "168.2884931624687",
+       "y": "20.0",
+       "id": "RogerStone",
+       "label": "RogerStone",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "129.99886206972002",
+       "y": "20.0",
+       "id": "JuntosSePuede",
+       "label": "JuntosSePuede",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "136.33054041109904",
+       "y": "20.0",
+       "id": "makeamericagreatagain",
+       "label": "makeamericagreatagain",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "180.7768493937661",
+       "y": "20.0",
+       "id": "TrumpCountry",
+       "label": "TrumpCountry",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "159.23278050321412",
+       "y": "20.0",
+       "id": "BlackWomensEqualPay",
+       "label": "BlackWomensEqualPay",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "215.51057039707518",
+       "y": "20.0",
+       "id": "ALConvention2016",
+       "label": "ALConvention2016",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "174.48185403976407",
+       "y": "23.78414230005442",
+       "id": "UTCaucus",
+       "label": "UTCaucus",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "105.17106090375307",
+       "y": "23.78414230005442",
+       "id": "EstoyConElla",
+       "label": "EstoyConElla",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "170.94417096972393",
+       "y": "20.0",
+       "id": "VoteTrumpNC",
+       "label": "VoteTrumpNC",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "159.06408570569772",
+       "y": "20.0",
+       "id": "Ted",
+       "label": "Ted",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "214.07766885596288",
+       "y": "20.0",
+       "id": "Polls",
+       "label": "Polls",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "148.34848002445548",
+       "y": "20.0",
+       "id": "enough",
+       "label": "enough",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "163.11119715490236",
+       "y": "20.0",
+       "id": "GO",
+       "label": "GO",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "149.7735618475301",
+       "y": "20.0",
+       "id": "ROGERAILES",
+       "label": "ROGERAILES",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "105.79628946095688",
+       "y": "20.0",
+       "id": "MoreInCommon",
+       "label": "MoreInCommon",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "194.52419317941732",
+       "y": "20.0",
+       "id": "LittleMarco",
+       "label": "LittleMarco",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "231.9578265691121",
+       "y": "23.78414230005442",
+       "id": "Imwithyou",
+       "label": "Imwithyou",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "162.15340109683692",
+       "y": "20.0",
+       "id": "TrumpLV",
+       "label": "TrumpLV",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "151.97473491736474",
+       "y": "20.0",
+       "id": "InternationalNursesDay",
+       "label": "InternationalNursesDay",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "187.0996663544742",
+       "y": "20.0",
+       "id": "Wimbledon",
+       "label": "Wimbledon",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "121.61079408452574",
+       "y": "20.0",
+       "id": "Brexit",
+       "label": "Brexit",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "137.89772629890436",
+       "y": "20.0",
+       "id": "Laurence",
+       "label": "Laurence",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "148.98152582923873",
+       "y": "20.0",
+       "id": "LoneStarState",
+       "label": "LoneStarState",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "193.9729961932215",
+       "y": "20.0",
+       "id": "TrumpDallas",
+       "label": "TrumpDallas",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "208.63456460001402",
+       "y": "20.0",
+       "id": "USA",
+       "label": "USA",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "131.6600126994387",
+       "y": "20.0",
+       "id": "EndGunViolence",
+       "label": "EndGunViolence",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "170.29706675020498",
+       "y": "23.78414230005442",
+       "id": "GOP",
+       "label": "GOP",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "171.89707393652787",
+       "y": "20.0",
+       "id": "Arizona",
+       "label": "Arizona",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "149.7735618475301",
+       "y": "20.0",
+       "id": "MichaelMoore",
+       "label": "MichaelMoore",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "225.5595416646849",
+       "y": "20.0",
+       "id": "WORK",
+       "label": "WORK",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "174.634512589634",
+       "y": "20.0",
+       "id": "Derp",
+       "label": "Derp",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "166.31537088132518",
+       "y": "20.0",
+       "id": "NoLoyalty",
+       "label": "NoLoyalty",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "129.0601807333525",
+       "y": "20.0",
+       "id": "Debate",
+       "label": "Debate",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "172.3856363479662",
+       "y": "28.284271247461902",
+       "id": "SCOTUS",
+       "label": "SCOTUS",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "156.11347506711414",
+       "y": "28.284271247461902",
+       "id": "debate",
+       "label": "debate",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "195.44686345961819",
+       "y": "20.0",
+       "id": "TPP",
+       "label": "TPP",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "163.88909403227316",
+       "y": "20.0",
+       "id": "KansasCaucus",
+       "label": "KansasCaucus",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "187.17900925246158",
+       "y": "20.0",
+       "id": "RobotRubio",
+       "label": "RobotRubio",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "151.55132316126094",
+       "y": "20.0",
+       "id": "WATCH",
+       "label": "WATCH",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "199.79969929806919",
+       "y": "20.0",
+       "id": "AZ",
+       "label": "AZ",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "171.90494846752438",
+       "y": "20.0",
+       "id": "RepMikeKelly",
+       "label": "RepMikeKelly",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "183.58541908208383",
+       "y": "23.78414230005442",
+       "id": "PAPrimary",
+       "label": "PAPrimary",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "246.84825849815167",
+       "y": "20.0",
+       "id": "OpeningCeremony",
+       "label": "OpeningCeremony",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "195.1622873896719",
+       "y": "20.0",
+       "id": "TurnUpToVote",
+       "label": "TurnUpToVote",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "174.1215417420243",
+       "y": "20.0",
+       "id": "Women4Ttump",
+       "label": "Women4Ttump",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "196.04549130179083",
+       "y": "23.78414230005442",
+       "id": "LaborDay",
+       "label": "LaborDay",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "266.237559110892",
+       "y": "20.0",
+       "id": "StandWithLouisiana",
+       "label": "StandWithLouisiana",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "181.05591719104947",
+       "y": "23.78414230005442",
+       "id": "RIPrimary",
+       "label": "RIPrimary",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "173.74907085386423",
+       "y": "20.0",
+       "id": "Mahalo",
+       "label": "Mahalo",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "133.98706156715886",
+       "y": "28.284271247461902",
+       "id": "TrumpYourself",
+       "label": "TrumpYourself",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "151.94606371722503",
+       "y": "23.78414230005442",
+       "id": "StoptheHate",
+       "label": "StoptheHate",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "175.64710164770116",
+       "y": "20.0",
+       "id": "MakeYoutubeGreatAgain",
+       "label": "MakeYoutubeGreatAgain",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "134.7073641474066",
+       "y": "20.0",
+       "id": "DeclareYourAmbition",
+       "label": "DeclareYourAmbition",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "137.28346726035002",
+       "y": "20.0",
+       "id": "iRegistered",
+       "label": "iRegistered",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "156.39355867150257",
+       "y": "20.0",
+       "id": "NABJNAHJ16",
+       "label": "NABJNAHJ16",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "164.7724308233793",
+       "y": "20.0",
+       "id": "BikersForTrump",
+       "label": "BikersForTrump",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "124.8794256540858",
+       "y": "20.0",
+       "id": "Jonas",
+       "label": "Jonas",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "107.83113410791387",
+       "y": "20.0",
+       "id": "MothersoftheMovement",
+       "label": "MothersoftheMovement",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "120.32276948559273",
+       "y": "20.0",
+       "id": "ShesWithUs",
+       "label": "ShesWithUs",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "107.86302266207446",
+       "y": "20.0",
+       "id": "FeelTheBern",
+       "label": "FeelTheBern",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "149.1153475042657",
+       "y": "23.78414230005442",
+       "id": "IowaCaucus",
+       "label": "IowaCaucus",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "205.33106643510075",
+       "y": "23.78414230005442",
+       "id": "SuperSaturday",
+       "label": "SuperSaturday",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "173.93180457266135",
+       "y": "20.0",
+       "id": "SB50",
+       "label": "SB50",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "191.91346526974752",
+       "y": "23.78414230005442",
+       "id": "AlwaysTrump",
+       "label": "AlwaysTrump",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "205.8158830582497",
+       "y": "28.284271247461902",
+       "id": "2A",
+       "label": "2A",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "168.86053267641438",
+       "y": "26.32148025904985",
+       "id": "ObamaCare",
+       "label": "ObamaCare",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "172.56258027943255",
+       "y": "20.0",
+       "id": "TeacherAppreciationDay",
+       "label": "TeacherAppreciationDay",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "143.27595447808127",
+       "y": "23.78414230005442",
+       "id": "smallbiz",
+       "label": "smallbiz",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "93.5650973990607",
+       "y": "20.0",
+       "id": "DNCinPHL",
+       "label": "DNCinPHL",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "170.15397346731612",
+       "y": "20.0",
+       "id": "Trump360",
+       "label": "Trump360",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "154.28065619156195",
+       "y": "20.0",
+       "id": "Filibuster",
+       "label": "Filibuster",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "161.00609551700657",
+       "y": "20.0",
+       "id": "VoteTrumpMA",
+       "label": "VoteTrumpMA",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "137.54553335029368",
+       "y": "20.0",
+       "id": "sendDonaldtospace",
+       "label": "sendDonaldtospace",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "214.07766885596288",
+       "y": "20.0",
+       "id": "slipping",
+       "label": "slipping",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "113.19228729218952",
+       "y": "20.0",
+       "id": "FirstInPOTUS",
+       "label": "FirstInPOTUS",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "165.3415265349399",
+       "y": "26.32148025904985",
+       "id": "MAKEAMERICAGREATAGAIN",
+       "label": "MAKEAMERICAGREATAGAIN",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "155.25772772766038",
+       "y": "23.78414230005442",
+       "id": "NoMoreSilence",
+       "label": "NoMoreSilence",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "196.18735708998102",
+       "y": "20.0",
+       "id": "Trump4Vets",
+       "label": "Trump4Vets",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "110.97676988754232",
+       "y": "20.0",
+       "id": "Pulse",
+       "label": "Pulse",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,51,51)",
+       "size": 100,
+       "x": "185.92823519392513",
+       "y": "23.78414230005442",
+       "id": "WakeUpAmerica",
+       "label": "WakeUpAmerica",
+       "type": "tweetegy"
      },
      {
        "color": "rgb(255,153,51)",
-       "x": "9.41175744110050694",
-       "y": "216",
-       "id": "MakeAmericaGreatAgain",
-       "label": "MakeAmericaGreatAgain"
+       "size": 100,
+       "x": "186.64839215533863",
+       "y": "83.85319512397115",
+       "id": "Trump2016",
+       "label": "Trump2016",
+       "type": "tweetegy"
      },
      {
        "color": "rgb(255,255,51)",
-       "x": "10.006568666033596",
-       "y": "19",
-       "id": "SuperTuesday",
-       "label": "SuperTuesday"
+       "size": 100,
+       "x": "172.28026575095012",
+       "y": "32.53153123395572",
+       "id": "Trump",
+       "label": "Trump",
+       "type": "tweetegy"
      },
      {
        "color": "rgb(255,255,51)",
-       "x": "9.03031447035631807",
-       "y": "20",
-       "id": "GOPDebate",
-       "label": "GOPDebate"
+       "size": 100,
+       "x": "154.44174961287183",
+       "y": "39.35979342530861",
+       "id": "IACaucus",
+       "label": "IACaucus",
+       "type": "tweetegy"
      },
      {
        "color": "rgb(255,255,51)",
-       "x": "7.81773943529784177",
-       "y": "18",
-       "id": "ImWithHer",
-       "label": "ImWithHer"
+       "size": 100,
+       "x": "140.45178450573837",
+       "y": "31.30169160146575",
+       "id": "PrimaryDay",
+       "label": "PrimaryDay",
+       "type": "tweetegy"
      },
      {
        "color": "rgb(255,255,51)",
-       "x": "11.636328230801281",
-       "y": "19",
-       "id": "debatenight",
-       "label": "debatenight"
+       "size": 100,
+       "x": "154.75633348832093",
+       "y": "32.53153123395572",
+       "id": "StrongerTogether",
+       "label": "StrongerTogether",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,255,51)",
+       "size": 100,
+       "x": "162.96641598975202",
+       "y": "32.53153123395572",
+       "id": "VoteTrumpNV",
+       "label": "VoteTrumpNV",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,255,51)",
+       "size": 100,
+       "x": "158.89853192128348",
+       "y": "32.53153123395572",
+       "id": "VoteTrumpNH",
+       "label": "VoteTrumpNH",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,255,51)",
+       "size": 100,
+       "x": "145.58612247628213",
+       "y": "36.42320573675744",
+       "id": "TBT",
+       "label": "TBT",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,255,51)",
+       "size": 100,
+       "x": "149.12400540418315",
+       "y": "32.53153123395572",
+       "id": "NationalVoterRegistrationDay",
+       "label": "NationalVoterRegistrationDay",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,255,51)",
+       "size": 100,
+       "x": "160.14828264134457",
+       "y": "31.30169160146575",
+       "id": "LoveTrumpsHate",
+       "label": "LoveTrumpsHate",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,255,51)",
+       "size": 100,
+       "x": "159.2317348753137",
+       "y": "32.53153123395572",
+       "id": "SCPrimary",
+       "label": "SCPrimary",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,255,51)",
+       "size": 100,
+       "x": "162.14330141357252",
+       "y": "31.30169160146575",
+       "id": "NHPrimary",
+       "label": "NHPrimary",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,255,51)",
+       "size": 100,
+       "x": "168.750478169506",
+       "y": "33.635856610148586",
+       "id": "CaucusForTrump",
+       "label": "CaucusForTrump",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,255,51)",
+       "size": 100,
+       "x": "216.29359449208653",
+       "y": "38.686728405353385",
+       "id": "Debates2016",
+       "label": "Debates2016",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,255,51)",
+       "size": 100,
+       "x": "145.49168242309554",
+       "y": "32.53153123395572",
+       "id": "WomanCard",
+       "label": "WomanCard",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,255,51)",
+       "size": 100,
+       "x": "176.1669489682349",
+       "y": "34.64101615137754",
+       "id": "NYPrimary",
+       "label": "NYPrimary",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,255,51)",
+       "size": 100,
+       "x": "160.89701445450044",
+       "y": "33.635856610148586",
+       "id": "NoBillNoBreak",
+       "label": "NoBillNoBreak",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,255,51)",
+       "size": 100,
+       "x": "193.44097773593464",
+       "y": "32.53153123395572",
+       "id": "POTUS",
+       "label": "POTUS",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,255,51)",
+       "size": 100,
+       "x": "223.35217387319886",
+       "y": "38.686728405353385",
+       "id": "CrookedHillary",
+       "label": "CrookedHillary",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,255,51)",
+       "size": 100,
+       "x": "126.03465659844997",
+       "y": "38.686728405353385",
+       "id": "DemConvention",
+       "label": "DemConvention",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,255,51)",
+       "size": 100,
+       "x": "210.67812558769936",
+       "y": "31.30169160146575",
+       "id": "NeverHillary",
+       "label": "NeverHillary",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,255,51)",
+       "size": 100,
+       "x": "150.51144418693218",
+       "y": "37.224194364083985",
+       "id": "NBCNewsForum",
+       "label": "NBCNewsForum",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,255,51)",
+       "size": 100,
+       "x": "184.92701862706102",
+       "y": "31.30169160146575",
+       "id": "NewYorkValues",
+       "label": "NewYorkValues",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,255,51)",
+       "size": 100,
+       "x": "192.70410974670554",
+       "y": "35.56558820077846",
+       "id": "INPrimary",
+       "label": "INPrimary",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,255,51)",
+       "size": 100,
+       "x": "190.11257535857257",
+       "y": "37.97657844231884",
+       "id": "WIPrimary",
+       "label": "WIPrimary",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(255,255,51)",
+       "size": 100,
+       "x": "169.53866656604217",
+       "y": "34.64101615137754",
+       "id": "VoteTrumpSC",
+       "label": "VoteTrumpSC",
+       "type": "tweetegy"
      },
      {
        "color": "rgb(153,255,51)",
-       "x": "10.999870193026867",
-       "y": "46",
-       "id": "ImWithYou",
-       "label": "ImWithYou"
-     },
-     {
-       "color": "rgb(51,255,153)",
-       "x": "9.11823423306165282",
-       "y": "29",
+       "size": 100,
+       "x": "182.36468466123307",
+       "y": "46.41191574212168",
        "id": "TrumpTrain",
-       "label": "TrumpTrain"
+       "label": "TrumpTrain",
+       "type": "tweetegy"
      },
      {
-       "color": "rgb(51,255,153)",
-       "x": "7.94166224755344086",
-       "y": "24",
+       "color": "rgb(153,255,51)",
+       "size": 100,
+       "x": "200.1313733206719",
+       "y": "41.75595259859688",
+       "id": "SuperTuesday",
+       "label": "SuperTuesday",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(153,255,51)",
+       "size": 100,
+       "x": "180.60628940712635",
+       "y": "42.294850537622565",
+       "id": "GOPDebate",
+       "label": "GOPDebate",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(153,255,51)",
+       "size": 100,
+       "x": "158.83324495106882",
+       "y": "44.26727678801286",
        "id": "FITN",
-       "label": "FITN"
+       "label": "FITN",
+       "type": "tweetegy"
      },
      {
-       "color": "rgb(51,255,153)",
-       "x": "10.2928766660665829",
-       "y": "30",
+       "color": "rgb(153,255,51)",
+       "size": 100,
+       "x": "156.35478870595682",
+       "y": "41.195342878142355",
+       "id": "ImWithHer",
+       "label": "ImWithHer",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(153,255,51)",
+       "size": 100,
+       "x": "232.72656461602563",
+       "y": "41.75595259859688",
+       "id": "debatenight",
+       "label": "debatenight",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(153,255,51)",
+       "size": 100,
+       "x": "205.85753332133166",
+       "y": "46.806946386414324",
        "id": "DebateNight",
-       "label": "DebateNight"
+       "label": "DebateNight",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(153,255,51)",
+       "size": 100,
+       "x": "221.73966488365622",
+       "y": "43.79877406189684",
+       "id": "TrumpPence16",
+       "label": "TrumpPence16",
+       "type": "tweetegy"
      },
      {
        "color": "rgb(51,255,153)",
-       "x": "11.0869832441828109",
-       "y": "23",
-       "id": "TrumpPence16",
-       "label": "TrumpPence16"
-     },
-     {
-       "color": "rgb(51,153,255)",
-       "x": "10.6028548003501655",
-       "y": "57",
+       "size": 100,
+       "x": "212.0570960070033",
+       "y": "54.95392410108945",
        "id": "AmericaFirst",
-       "label": "AmericaFirst"
+       "label": "AmericaFirst",
+       "type": "tweetegy"
      },
      {
-       "color": "rgb(51,153,255)",
-       "x": "7.82754359405541944",
-       "y": "51",
+       "color": "rgb(51,255,153)",
+       "size": 100,
+       "x": "156.55087188110838",
+       "y": "53.44690235567577",
        "id": "DemsInPhilly",
-       "label": "DemsInPhilly"
+       "label": "DemsInPhilly",
+       "type": "tweetegy"
      },
      {
-       "color": "rgb(51,153,255)",
-       "x": "8.65241890899166322",
-       "y": "56",
+       "color": "rgb(51,255,153)",
+       "size": 100,
+       "x": "173.04837817983326",
+       "y": "54.71129599469521",
        "id": "RNCinCLE",
-       "label": "RNCinCLE"
+       "label": "RNCinCLE",
+       "type": "tweetegy"
      },
      {
-       "color": "rgb(51,153,255)",
-       "x": "10.7437184626296549",
-       "y": "53",
+       "color": "rgb(51,255,153)",
+       "size": 100,
+       "x": "219.99740386053733",
+       "y": "52.085813742804355",
+       "id": "ImWithYou",
+       "label": "ImWithYou",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(51,255,153)",
+       "size": 100,
+       "x": "214.8743692525931",
+       "y": "53.96335752816171",
        "id": "MAGA",
-       "label": "MAGA"
+       "label": "MAGA",
+       "type": "tweetegy"
+     },
+     {
+       "color": "rgb(51,255,153)",
+       "size": 100,
+       "x": "182.50088630887228",
+       "y": "55.66315367427482",
+       "id": "VoteTrump",
+       "label": "VoteTrump",
+       "type": "tweetegy"
      },
      {
        "color": "rgb(51,153,255)",
-       "x": "9.12504431544361339",
-       "y": "60",
-       "id": "VoteTrump",
-       "label": "VoteTrump"
-     },
-     {
-       "color": "rgb(153,51,255)",
-       "x": "7.7596576894553948",
-       "y": "4",
-       "id": "TeamTrump",
-       "label": "TeamTrump"
-     },
-     {
-       "color": "rgb(153,51,255)",
-       "x": "8.61401328754750573",
-       "y": "7",
-       "id": "Trump",
-       "label": "Trump"
-     },
-     {
-       "color": "rgb(153,51,255)",
-       "x": "7.02258922528691798",
-       "y": "6",
-       "id": "PrimaryDay",
-       "label": "PrimaryDay"
-     },
-     {
-       "color": "rgb(153,51,255)",
-       "x": "7.73781667441604704",
-       "y": "7",
-       "id": "StrongerTogether",
-       "label": "StrongerTogether"
-     },
-     {
-       "color": "rgb(153,51,255)",
-       "x": "8.92472566440781812",
-       "y": "4",
-       "id": "BrexitVote",
-       "label": "BrexitVote"
-     },
-     {
-       "color": "rgb(153,51,255)",
-       "x": "8.14832079948760146",
-       "y": "7",
-       "id": "VoteTrumpNV",
-       "label": "VoteTrumpNV"
-     },
-     {
-       "color": "rgb(153,51,255)",
-       "x": "7.94492659606417373",
-       "y": "7",
-       "id": "VoteTrumpNH",
-       "label": "VoteTrumpNH"
-     },
-     {
-       "color": "rgb(153,51,255)",
-       "x": "7.4562002702091581",
-       "y": "7",
-       "id": "NationalVoterRegistrationDay",
-       "label": "NationalVoterRegistrationDay"
-     },
-     {
-       "color": "rgb(153,51,255)",
-       "x": "10.5605206921064507",
-       "y": "4",
-       "id": "Obamacare",
-       "label": "Obamacare"
-     },
-     {
-       "color": "rgb(153,51,255)",
-       "x": "9.13860822506334713",
-       "y": "5",
-       "id": "ICYMI",
-       "label": "ICYMI"
-     },
-     {
-       "color": "rgb(153,51,255)",
-       "x": "8.00741413206722896",
-       "y": "6",
-       "id": "LoveTrumpsHate",
-       "label": "LoveTrumpsHate"
-     },
-     {
-       "color": "rgb(153,51,255)",
-       "x": "7.96158674376568509",
-       "y": "7",
-       "id": "SCPrimary",
-       "label": "SCPrimary"
-     },
-     {
-       "color": "rgb(153,51,255)",
-       "x": "8.1071650706786258",
-       "y": "6",
-       "id": "NHPrimary",
-       "label": "NHPrimary"
-     },
-     {
-       "color": "rgb(153,51,255)",
-       "x": "8.43752390847530087",
-       "y": "8",
-       "id": "CaucusForTrump",
-       "label": "CaucusForTrump"
-     },
-     {
-       "color": "rgb(153,51,255)",
-       "x": "7.46500229272117011",
-       "y": "4",
-       "id": "WeMadeHistory",
-       "label": "WeMadeHistory"
-     },
-     {
-       "color": "rgb(153,51,255)",
-       "x": "7.27458412115477682",
-       "y": "7",
-       "id": "WomanCard",
-       "label": "WomanCard"
-     },
-     {
-       "color": "rgb(153,51,255)",
-       "x": "8.80834744841174455",
-       "y": "9",
-       "id": "NYPrimary",
-       "label": "NYPrimary"
-     },
-     {
-       "color": "rgb(153,51,255)",
-       "x": "11.7413829029802574",
-       "y": "5",
-       "id": "1",
-       "label": "1"
-     },
-     {
-       "color": "rgb(153,51,255)",
-       "x": "9.71889227856805604",
-       "y": "4",
-       "id": "SheWon",
-       "label": "SheWon"
-     },
-     {
-       "color": "rgb(153,51,255)",
-       "x": "8.50407701932730298",
-       "y": "4",
-       "id": "WomensEqualityDay",
-       "label": "WomensEqualityDay"
-     },
-     {
-       "color": "rgb(153,51,255)",
-       "x": "8.04485072272502144",
-       "y": "8",
-       "id": "NoBillNoBreak",
-       "label": "NoBillNoBreak"
-     },
-     {
-       "color": "rgb(153,51,255)",
-       "x": "11.0186484672254181",
-       "y": "4",
-       "id": "GOPConvention",
-       "label": "GOPConvention"
-     },
-     {
-       "color": "rgb(153,51,255)",
-       "x": "9.67204888679673225",
-       "y": "7",
-       "id": "POTUS",
-       "label": "POTUS"
-     },
-     {
-       "color": "rgb(153,51,255)",
-       "x": "10.5339062793849685",
-       "y": "6",
-       "id": "NeverHillary",
-       "label": "NeverHillary"
-     },
-     {
-       "color": "rgb(153,51,255)",
-       "x": "11.3543995547870828",
-       "y": "5",
-       "id": "LESM",
-       "label": "LESM"
-     },
-     {
-       "color": "rgb(153,51,255)",
-       "x": "7.93595070300616356",
-       "y": "4",
-       "id": "NevadaCaucus",
-       "label": "NevadaCaucus"
-     },
-     {
-       "color": "rgb(153,51,255)",
-       "x": "9.24635093135305119",
-       "y": "6",
-       "id": "NewYorkValues",
-       "label": "NewYorkValues"
-     },
-     {
-       "color": "rgb(153,51,255)",
-       "x": "8.6192818173983099",
-       "y": "4",
-       "id": "SCOTUS",
-       "label": "SCOTUS"
-     },
-     {
-       "color": "rgb(153,51,255)",
-       "x": "7.80567375335570635",
-       "y": "4",
-       "id": "debate",
-       "label": "debate"
-     },
-     {
-       "color": "rgb(153,51,255)",
-       "x": "6.69935307835794269",
-       "y": "4",
-       "id": "TrumpYourself",
-       "label": "TrumpYourself"
-     },
-     {
-       "color": "rgb(153,51,255)",
-       "x": "10.2907941529124862",
-       "y": "4",
-       "id": "2A",
-       "label": "2A"
-     },
-     {
-       "color": "rgb(153,51,255)",
-       "x": "8.476933328302108",
-       "y": "9",
-       "id": "VoteTrumpSC",
-       "label": "VoteTrumpSC"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "7.58502468384712003",
-       "y": "1",
-       "id": "jenniferrubin",
-       "label": "jenniferrubin"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "5.21211621267333669",
-       "y": "1",
-       "id": "HillaryOnGMA",
-       "label": "HillaryOnGMA"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "7.96609364449228785",
-       "y": "1",
-       "id": "Turkey",
-       "label": "Turkey"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "8.12543681047217703",
-       "y": "1",
-       "id": "NewHampshire",
-       "label": "NewHampshire"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "5.99420457162110587",
-       "y": "1",
-       "id": "laurencetribe",
-       "label": "laurencetribe"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "7.1903451807852905",
-       "y": "1",
-       "id": "womancard",
-       "label": "womancard"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "4.84932490483053691",
-       "y": "1",
-       "id": "Statehood",
-       "label": "Statehood"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "5.1177731199631733",
-       "y": "1",
-       "id": "RIP",
-       "label": "RIP"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "6.67986699228706282",
-       "y": "1",
-       "id": "CBNNews",
-       "label": "CBNNews"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "6.81652702055495219",
-       "y": "1",
-       "id": "WeWantTrump",
-       "label": "WeWantTrump"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "5.14368672361040158",
-       "y": "1",
-       "id": "SmallBizWeek",
-       "label": "SmallBizWeek"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "6.23149102542516431",
-       "y": "2",
-       "id": "TedCruz",
-       "label": "TedCruz"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "6.52916900415877599",
-       "y": "2",
-       "id": "CreatorsAskHRC",
-       "label": "CreatorsAskHRC"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "8.18535277187245036",
-       "y": "1",
-       "id": "GOPdebate",
-       "label": "GOPdebate"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "5.76554769967167324",
-       "y": "1",
-       "id": "ugpride2016",
-       "label": "ugpride2016"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "5.1177731199631733",
-       "y": "1",
-       "id": "DivoDeJuarez",
-       "label": "DivoDeJuarez"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "6.52528449280853451",
-       "y": "1",
-       "id": "ArmyBDay",
-       "label": "ArmyBDay"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "7.50588196576612177",
-       "y": "1",
-       "id": "KentuckyDerby",
-       "label": "KentuckyDerby"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "5.50890023607135593",
-       "y": "1",
-       "id": "MadeForHistory",
-       "label": "MadeForHistory"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "6.30070364979645881",
-       "y": "1",
-       "id": "NaturalBorn",
-       "label": "NaturalBorn"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "7.45114119037118794",
-       "y": "2",
-       "id": "MSNBCTownhall",
-       "label": "MSNBCTownhall"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "7.52414243743914302",
-       "y": "1",
-       "id": "SouthCarolina",
-       "label": "SouthCarolina"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "7.81706239387973412",
-       "y": "1",
-       "id": "OpioidAwarenessWeek",
-       "label": "OpioidAwarenessWeek"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "5.46041234997423519",
-       "y": "1",
-       "id": "EastVillage",
-       "label": "EastVillage"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "7.35225307865791411",
-       "y": "3",
-       "id": "StopGunViolence",
-       "label": "StopGunViolence"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "6.99562271802651114",
-       "y": "1",
-       "id": "USMC2016",
-       "label": "USMC2016"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "4.94923200383976525",
-       "y": "1",
-       "id": "Srebrenica",
-       "label": "Srebrenica"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "7.15648182483596607",
-       "y": "1",
-       "id": "SouthCarolinaPrimary",
-       "label": "SouthCarolinaPrimary"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "6.69824369132305542",
-       "y": "1",
-       "id": "NotOneMore",
-       "label": "NotOneMore"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "6.31861769340053225",
-       "y": "1",
-       "id": "NetNeutrality",
-       "label": "NetNeutrality"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "5.1177731199631733",
-       "y": "1",
-       "id": "JuanGabriel",
-       "label": "JuanGabriel"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "7.63157120875145534",
-       "y": "1",
-       "id": "Mexico",
-       "label": "Mexico"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "7.30332399749445216",
-       "y": "1",
-       "id": "Bush",
-       "label": "Bush"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "5.39155670539569343",
-       "y": "1",
-       "id": "ChangeAgents",
-       "label": "ChangeAgents"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "8.16843370974197924",
-       "y": "1",
-       "id": "WIBackHer",
-       "label": "WIBackHer"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "5.48178423532278725",
-       "y": "1",
-       "id": "Prince",
-       "label": "Prince"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "5.99304346656487574",
-       "y": "1",
-       "id": "OHHillYes",
-       "label": "OHHillYes"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "7.06185744398502635",
-       "y": "1",
-       "id": "APAHM",
-       "label": "APAHM"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "6.36080628916553437",
-       "y": "1",
-       "id": "With_Cruz_you_lose",
-       "label": "With_Cruz_you_lose"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "5.88075105165838163",
-       "y": "1",
-       "id": "WHD",
-       "label": "WHD"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "6.29469820661148916",
-       "y": "1",
-       "id": "Olmstead",
-       "label": "Olmstead"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "7.70038105040876353",
-       "y": "1",
-       "id": "HistoryMade",
-       "label": "HistoryMade"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "6.85410231804175663",
-       "y": "1",
-       "id": "RNC",
-       "label": "RNC"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "6.5978479612187062",
-       "y": "1",
-       "id": "HispanicHeritageMonth",
-       "label": "HispanicHeritageMonth"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "6.30070364979645881",
-       "y": "1",
-       "id": "CommonLaw",
-       "label": "CommonLaw"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "7.85859978791247826",
-       "y": "1",
-       "id": "MorningJoe",
-       "label": "MorningJoe"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "6.24602420794718949",
-       "y": "1",
-       "id": "RNCINCLE",
-       "label": "RNCINCLE"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "7.58502468384712003",
-       "y": "1",
-       "id": "MattSchlapp",
-       "label": "MattSchlapp"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "6.67986699228706282",
-       "y": "1",
-       "id": "2016",
-       "label": "2016"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "5.72201110515261036",
-       "y": "1",
-       "id": "LAflood",
-       "label": "LAflood"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "7.40681652470467355",
-       "y": "2",
-       "id": "NPS100",
-       "label": "NPS100"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "7.61464090140151662",
-       "y": "1",
-       "id": "NAACP107",
-       "label": "NAACP107"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "6.53515975383350867",
-       "y": "1",
-       "id": "ThanksObama",
-       "label": "ThanksObama"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "6.09206669743827511",
-       "y": "4",
-       "id": "DemPlatform",
-       "label": "DemPlatform"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "5.81448905827106444",
-       "y": "1",
-       "id": "LibrarianOfCongress",
-       "label": "LibrarianOfCongress"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "4.60577935159690721",
-       "y": "1",
-       "id": "fixdemocracyfirst",
-       "label": "fixdemocracyfirst"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "4.71206996034381032",
-       "y": "1",
-       "id": "Caribbean",
-       "label": "Caribbean"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "7.507654939071708",
-       "y": "1",
-       "id": "Colbert",
-       "label": "Colbert"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "6.46506992135527714",
-       "y": "1",
-       "id": "HarveyPitt",
-       "label": "HarveyPitt"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "6.77912244854038804",
-       "y": "1",
-       "id": "HoustonFlood",
-       "label": "HoustonFlood"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "8.31967847471816846",
-       "y": "1",
-       "id": "NewDay",
-       "label": "NewDay"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "6.45951175322486204",
-       "y": "1",
-       "id": "AIDSFreeGeneration",
-       "label": "AIDSFreeGeneration"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "8.0507839178799987",
-       "y": "1",
-       "id": "GPLFers",
-       "label": "GPLFers"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "7.71403280957809745",
-       "y": "1",
-       "id": "Enough",
-       "label": "Enough"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "7.06114745981640279",
-       "y": "1",
-       "id": "Charleston9",
-       "label": "Charleston9"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "8.13334750482019508",
-       "y": "1",
-       "id": "GunViolence",
-       "label": "GunViolence"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "7.00166004737600822",
-       "y": "2",
-       "id": "RollCallVote",
-       "label": "RollCallVote"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "5.55176278445368077",
-       "y": "1",
-       "id": "SaveElephants",
-       "label": "SaveElephants"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "6.81652702055495219",
-       "y": "1",
-       "id": "WeAreBernie",
-       "label": "WeAreBernie"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "7.03971154375177832",
-       "y": "3",
-       "id": "DemsInPHL",
-       "label": "DemsInPHL"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "7.90100981774193389",
-       "y": "1",
-       "id": "MegynKellyPresents",
-       "label": "MegynKellyPresents"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "7.3716695989968315",
-       "y": "1",
-       "id": "ECONOMY",
-       "label": "ECONOMY"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "5.9708531165949621",
-       "y": "1",
-       "id": "Diwali",
-       "label": "Diwali"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "7.50883622381270222",
-       "y": "1",
-       "id": "fairandbalancedmyass",
-       "label": "fairandbalancedmyass"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "5.43411870688033449",
-       "y": "1",
-       "id": "imwithher",
-       "label": "imwithher"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "5.11963717895734405",
-       "y": "1",
-       "id": "SayHerName",
-       "label": "SayHerName"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "7.79445961669801335",
-       "y": "1",
-       "id": "UNGA",
-       "label": "UNGA"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "5.9507867059113746",
-       "y": "1",
-       "id": "WH",
-       "label": "WH"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "7.08618641737691846",
-       "y": "2",
-       "id": "LSSC",
-       "label": "LSSC"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "4.84932490483053691",
-       "y": "1",
-       "id": "WashingtonDC",
-       "label": "WashingtonDC"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "7.63157120875145534",
-       "y": "1",
-       "id": "Jobs",
-       "label": "Jobs"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "6.90478021114654084",
-       "y": "1",
-       "id": "IranDeal",
-       "label": "IranDeal"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "5.79916747831966628",
-       "y": "1",
-       "id": "HillaryOnCNN",
-       "label": "HillaryOnCNN"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "5.38836359963912859",
-       "y": "1",
-       "id": "veterans",
-       "label": "veterans"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "8.19036258812720064",
-       "y": "1",
-       "id": "CommonCore",
-       "label": "CommonCore"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "7.57814067311005513",
-       "y": "1",
-       "id": "campaignfinance",
-       "label": "campaignfinance"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "6.24397128270428947",
-       "y": "1",
-       "id": "NewYork",
-       "label": "NewYork"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "4.94923200383976525",
-       "y": "1",
-       "id": "NeverForget",
-       "label": "NeverForget"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "5.03561760524088342",
-       "y": "1",
-       "id": "WestVirginia",
-       "label": "WestVirginia"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "6.8486610076886052",
-       "y": "1",
-       "id": "AmericaGreatAgain",
-       "label": "AmericaGreatAgain"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "7.87042074248856949",
-       "y": "1",
-       "id": "IAPolitics",
-       "label": "IAPolitics"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "6.34226857853225301",
-       "y": "1",
-       "id": "Cruz",
-       "label": "Cruz"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "5.10278680062013468",
-       "y": "1",
-       "id": "LaudatoSi",
-       "label": "LaudatoSi"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "7.37914721090777004",
-       "y": "1",
-       "id": "iVoted",
-       "label": "iVoted"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "7.9282394337753761",
-       "y": "1",
-       "id": "GoldenGlobe",
-       "label": "GoldenGlobe"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "5.38836359963912859",
-       "y": "1",
-       "id": "GIBill",
-       "label": "GIBill"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "7.89644407771495516",
-       "y": "1",
-       "id": "WorldRefugeeDay",
-       "label": "WorldRefugeeDay"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "7.55737528809933767",
-       "y": "1",
-       "id": "VoteTrumpVT",
-       "label": "VoteTrumpVT"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "6.37822006625798288",
-       "y": "1",
-       "id": "Trump4President",
-       "label": "Trump4President"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "7.07953786235843729",
-       "y": "1",
-       "id": "Iowa",
-       "label": "Iowa"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "7.63775085114334917",
-       "y": "1",
-       "id": "Decision2016",
-       "label": "Decision2016"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "5.9507867059113746",
-       "y": "1",
-       "id": "DavidCameron",
-       "label": "DavidCameron"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "7.02392949382153464",
-       "y": "1",
-       "id": "StandTogether",
-       "label": "StandTogether"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "5.43411870688033449",
-       "y": "1",
-       "id": "CripTheVote",
-       "label": "CripTheVote"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "7.67660337427716755",
-       "y": "2",
-       "id": "NHPolitics",
-       "label": "NHPolitics"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "7.63157120875145534",
-       "y": "1",
-       "id": "Ford",
-       "label": "Ford"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "6.06266871097029458",
-       "y": "1",
-       "id": "MothersDay",
-       "label": "MothersDay"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "7.50233224523422138",
-       "y": "1",
-       "id": "YouthDay",
-       "label": "YouthDay"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "8.23906857562847073",
-       "y": "1",
-       "id": "TRUMPDOG",
-       "label": "TRUMPDOG"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "6.7803737933804431",
-       "y": "2",
-       "id": "ClintonKaine",
-       "label": "ClintonKaine"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "7.63157120875145534",
-       "y": "1",
-       "id": "Carrier",
-       "label": "Carrier"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "6.7271713220297169",
-       "y": "1",
-       "id": "Excellent",
-       "label": "Excellent"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "7.74901432555969549",
-       "y": "3",
-       "id": "FoxNews",
-       "label": "FoxNews"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "6.6246672757945646",
-       "y": "1",
-       "id": "Orlando",
-       "label": "Orlando"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "5.79017350590467395",
-       "y": "1",
-       "id": "UAW",
-       "label": "UAW"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "8.01420277643989287",
-       "y": "2",
-       "id": "trump",
-       "label": "trump"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "5.40585593522477392",
-       "y": "1",
-       "id": "HRC4PA",
-       "label": "HRC4PA"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "6.42114135151817145",
-       "y": "1",
-       "id": "YUGE",
-       "label": "YUGE"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "7.95469471936073091",
-       "y": "1",
-       "id": "KenLangone",
-       "label": "KenLangone"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "7.95469471936073091",
-       "y": "1",
-       "id": "NeilCavuto",
-       "label": "NeilCavuto"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "6.60566790404595316",
-       "y": "1",
-       "id": "WeTrumpHate",
-       "label": "WeTrumpHate"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "5.95094695035288535",
-       "y": "2",
-       "id": "ActOnClimate",
-       "label": "ActOnClimate"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "5.39155670539569343",
-       "y": "1",
-       "id": "MichaelBrown",
-       "label": "MichaelBrown"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "8.05174194537572951",
-       "y": "1",
-       "id": "HaileyPuckett",
-       "label": "HaileyPuckett"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "6.1070543143108722",
-       "y": "1",
-       "id": "UnderstandSlavery",
-       "label": "UnderstandSlavery"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "7.30332399749445216",
-       "y": "1",
-       "id": "Rubio",
-       "label": "Rubio"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "6.11690884906252474",
-       "y": "1",
-       "id": "MadeInAmerica",
-       "label": "MadeInAmerica"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "5.48178423532278725",
-       "y": "1",
-       "id": "HillaryClinton",
-       "label": "HillaryClinton"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "7.34657846034836393",
-       "y": "1",
-       "id": "election2016",
-       "label": "election2016"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "7.84724265416602318",
-       "y": "1",
-       "id": "MayDay",
-       "label": "MayDay"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "6.40499414887883489",
-       "y": "2",
-       "id": "VirWINia",
-       "label": "VirWINia"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "6.37942733299141107",
-       "y": "3",
-       "id": "RNCInCLE",
-       "label": "RNCInCLE"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "7.64888916243055483",
-       "y": "2",
-       "id": "sitin",
-       "label": "sitin"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "5.43411870688033449",
-       "y": "1",
-       "id": "ADA",
-       "label": "ADA"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "6.13722536610669334",
-       "y": "3",
-       "id": "FightForFamilies",
-       "label": "FightForFamilies"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "7.42476436052693067",
-       "y": "1",
-       "id": "TrumpNV",
-       "label": "TrumpNV"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "7.95469471936073091",
-       "y": "1",
-       "id": "Fox",
-       "label": "Fox"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "6.30650614757222705",
-       "y": "2",
-       "id": "OrlandoUnited",
-       "label": "OrlandoUnited"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "6.79829978988609884",
-       "y": "1",
-       "id": "EarthDay",
-       "label": "EarthDay"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "7.40452568686821433",
-       "y": "1",
-       "id": "MikePence",
-       "label": "MikePence"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "8.31315885645667052",
-       "y": "1",
-       "id": "SallyRideDay",
-       "label": "SallyRideDay"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "6.20069373734165907",
-       "y": "2",
-       "id": "LGBT",
-       "label": "LGBT"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "7.31866252718923516",
-       "y": "3",
-       "id": "trump2016",
-       "label": "trump2016"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "5.35448805897098801",
-       "y": "1",
-       "id": "DACA",
-       "label": "DACA"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "8.06368853739003555",
-       "y": "1",
-       "id": "MaitnerStrong",
-       "label": "MaitnerStrong"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "6.1622784010538707",
-       "y": "1",
-       "id": "LaurenceTribe",
-       "label": "LaurenceTribe"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "6.81099508287686284",
-       "y": "1",
-       "id": "holdthefloor",
-       "label": "holdthefloor"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "8.0069980058715533",
-       "y": "2",
-       "id": "DemsinPhilly",
-       "label": "DemsinPhilly"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "5.97554534270423243",
-       "y": "1",
-       "id": "RosanellEaton",
-       "label": "RosanellEaton"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "6.85079642319738724",
-       "y": "2",
-       "id": "CitizensUnited",
-       "label": "CitizensUnited"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "5.3397710492835273",
-       "y": "1",
-       "id": "makersandtakers",
-       "label": "makersandtakers"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "6.32148611416435635",
-       "y": "2",
-       "id": "MaryBrigidMcManamon",
-       "label": "MaryBrigidMcManamon"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "6.49994310348600024",
-       "y": "1",
-       "id": "JuntosSePuede",
-       "label": "JuntosSePuede"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "6.81652702055495219",
-       "y": "1",
-       "id": "makeamericagreatagain",
-       "label": "makeamericagreatagain"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "7.96163902516070543",
-       "y": "1",
-       "id": "BlackWomensEqualPay",
-       "label": "BlackWomensEqualPay"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "5.25855304518765365",
-       "y": "2",
-       "id": "EstoyConElla",
-       "label": "EstoyConElla"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "7.95320428528488588",
-       "y": "1",
-       "id": "Ted",
-       "label": "Ted"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "7.41742400122277434",
-       "y": "1",
-       "id": "enough",
-       "label": "enough"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "8.15555985774511782",
-       "y": "1",
-       "id": "GO",
-       "label": "GO"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "7.48867809237650484",
-       "y": "1",
-       "id": "ROGERAILES",
-       "label": "ROGERAILES"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "5.28981447304784425",
-       "y": "1",
-       "id": "MoreInCommon",
-       "label": "MoreInCommon"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "8.10767005484184544",
-       "y": "1",
-       "id": "TrumpLV",
-       "label": "TrumpLV"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "7.59873674586823711",
-       "y": "1",
-       "id": "InternationalNursesDay",
-       "label": "InternationalNursesDay"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "6.08053970422628698",
-       "y": "1",
-       "id": "Brexit",
-       "label": "Brexit"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "6.89488631494521798",
-       "y": "1",
-       "id": "Laurence",
-       "label": "Laurence"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "7.44907629146193706",
-       "y": "1",
-       "id": "LoneStarState",
-       "label": "LoneStarState"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "6.58300063497193566",
-       "y": "1",
-       "id": "EndGunViolence",
-       "label": "EndGunViolence"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "7.48867809237650484",
-       "y": "1",
-       "id": "MichaelMoore",
-       "label": "MichaelMoore"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "8.31576854406625898",
-       "y": "1",
-       "id": "NoLoyalty",
-       "label": "NoLoyalty"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "6.45300903666762427",
-       "y": "1",
-       "id": "Debate",
-       "label": "Debate"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "8.19445470161365819",
-       "y": "1",
-       "id": "KansasCaucus",
-       "label": "KansasCaucus"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "7.57756615806304712",
-       "y": "1",
-       "id": "WATCH",
-       "label": "WATCH"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "7.59730318586125097",
-       "y": "2",
-       "id": "StoptheHate",
-       "label": "StoptheHate"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "6.73536820737033004",
-       "y": "1",
-       "id": "DeclareYourAmbition",
-       "label": "DeclareYourAmbition"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "6.86417336301750058",
-       "y": "1",
-       "id": "iRegistered",
-       "label": "iRegistered"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "7.81967793357512875",
-       "y": "1",
-       "id": "NABJNAHJ16",
-       "label": "NABJNAHJ16"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "8.23862154116896406",
-       "y": "1",
-       "id": "BikersForTrump",
-       "label": "BikersForTrump"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "6.24397128270428947",
-       "y": "1",
-       "id": "Jonas",
-       "label": "Jonas"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "5.39155670539569343",
-       "y": "1",
-       "id": "MothersoftheMovement",
-       "label": "MothersoftheMovement"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "6.01613847427963666",
-       "y": "1",
-       "id": "ShesWithUs",
-       "label": "ShesWithUs"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "5.39315113310372318",
-       "y": "1",
-       "id": "FeelTheBern",
-       "label": "FeelTheBern"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "7.45576737521328603",
-       "y": "2",
-       "id": "IowaCaucus",
-       "label": "IowaCaucus"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "7.16379772390406355",
-       "y": "2",
-       "id": "smallbiz",
-       "label": "smallbiz"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "4.67825486995303486",
-       "y": "1",
-       "id": "DNCinPHL",
-       "label": "DNCinPHL"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "7.71403280957809745",
-       "y": "1",
-       "id": "Filibuster",
-       "label": "Filibuster"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "8.05030477585032855",
-       "y": "1",
-       "id": "VoteTrumpMA",
-       "label": "VoteTrumpMA"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "6.87727666751468369",
-       "y": "1",
-       "id": "sendDonaldtospace",
-       "label": "sendDonaldtospace"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "5.65961436460947631",
-       "y": "1",
-       "id": "FirstInPOTUS",
-       "label": "FirstInPOTUS"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "8.26707632674699511",
-       "y": "3",
-       "id": "MAKEAMERICAGREATAGAIN",
-       "label": "MAKEAMERICAGREATAGAIN"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "7.76288638638301887",
-       "y": "2",
-       "id": "NoMoreSilence",
-       "label": "NoMoreSilence"
-     },
-     {
-       "color": "rgb(255,51,255)",
-       "x": "5.54883849437711607",
-       "y": "1",
-       "id": "Pulse",
-       "label": "Pulse"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "10.2617893614613838",
-       "y": "1",
-       "id": "ISIS",
-       "label": "ISIS"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "8.97866223374670369",
-       "y": "1",
-       "id": "FallonTonight",
-       "label": "FallonTonight"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "9.5116239320879572",
-       "y": "1",
-       "id": "MeetTheTrumps",
-       "label": "MeetTheTrumps"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "8.62504549078276028",
-       "y": "2",
-       "id": "RestoreTheVRA",
-       "label": "RestoreTheVRA"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "8.97866223374670369",
-       "y": "1",
-       "id": "MyTeacherIsWeird",
-       "label": "MyTeacherIsWeird"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "8.5331608243130006",
-       "y": "1",
-       "id": "WHCD",
-       "label": "WHCD"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "9.89245245603893864",
-       "y": "2",
-       "id": "LawandOrder",
-       "label": "LawandOrder"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "17.7327917743523038",
-       "y": "1",
-       "id": "CincoDeMayo",
-       "label": "CincoDeMayo"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "14.5589237511523599",
-       "y": "1",
-       "id": "WheresHillary",
-       "label": "WheresHillary"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "9.44764800667295646",
-       "y": "1",
-       "id": "MDPrimary",
-       "label": "MDPrimary"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "8.82376601226975588",
-       "y": "1",
-       "id": "Politician",
-       "label": "Politician"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "8.77718355664535643",
-       "y": "1",
-       "id": "CA4Trump",
-       "label": "CA4Trump"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "8.74969531936357292",
-       "y": "1",
-       "id": "AmericanSamoa",
-       "label": "AmericanSamoa"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "8.75789455726538435",
-       "y": "1",
-       "id": "UPUPUP",
-       "label": "UPUPUP"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "14.5063869796936498",
-       "y": "1",
-       "id": "Frozen",
-       "label": "Frozen"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "10.5823724344784136",
-       "y": "1",
-       "id": "DonaldTrump",
-       "label": "DonaldTrump"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "9.35284507059301973",
-       "y": "1",
-       "id": "vaticanwalls",
-       "label": "vaticanwalls"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "9.59675852210661873",
-       "y": "1",
-       "id": "Clinton",
-       "label": "Clinton"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "9.39020555913138644",
-       "y": "1",
-       "id": "AmericaFIRST",
-       "label": "AmericaFIRST"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "9.01197880695398723",
-       "y": "1",
-       "id": "AIPAC2016",
-       "label": "AIPAC2016"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "8.80734487990493697",
-       "y": "1",
-       "id": "extremevetting",
-       "label": "extremevetting"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "9.10765780241990264",
-       "y": "3",
-       "id": "DisarmHate",
-       "label": "DisarmHate"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "9.03884246968830496",
-       "y": "1",
-       "id": "Mormon",
-       "label": "Mormon"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "9.04830653130653317",
-       "y": "1",
-       "id": "Elkhart",
-       "label": "Elkhart"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "9.44764800667295646",
-       "y": "1",
-       "id": "DEPrimary",
-       "label": "DEPrimary"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "9.93129518479355333",
-       "y": "1",
-       "id": "WOMEN4TRUMP",
-       "label": "WOMEN4TRUMP"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "9.72077085482072611",
-       "y": "1",
-       "id": "GoodTrouble",
-       "label": "GoodTrouble"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "9.95012815878422785",
-       "y": "1",
-       "id": "Indiana",
-       "label": "Indiana"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "8.62666564611899034",
-       "y": "2",
-       "id": "ArizonaPrimary",
-       "label": "ArizonaPrimary"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "9.36017010824258655",
-       "y": "1",
-       "id": "BlacksForTrump",
-       "label": "BlacksForTrump"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "10.5789955302002543",
-       "y": "1",
-       "id": "TrumpMovement",
-       "label": "TrumpMovement"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "8.67216136311200536",
-       "y": "1",
-       "id": "Donald",
-       "label": "Donald"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "9.51771899044860881",
-       "y": "1",
-       "id": "CruzFraud",
-       "label": "CruzFraud"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "8.44613682745237249",
-       "y": "1",
-       "id": "ORPrimary",
-       "label": "ORPrimary"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "10.7627176444553214",
-       "y": "1",
-       "id": "ImWithHernandez",
-       "label": "ImWithHernandez"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "10.3209640119118315",
-       "y": "1",
-       "id": "RNCwithBernie",
-       "label": "RNCwithBernie"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "9.68849457258309599",
-       "y": "1",
-       "id": "INDPrimary",
-       "label": "INDPrimary"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "9.41834793003952697",
-       "y": "2",
-       "id": "SOTU",
-       "label": "SOTU"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "12.1548849437534976",
-       "y": "2",
-       "id": "TrumpWon",
-       "label": "TrumpWon"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "9.44764800667295646",
-       "y": "1",
-       "id": "CTPrimary",
-       "label": "CTPrimary"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "9.95849228077730864",
-       "y": "1",
-       "id": "BuildTheWall",
-       "label": "BuildTheWall"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "9.01641593687927667",
-       "y": "1",
-       "id": "Enjoy",
-       "label": "Enjoy"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "8.53557393502908823",
-       "y": "1",
-       "id": "Greta",
-       "label": "Greta"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "9.98245387401438933",
-       "y": "1",
-       "id": "TheTonightShow",
-       "label": "TheTonightShow"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "9.36017010824258655",
-       "y": "1",
-       "id": "Hillary2016",
-       "label": "Hillary2016"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "9.85696009994607536",
-       "y": "1",
-       "id": "SecondAmendment",
-       "label": "SecondAmendment"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "8.53597592122819115",
-       "y": "1",
-       "id": "TrumpSupporters",
-       "label": "TrumpSupporters"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "9.95773277658746636",
-       "y": "1",
-       "id": "presidenttrump",
-       "label": "presidenttrump"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "15.6199745840584878",
-       "y": "1",
-       "id": "RiggedSystem",
-       "label": "RiggedSystem"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "11.825966969859504",
-       "y": "1",
-       "id": "ArmedForcesDay",
-       "label": "ArmedForcesDay"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "9.19950628896544487",
-       "y": "2",
-       "id": "Utah",
-       "label": "Utah"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "9.54054376692381645",
-       "y": "1",
-       "id": "StopCommonCore",
-       "label": "StopCommonCore"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "8.44274449428110074",
-       "y": "3",
-       "id": "Hannity",
-       "label": "Hannity"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "12.6189862653002081",
-       "y": "1",
-       "id": "MSM",
-       "label": "MSM"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "8.66947689866316118",
-       "y": "1",
-       "id": "NVcaucus",
-       "label": "NVcaucus"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "9.83968594720771783",
-       "y": "1",
-       "id": "VoteTrumpWI",
-       "label": "VoteTrumpWI"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "9.05058599235672467",
-       "y": "3",
-       "id": "NeverTrump",
-       "label": "NeverTrump"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "10.694085080152874",
-       "y": "1",
-       "id": "dtmag",
-       "label": "dtmag"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "14.4617941975398345",
-       "y": "1",
-       "id": "Benghazi",
-       "label": "Benghazi"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "9.61930745225620143",
-       "y": "1",
-       "id": "WattersWorld",
-       "label": "WattersWorld"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "10.3114001739860921",
-       "y": "1",
-       "id": "media",
-       "label": "media"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "10.1127387267691056",
-       "y": "2",
-       "id": "DDay",
-       "label": "DDay"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "11.7895210067758569",
-       "y": "1",
-       "id": "MDW",
-       "label": "MDW"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "8.71477768988917489",
-       "y": "1",
-       "id": "AsLongAsItTakes",
-       "label": "AsLongAsItTakes"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "8.98733519798641289",
-       "y": "3",
-       "id": "VoteTrumpNY",
-       "label": "VoteTrumpNY"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "8.70418219590463593",
-       "y": "1",
-       "id": "taxplan",
-       "label": "taxplan"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "9.09319270757837117",
-       "y": "1",
-       "id": "CNN",
-       "label": "CNN"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "8.62072439316933981",
-       "y": "1",
-       "id": "TitleIX",
-       "label": "TitleIX"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "11.5416792520618419",
-       "y": "1",
-       "id": "PhilandoCastile",
-       "label": "PhilandoCastile"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "9.1366224196648993",
-       "y": "3",
-       "id": "AZPrimary",
-       "label": "AZPrimary"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "13.3357649597283423",
-       "y": "1",
-       "id": "Brussels",
-       "label": "Brussels"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "8.71477768988917489",
-       "y": "1",
-       "id": "gunviolence",
-       "label": "gunviolence"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "10.1572311708070995",
-       "y": "3",
-       "id": "MakeAmericaSafeAgain",
-       "label": "MakeAmericaSafeAgain"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "12.3373571206933761",
-       "y": "1",
-       "id": "CoastGuardDay",
-       "label": "CoastGuardDay"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "12.6189862653002081",
-       "y": "1",
-       "id": "VoterFraud",
-       "label": "VoterFraud"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "10.0812542856438849",
-       "y": "1",
-       "id": "TRUMP2016",
-       "label": "TRUMP2016"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "9.81968113206439064",
-       "y": "1",
-       "id": "JohnRyder",
-       "label": "JohnRyder"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "9.60071606571214531",
-       "y": "1",
-       "id": "60Minutes",
-       "label": "60Minutes"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "10.9741766770266995",
-       "y": "1",
-       "id": "WesternTuesday",
-       "label": "WesternTuesday"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "9.890980121990955",
-       "y": "1",
-       "id": "RTM2016",
-       "label": "RTM2016"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "8.54371108243723043",
-       "y": "2",
-       "id": "CAPrimary",
-       "label": "CAPrimary"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "9.98245387401438933",
-       "y": "1",
-       "id": "JimmyFallon",
-       "label": "JimmyFallon"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "9.03884246968830496",
-       "y": "1",
-       "id": "UtahPrimary",
-       "label": "UtahPrimary"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "9.21056352941805301",
-       "y": "2",
-       "id": "NATO",
-       "label": "NATO"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "8.52792538325159377",
-       "y": "1",
-       "id": "MemorialDay",
-       "label": "MemorialDay"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "12.5097086831187063",
-       "y": "1",
-       "id": "FlashbackFriday",
-       "label": "FlashbackFriday"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "8.44115336368758484",
-       "y": "1",
-       "id": "TrumpinEverett",
-       "label": "TrumpinEverett"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "10.3607546749794892",
-       "y": "1",
-       "id": "ElectionDay",
-       "label": "ElectionDay"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "8.77718355664535643",
-       "y": "1",
-       "id": "NeverDems",
-       "label": "NeverDems"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "11.6749649032115936",
-       "y": "1",
-       "id": "TerenceCrutcher",
-       "label": "TerenceCrutcher"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "8.83248659548195114",
-       "y": "1",
-       "id": "LeadRight2016",
-       "label": "LeadRight2016"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "10.0797899447982839",
-       "y": "1",
-       "id": "NYCPride",
-       "label": "NYCPride"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "9.93359140867340606",
-       "y": "1",
-       "id": "TRUMP",
-       "label": "TRUMP"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "13.4799316712366188",
-       "y": "1",
-       "id": "DNC",
-       "label": "DNC"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "8.88712610329753971",
-       "y": "1",
-       "id": "MSPrimary",
-       "label": "MSPrimary"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "9.03884246968830496",
-       "y": "1",
-       "id": "Utah4Trump",
-       "label": "Utah4Trump"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "10.9348305445091185",
-       "y": "2",
-       "id": "LyingTed",
-       "label": "LyingTed"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "11.5457422228224225",
-       "y": "1",
-       "id": "NeverCruz",
-       "label": "NeverCruz"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "8.82376601226975588",
-       "y": "1",
-       "id": "FAIL",
-       "label": "FAIL"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "9.04448760850847222",
-       "y": "2",
-       "id": "VoteTrumpMI",
-       "label": "VoteTrumpMI"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "11.3533777094077397",
-       "y": "1",
-       "id": "CommanderInChiefForum",
-       "label": "CommanderInChiefForum"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "10.5515805840763903",
-       "y": "2",
-       "id": "TrumpPence2016",
-       "label": "TrumpPence2016"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "9.28394565511162106",
-       "y": "1",
-       "id": "FNS",
-       "label": "FNS"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "9.36017010824258655",
-       "y": "1",
-       "id": "BlackMenForBernie",
-       "label": "BlackMenForBernie"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "8.58222577850764701",
-       "y": "1",
-       "id": "voteTrump",
-       "label": "voteTrump"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "9.98245387401438933",
-       "y": "1",
-       "id": "TheDonald",
-       "label": "TheDonald"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "12.3424129249075829",
-       "y": "1",
-       "id": "TeamUSA",
-       "label": "TeamUSA"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "9.54916864579278268",
-       "y": "1",
-       "id": "LightweightSenatorMarcoRubio",
-       "label": "LightweightSenatorMarcoRubio"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "9.95190412930540802",
-       "y": "1",
-       "id": "WISCONSIN",
-       "label": "WISCONSIN"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "9.98998496490346",
-       "y": "1",
-       "id": "UT",
-       "label": "UT"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "8.68745354269321091",
-       "y": "1",
-       "id": "TrumpWaikiki",
-       "label": "TrumpWaikiki"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "10.080034045926844",
-       "y": "1",
-       "id": "Mediafraud",
-       "label": "Mediafraud"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "9.69947181041510831",
-       "y": "1",
-       "id": "goodtrouble",
-       "label": "goodtrouble"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "9.85251937953844426",
-       "y": "1",
-       "id": "brexit",
-       "label": "brexit"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "9.57376462965420316",
-       "y": "1",
-       "id": "TrumpIsWithYou",
-       "label": "TrumpIsWithYou"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "9.8676454497450834",
-       "y": "1",
-       "id": "polls",
-       "label": "polls"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "10.9089046932539429",
-       "y": "1",
-       "id": "PurpleHeartDay",
-       "label": "PurpleHeartDay"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "8.69659022863306674",
-       "y": "1",
-       "id": "SuperBowlSunday",
-       "label": "SuperBowlSunday"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "9.8767397042778029",
-       "y": "1",
-       "id": "Wausau",
-       "label": "Wausau"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "9.39894947860829255",
-       "y": "1",
-       "id": "imwithyou",
-       "label": "imwithyou"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "11.0288122205714778",
-       "y": "1",
-       "id": "StanleyCup",
-       "label": "StanleyCup"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "10.0705244898648871",
-       "y": "2",
-       "id": "VoteTrump2016",
-       "label": "VoteTrump2016"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "9.75299828794986112",
-       "y": "1",
-       "id": "KhizrKhan",
-       "label": "KhizrKhan"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "8.39124942837094956",
-       "y": "1",
-       "id": "VoterRegistrationDay",
-       "label": "VoterRegistrationDay"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "9.95773277658746636",
-       "y": "1",
-       "id": "primary",
-       "label": "primary"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "8.93938395120605911",
-       "y": "2",
-       "id": "Wisconsin",
-       "label": "Wisconsin"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "9.68739479453341801",
-       "y": "1",
-       "id": "WCS16",
-       "label": "WCS16"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "8.60977741947995945",
-       "y": "1",
-       "id": "VoteTrumpIL",
-       "label": "VoteTrumpIL"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "8.77718355664535643",
-       "y": "1",
-       "id": "Teachers4Trump",
-       "label": "Teachers4Trump"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "9.99949996249562467",
-       "y": "1",
-       "id": "TrumpForPresident",
-       "label": "TrumpForPresident"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "8.89139705019461424",
-       "y": "1",
-       "id": "DemocraticSitIn",
-       "label": "DemocraticSitIn"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "8.7240927019882033",
-       "y": "2",
-       "id": "UtahCaucus",
-       "label": "UtahCaucus"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "9.49297588468687614",
-       "y": "1",
-       "id": "EndCommonCore",
-       "label": "EndCommonCore"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "9.99949996249562467",
-       "y": "1",
-       "id": "NebraskaPrimary",
-       "label": "NebraskaPrimary"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "9.8767397042778029",
-       "y": "1",
-       "id": "EauClaire",
-       "label": "EauClaire"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "9.84911947852305225",
-       "y": "1",
-       "id": "HillaryKaine2016",
-       "label": "HillaryKaine2016"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "10.3607546749794892",
-       "y": "1",
-       "id": "DefendtheSecond",
-       "label": "DefendtheSecond"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "9.8767397042778029",
-       "y": "1",
-       "id": "Racine",
-       "label": "Racine"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "12.3424129249075829",
-       "y": "1",
-       "id": "Rio2016",
-       "label": "Rio2016"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "8.9031105270614983",
-       "y": "1",
-       "id": "NASCAR",
-       "label": "NASCAR"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "11.353206875312587",
-       "y": "1",
-       "id": "GOPinCLE",
-       "label": "GOPinCLE"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "8.88463187124055942",
-       "y": "1",
-       "id": "VotersSpeak",
-       "label": "VotersSpeak"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "9.29174637926571378",
-       "y": "1",
-       "id": "ThankAVet",
-       "label": "ThankAVet"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "8.89708208957595303",
-       "y": "1",
-       "id": "OnTheRecord",
-       "label": "OnTheRecord"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "10.594586691362851",
-       "y": "1",
-       "id": "DemsinPHL",
-       "label": "DemsinPHL"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "8.41442465812343521",
-       "y": "1",
-       "id": "RogerStone",
-       "label": "RogerStone"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "9.03884246968830496",
-       "y": "1",
-       "id": "TrumpCountry",
-       "label": "TrumpCountry"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "10.7755285198537596",
-       "y": "1",
-       "id": "ALConvention2016",
-       "label": "ALConvention2016"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "8.7240927019882033",
-       "y": "2",
-       "id": "UTCaucus",
-       "label": "UTCaucus"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "8.54720854848619638",
-       "y": "1",
-       "id": "VoteTrumpNC",
-       "label": "VoteTrumpNC"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "10.7038834427981442",
-       "y": "1",
-       "id": "Polls",
-       "label": "Polls"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "9.7262096589708662",
-       "y": "1",
-       "id": "LittleMarco",
-       "label": "LittleMarco"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "11.5978913284556047",
-       "y": "2",
-       "id": "Imwithyou",
-       "label": "Imwithyou"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "9.35498331772371117",
-       "y": "1",
-       "id": "Wimbledon",
-       "label": "Wimbledon"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "9.69864980966107382",
-       "y": "1",
-       "id": "TrumpDallas",
-       "label": "TrumpDallas"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "10.4317282300007008",
-       "y": "1",
-       "id": "USA",
-       "label": "USA"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "8.51485333751024953",
-       "y": "2",
-       "id": "GOP",
-       "label": "GOP"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "8.59485369682639444",
-       "y": "1",
-       "id": "Arizona",
-       "label": "Arizona"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "11.2779770832342443",
-       "y": "1",
-       "id": "WORK",
-       "label": "WORK"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "8.73172562948169961",
-       "y": "1",
-       "id": "Derp",
-       "label": "Derp"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "9.77234317298090893",
-       "y": "1",
-       "id": "TPP",
-       "label": "TPP"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "9.3589504626230795",
-       "y": "1",
-       "id": "RobotRubio",
-       "label": "RobotRubio"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "9.98998496490346",
-       "y": "1",
-       "id": "AZ",
-       "label": "AZ"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "8.59524742337621817",
-       "y": "1",
-       "id": "RepMikeKelly",
-       "label": "RepMikeKelly"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "9.17927095410419192",
-       "y": "2",
-       "id": "PAPrimary",
-       "label": "PAPrimary"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "12.3424129249075829",
-       "y": "1",
-       "id": "OpeningCeremony",
-       "label": "OpeningCeremony"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "9.75811436948359479",
-       "y": "1",
-       "id": "TurnUpToVote",
-       "label": "TurnUpToVote"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "8.70607708710121564",
-       "y": "1",
-       "id": "Women4Ttump",
-       "label": "Women4Ttump"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "9.80227456508954198",
-       "y": "2",
-       "id": "LaborDay",
-       "label": "LaborDay"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "13.3118779555446007",
-       "y": "1",
-       "id": "StandWithLouisiana",
-       "label": "StandWithLouisiana"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "9.05279585955247335",
-       "y": "2",
-       "id": "RIPrimary",
-       "label": "RIPrimary"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "8.68745354269321091",
-       "y": "1",
-       "id": "Mahalo",
-       "label": "Mahalo"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "8.7823550823850578",
-       "y": "1",
-       "id": "MakeYoutubeGreatAgain",
-       "label": "MakeYoutubeGreatAgain"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "10.2665533217550369",
-       "y": "2",
-       "id": "SuperSaturday",
-       "label": "SuperSaturday"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "8.69659022863306674",
-       "y": "1",
-       "id": "SB50",
-       "label": "SB50"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "9.59567326348737559",
-       "y": "2",
-       "id": "AlwaysTrump",
-       "label": "AlwaysTrump"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "8.44302663382071827",
-       "y": "3",
-       "id": "ObamaCare",
-       "label": "ObamaCare"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "8.6281290139716269",
-       "y": "1",
-       "id": "TeacherAppreciationDay",
-       "label": "TeacherAppreciationDay"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "8.50769867336580532",
-       "y": "1",
-       "id": "Trump360",
-       "label": "Trump360"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "10.7038834427981442",
-       "y": "1",
-       "id": "slipping",
-       "label": "slipping"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "9.80936785449905102",
-       "y": "1",
-       "id": "Trump4Vets",
-       "label": "Trump4Vets"
-     },
-     {
-       "color": "rgb(255,51,153)",
-       "x": "9.29641175969625699",
-       "y": "2",
-       "id": "WakeUpAmerica",
-       "label": "WakeUpAmerica"
-     },
-     {
-       "color": "rgb(160,160,160)",
-       "x": "7.72208748064359174",
-       "y": "15",
-       "id": "IACaucus",
-       "label": "IACaucus"
-     },
-     {
-       "color": "rgb(160,160,160)",
-       "x": "7.27930612381410658",
-       "y": "11",
-       "id": "TBT",
-       "label": "TBT"
-     },
-     {
-       "color": "rgb(160,160,160)",
-       "x": "10.8146797246043267",
-       "y": "14",
-       "id": "Debates2016",
-       "label": "Debates2016"
-     },
-     {
-       "color": "rgb(160,160,160)",
-       "x": "11.1676086936599432",
-       "y": "14",
-       "id": "CrookedHillary",
-       "label": "CrookedHillary"
-     },
-     {
-       "color": "rgb(160,160,160)",
-       "x": "6.30173282992249817",
-       "y": "14",
-       "id": "DemConvention",
-       "label": "DemConvention"
-     },
-     {
-       "color": "rgb(160,160,160)",
-       "x": "7.52557220934660887",
-       "y": "12",
-       "id": "NBCNewsForum",
-       "label": "NBCNewsForum"
-     },
-     {
-       "color": "rgb(160,160,160)",
-       "x": "9.63520548733527704",
-       "y": "10",
-       "id": "INPrimary",
-       "label": "INPrimary"
-     },
-     {
-       "color": "rgb(160,160,160)",
-       "x": "9.50562876792862887",
-       "y": "13",
-       "id": "WIPrimary",
-       "label": "WIPrimary"
+       "size": 100,
+       "x": "188.23514882201013",
+       "y": "76.6731725095527",
+       "id": "MakeAmericaGreatAgain",
+       "label": "MakeAmericaGreatAgain",
+       "type": "tweetegy"
      }
    ],
    "edges": [
