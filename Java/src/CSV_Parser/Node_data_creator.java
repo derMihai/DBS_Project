@@ -10,7 +10,7 @@ import java.util.ArrayList;
  * Erzeugt JSON-Dateien mit informationen für die Visualisierungen.
  * Usage: Node_data_creator <plots> <dates>
  *     where <plots> is the destination File containing the Hashtags and the connections between them, <dates> is the
- *     destination file with the days and number of hashtags in each day
+ *     destination file with the days and number of distinct hashtags occurences in that day
  */
 
 public class Node_data_creator {
@@ -63,12 +63,13 @@ public class Node_data_creator {
                                         +   "FROM (SELECT date_trunc('day', datum) AS datum FROM contains) AS c "
                                         +   "GROUP BY datum "
                                         +   "ORDER BY datum ASC;";
-        //execute the statements, store the information blabla
 
+        //get how many times some hashtags appear in one day
         String get_hashtahgaInaDay_query =  "SELECT hname, COUNT(c.hname) "
                                         +   "FROM contains c "
                                         +   "WHERE date_trunc('day', c.datum) = ? "
                                         +   "GROUP BY c.hname";
+        //execute the statements, store the information blabla
         try {
             stmt = db_conn.createStatement();
             PreparedStatement pstmt;
@@ -124,12 +125,9 @@ public class Node_data_creator {
                 obj.put("id", record[0]);
                 obj.put("label", record[0]);
 
-                //We linearly space the x-Axis (importance) a little bit apart
-                obj.put("x", Double.toString(20* Double.parseDouble(record[1])));
-                //the spacing of the nodes on the y-Axis (hashtag total apeeareances) is horrible, so we normalize it
-                obj.put("y", Double.toString(20*Math.sqrt(Math.sqrt(Integer.parseInt(record[2])))));
-//                obj.put("x", record[1]);
-//                obj.put("y", record[2]);
+                obj.put("x", record[1]);
+                obj.put("y", record[2]);
+                
                 obj.put("color", record[3]);
                 obj.put("type", "tweetegy");
                 obj.put("size", 100);
@@ -201,6 +199,7 @@ public class Node_data_creator {
                     htag_obj.put("y", rset2.getInt(2));
                     hashtags_subarray.put(htag_obj);
                 }
+
                 day_object.put("htags", hashtags_subarray);
                 days_array.put(day_object);
                 i++;

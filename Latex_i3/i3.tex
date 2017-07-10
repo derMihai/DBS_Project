@@ -36,7 +36,7 @@
 \vspace{7cm}							% Abstand
 \rule{\linewidth}{0.8pt}				% horizontale Linie
 	\section{Clusteranalyse}
-		Für die Clusteranalyse haben wir den K-Means Algorithmus mithilfe der java-ml Library eingesetzt. Der Algorithmus partitioniert die Menge der Hashtags in 10 Clusters, wo jedes Hashtag ein 2-dimensionales Vektor mit den folgenden Metriken ist:
+		Für die Clusteranalyse haben wir den K-Means Algorithmus mithilfe der java-ml Library eingesetzt. Der Algorithmus partitioniert die Menge der Hashtags in 6 Clusters, wo jedes Hashtag ein 2-dimensionales Vektor mit den folgenden Metriken ist:
 		\begin{itemize}
 			\item Hashtag-Wichtigkeit -- als Durchschnitt der Wichtigkeitswerten aller Tweets, die Hashtag $h$ enthalten.\\
 			Wichtigkeit $W_T(t)$ eines Tweets $t$:\\
@@ -60,5 +60,67 @@
 		
 		\pagebreak
 
-
+	\section{Datenvisualisierung}
+	
+		Um die Datenvisualisierung zu vereinfachen haben wir ein Programm geschrieben (NAME), das die Informationen aus der Datenbank in JSON-Dateien bereitstellt, und zwar:
+			\begin{itemize}
+				\item	\textit{plots.json} - Informationen für die Visualisierung des Hashtagnetzwerkes - Knotenpositionen (nodes-Array) und Verbindungen (edges-Array):
+				\begin{lstlisting}
+{
+   "nodes": [
+     {
+       "color": "rgb(r,g,b)",
+       "size": 100,
+       "x": "x",
+       "y": "y",
+       "id": "hname",
+       "label": "hname",
+       "type": "tweetegy"
+     },
+     .
+     .
+     .
+   ],
+   "edges": [
+     {
+       "id": "i",
+       "source": "hname1",
+       "target": "hname2"
+     },
+     .
+     .
+     .
+    ]
+}
+				\end{lstlisting}
+				
+				\item \textit{days.json} - Liste aller Tagen, mit der Anzahl der verschiedenen Hashtags, für die Zeitanalyse:
+				
+				\begin{lstlisting}
+[
+   {
+     "x": x,
+     "y": sum over "htags",
+     "label": yy-mm-dd,
+     "htags": [
+       {
+         "y": y1,
+         "hname": "hname1"
+       },
+       {
+         "y": y2,
+         "hname": "hname2"
+       },
+       .
+       .
+       .
+     ]
+   },
+   .
+   .
+   .
+]
+				\end{lstlisting}
+			\end{itemize}
+	
 \end{document}
