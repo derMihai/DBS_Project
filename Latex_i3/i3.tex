@@ -121,6 +121,54 @@
    .
 ]
 				\end{lstlisting}
+\newpage
+Visualisierung des Hashtagnetzwerkes 
+
+\begin{itemize}
+\item haben die Javascript-Bibliothek sigmajs benutzt
+\item haben uns bewusst gegen eine kreisförmige Darstellung des Netzwerkes entschieden, weil diese die Lesbarkeit unseres Graphen erheblich erschwert hätte.
+\item Stattdessen haben wir uns für eine andere Art der Visualisierung entschieden, die die Visualisierung "in die Breite zieht" und das Problem der sehr ungleichmaessigen Verteilung loest
+\item Format unserer Input-Datei: .json
+\\
+\end{itemize}
+
+Visualisierung der Haeufigkeit 
+
+\begin{itemize}
+\item haben die Javascript-Bibliothek d3js benutzt
+\item auf der x-Achse tauchen alle im Datensatz aufgelisteten Tage auf vom 5.01.2016 bis zum 27.9.2016
+\item Die y-Achse geht von 0 bis 93, wobei 93 die hoechste Anzahl an Hashtags darstellt, die an einem Tag getweetet wurden
+\item Da die Darstellung der Tage an der x-Achse aufgrund des großen Datensatzes nicht lesbar war, haben wir mit d3-tip Tooltips eingefügt, sodass wir beim Gleiten über jeden Balken das jeweilige Datum lesen koennen.
+\item Format unserer Input-Datei: .json
+\item fuer die Darstellung der Haeufigkeit des Auftretens eines auswaehlbaren Hashtags haben wir eine json-Datei mit folgendem Beispieldatensatz benutzt:
+\begin{lstlisting}
+[
+   {
+     "x": 0,
+     "y": 5,
+     "HLabel": "MakeAmericaGreatAgain",
+     "DLabel": 2016-01-05
+       },
+       .
+       .
+       .
+     ]
+   },
+   .
+   .
+   .
+]
+				\end{lstlisting}
+ 
+\end{itemize}
+was in diesem Fall bedeutet, dass der Hashtag "MakeAmericaGreatAgain" an dem Tag    2016-01-05, was an 0ter Stelle auf der x-Achse steht, 5 Mal vorgekommen ist.\\
+
+
+
+Unser Projekt ist auf GitHub unter diesem Link zu finden: https://github.com/derMihai/DBS_Project
+
+  
+
 			\end{itemize}
 	
 \end{document}
