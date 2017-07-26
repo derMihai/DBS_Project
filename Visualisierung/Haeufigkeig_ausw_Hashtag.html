@@ -1,0 +1,89 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://canvasjs.com/assets/script/canvasjs.min.js">
+
+</script>
+
+<body onload="loadData()">
+    <form>
+        <select id="selBox"></select>
+    </form>
+
+    <div id="chartContainer" style="height: 360px; width: 100%;"></div>
+</body>
+
+
+<script>
+
+var selectBox = document.getElementById("selBox");
+var selectedHashtags = []; //liste mit der Häufigkeit eines auswählbares Hashtags
+var days = []; //liste mit der Häufigkeit aller Hashtags
+
+//JSON-Dateien importieren
+function loadData() {
+    //Liste aller Hashtags importieren und in Drop-Down-Liste hinzufügen
+    $.getJSON("plots.json", function(plots){
+        nodesListLength = plots.nodes.length;
+        selBox.options.add(new Option(plots.nodes[0].label, plots.nodes[0].label, true));
+        for(i = 1; i < nodesListLength; i++){
+            selBox.options.add(new Option(plots.nodes[i].label, plots.nodes[i].label, false));
+        }
+    });
+
+    $.getJSON("days.json", function(data){
+        days = data;
+    });
+}
+
+//Wird beim Anklicken in Drop-Down-Liste aufgerufen
+$('#selBox').change(function() {
+    var val = $("#selBox option:selected").text();
+    var day;
+    var y;
+    selectedHashtags = [];
+
+    //Durch alle Tage iterieren...
+    for(i = 0; i < days.length; i++){
+        y = 0;
+        for(j = 0; j < days[i].htags.length; j++){
+            //...und die Häufigkeit des ausgewählten Hashtags ablesen, falls vorhanden
+            if(days[i].htags[j].hname === val){
+                console.log(days[i].htags[j].hname);
+                y = days[i].htags[j].y;
+            }
+        }
+        //letzendlich Day-Objekt erzeugen und in selectedHashtags pushen
+        day = new Day(i ,y, days[i].label);
+        selectedHashtags.push(day);
+    }
+    drawGraph();
+});
+
+//Day-Objekt
+function Day(x, y, label) {
+    this.x = x;
+    this.y = y;
+    this.label = label;
+}
+
+//Zeichnet das Balkendiagramm mithilfe von CanvasJS
+function drawGraph() {
+    var chart = new CanvasJS.Chart("chartContainer",
+	{
+      axisY:{
+         tickLength: 0
+      },
+      axisX:{
+          valueFormatString: " ",
+          tickLength: 0
+      },
+      data: [
+      {
+        type: "column",
+        dataPoints: selectedHashtags
+      }
+      ]
+    });
+
+ chart.render();
+}
+</script>

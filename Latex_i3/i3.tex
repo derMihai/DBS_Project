@@ -15,9 +15,22 @@
 \usepackage{wasysym}
 \usepackage{enumitem}
 \usepackage{stmaryrd}
+\usepackage{float}
 
 \parindent 0pt
-\lstset{basicstyle={\ttfamily\scriptsize}, tabsize=4}
+
+\lstset{basicstyle={\ttfamily\scriptsize}, tabsize=4,
+	literate=%
+    {Ö}{{\"O}}1
+    {Ä}{{\"A}}1
+    {Ü}{{\"U}}1
+    {ß}{{\ss}}1
+    {ü}{{\"u}}1
+    {ä}{{\"a}}1
+    {ö}{{\"o}}1
+    {~}{{\textasciitilde}}1
+}
+
 \begin{document}
 
 \begin{titlepage}
@@ -41,7 +54,7 @@
 			\item Hashtag-Wichtigkeit -- als Durchschnitt der Wichtigkeitswerten aller Tweets, die Hashtag $h$ enthalten.\\
 			Wichtigkeit $W_T(t)$ eines Tweets $t$:\\
 			\begin{equation*}
-				W_T(t) = ^4\sqrt{\frac{t_{favorites\ count} + t_{retweet\ count}}{2}}
+				W_T(t) = \sqrt[4]{\frac{t_{favorites\ count} + t_{retweet\ count}}{2}}
 			\end{equation*}
 			Wichtigkeit $W_H(h)$ eines Hashtags h:
 			\begin{equation*}
@@ -126,46 +139,60 @@ Visualisierung des Hashtagnetzwerkes
 
 \begin{itemize}
 \item haben die Javascript-Bibliothek sigmajs benutzt
-\item haben uns bewusst gegen eine kreisförmige Darstellung des Netzwerkes entschieden, weil diese die Lesbarkeit unseres Graphen erheblich erschwert hätte.
-\item Stattdessen haben wir uns für eine andere Art der Visualisierung entschieden, die die Visualisierung "in die Breite zieht" und das Problem der sehr ungleichmaessigen Verteilung loest
+\item haben uns bewusst gegen eine kreisförmige Darstellung des Netzwerkes entschieden, weil diese die Lesbarkeit unseres Graphen und die Erkennung der verschiedenen Cluster erheblich erschwert hätte.
+\item Stattdessen haben wir uns für eine andere Art der Visualisierung entschieden, die die Visualisierung "in die Breite zieht" und das Problem der sehr ungleichmäßigen Verteilung löst
 \item Format unserer Input-Datei: .json
-\\
+
 \end{itemize}
 
-Visualisierung der Haeufigkeit 
+		\begin{figure}[H]
+			\centering
+			\caption{Hashtag-Netzwerk. x-Achse: Wichtigkeit; y-Achse: Häufigkeit}
+			\includegraphics[scale=0.25]{src/Netzwerk}
+			
+		\end{figure}
+
+Visualisierung der Häufigkeit 
 
 \begin{itemize}
-\item haben die Javascript-Bibliothek d3js benutzt
+\item haben die Javascript-Bibliotheken d3js und Canvas benutzt
 \item auf der x-Achse tauchen alle im Datensatz aufgelisteten Tage auf vom 5.01.2016 bis zum 27.9.2016
-\item Die y-Achse geht von 0 bis 93, wobei 93 die hoechste Anzahl an Hashtags darstellt, die an einem Tag getweetet wurden
+\item Die y-Achse geht von 0 bis 93, wobei 93 die höchste Anzahl an Hashtags darstellt, die an einem Tag getweetet wurden
 \item Da die Darstellung der Tage an der x-Achse aufgrund des großen Datensatzes nicht lesbar war, haben wir mit d3-tip Tooltips eingefügt, sodass wir beim Gleiten über jeden Balken das jeweilige Datum lesen koennen.
-\item Format unserer Input-Datei: .json
-\item fuer die Darstellung der Haeufigkeit des Auftretens eines auswaehlbaren Hashtags haben wir eine json-Datei mit folgendem Beispieldatensatz benutzt:
+
+		\begin{figure}[H]
+			\centering
+			\caption{Gesamtanzahl aller Hashtags pro Tag}
+			\includegraphics[scale=0.25]{src/Anzahl_h}
+			
+		\end{figure}
+\item fuer die Darstellung der Häufigkeit des Auftretens eines auswählbaren Hashtags haben wir aus den schon vorhandenen JSON-Dateien eine Liste mit Day-Objekten erstellt, die von der Canvas-Bibliothek für die Visualisierung als Input genutzt wird:
 \begin{lstlisting}
 [
-   {
-     "x": 0,
-     "y": 5,
-     "HLabel": "MakeAmericaGreatAgain",
-     "DLabel": 2016-01-05
-       },
-       .
-       .
-       .
-     ]
-   },
-   .
-   .
-   .
+	{
+     "x": 0, 					//X-Achse Index
+     "y": 5,					//Häufigkeit
+     "label": "2016-05-09",		//Datum
+	},
+	.
+	.
+	.
+	
 ]
 				\end{lstlisting}
  
 \end{itemize}
-was in diesem Fall bedeutet, dass der Hashtag "MakeAmericaGreatAgain" an dem Tag    2016-01-05, was an 0ter Stelle auf der x-Achse steht, 5 Mal vorgekommen ist.\\
+was in diesem Fall bedeutet, dass der ausgewählte Hashtag an dem Tag  2016-05-09 fünf mal vorgekommen ist.\\
 
+		\begin{figure}[H]
+			\centering
+			\caption{Häufigkeits des Hashtags \textit{Trump2016}}
+			\includegraphics[scale=0.32]{src/Trump2016}
+			
+		\end{figure}
+\vspace*{\fill}
 
-
-Unser Projekt ist auf GitHub unter diesem Link zu finden: https://github.com/derMihai/DBS_Project
+Unser Projekt ist auf GitHub unter diesem Link zu finden: https://github.com/derMihai/DBS\_Project
 
   
 

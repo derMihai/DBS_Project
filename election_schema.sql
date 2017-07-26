@@ -42,6 +42,19 @@ WITH (
 );
 ALTER TABLE public.contains
   OWNER TO testuser;
+
+CREATE TABLE public.hashtag
+(
+  hname character varying(140) NOT NULL,
+  importance double precision,
+  cluster integer,
+  CONSTRAINT hashtagname PRIMARY KEY (hname)
+)
+WITH (
+  OIDS=FALSE
+);
+ALTER TABLE public.hashtag
+  OWNER TO testuser;
   
 CREATE TABLE public.tweet
 (
@@ -50,7 +63,7 @@ CREATE TABLE public.tweet
   retweets integer,
   likes integer,
   content character varying(200) NOT NULL,
-  importance integer NOT NULL,
+  importance double precision NOT NULL,
   retweet boolean,
   CONSTRAINT pk_tweets PRIMARY KEY (pname, datum)
 )
